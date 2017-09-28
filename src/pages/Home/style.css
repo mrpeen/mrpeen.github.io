@@ -1,0 +1,18 @@
+.Game {
+  border: 1px solid #ff81d2;
+}
+
+.Portrait {
+  display: inline-block;
+  width: 30%;
+  padding: 10% 5%;
+}
+
+.MrPeen {
+  width: 90%;
+}
+
+.Selectables {
+  display: inline-block;
+  width: 60%;
+}

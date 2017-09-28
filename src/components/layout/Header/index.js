@@ -4,7 +4,7 @@ import './style.css';
 
 const Header = () => (
   <div className="Header">
-    <div className="Logo">
+    <div className="Title">
       Mr Peen's Dress Up Game!
     </div>
   </div>
