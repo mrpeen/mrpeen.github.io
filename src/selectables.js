@@ -5,14 +5,17 @@ export const skintones = [
   },
   {
     id: 2,
-    color: ''
+    fill: '#a6fcfc',
+    stroke: '#5dc6c6'
   },
   {
     id: 3,
-    color: ''
+    fill: '#dfabf2',
+    stroke: '#d06bf4'
   },
   {
     id: 4,
-    color: ''
+    fill: '#f7f25d',
+    stroke: '#fcb90f'
   }
 ];
