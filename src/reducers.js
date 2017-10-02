@@ -10,7 +10,7 @@ function selectables(state = {}, action) {
     case ADD_SELECTABLES:
       return {
         ...state,
-        skintones: action.selectables.skintones
+        skintone: action.selectables.skintone
       }
     default:
       return state

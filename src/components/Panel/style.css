@@ -1,0 +1,14 @@
+.Panel--col {
+  display: inline-block;
+  width: 15%;
+  padding: 5%;
+}
+
+.Circle {
+  cursor: pointer;
+  display: inline-block;
+  background: #f00;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}

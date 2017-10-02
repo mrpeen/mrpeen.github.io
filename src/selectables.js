@@ -1,4 +1,4 @@
-const skintones = {
+const skintone = {
   selected: true,
   items: [
     {
@@ -25,5 +25,5 @@ const skintones = {
 };
 
 export default {
-  skintones
+  skintone
 }

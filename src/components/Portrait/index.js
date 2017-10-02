@@ -2,11 +2,11 @@ import { connect } from 'react-redux';
 
 import Portrait from './component';
 
-const mapStateToProps = (state, ownProps) => {
+const mapStateToProps = (state) => {
   const {selectables, peen} = state;
   const {skintone} = peen;
   return {
-    skintone: selectables.skintones.items.find(({id}) => (id === skintone))
+    skintone: selectables.skintone.items.find(({id}) => (id === skintone))
   }
 }
 
