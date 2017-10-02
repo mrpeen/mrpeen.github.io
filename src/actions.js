@@ -1,12 +1,12 @@
-import { skintones } from './selectables';
+import selectables from './selectables';
 
-export const ADD_SKINTONES = 'ADD_SKINTONES';
+export const ADD_SELECTABLES = 'ADD_SELECTABLES';
 export const SELECT_SKINTONE = 'SELECT_SKINTONE';
 
-export function addSkintones() {
+export function addSelectables() {
   return {
-    type: ADD_SKINTONES,
-    skintones
+    type: ADD_SELECTABLES,
+    selectables
   }
 }
 

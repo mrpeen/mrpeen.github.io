@@ -6,7 +6,7 @@ import { createStore } from 'redux';
 import Header from './components/layout/Header';
 import Main from './components/layout/Main';
 import dressUpApp from './reducers';
-import { addSkintones } from './actions';
+import { addSelectables } from './actions';
 
 import './index.css';
 
@@ -16,7 +16,7 @@ const unsubscribe = store.subscribe(() =>
   console.log(store.getState())
 );
 
-store.dispatch(addSkintones());
+store.dispatch(addSelectables());
 unsubscribe();
 
 ReactDOM.render(

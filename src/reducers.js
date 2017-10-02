@@ -1,30 +1,30 @@
 import { combineReducers } from 'redux';
 
 import {
-  ADD_SKINTONES,
+  ADD_SELECTABLES,
   SELECT_SKINTONE
 } from './actions';
 
-function skintones(state = [], action) {
+function selectables(state = {}, action) {
   switch(action.type) {
-    case ADD_SKINTONES:
-      return [
+    case ADD_SELECTABLES:
+      return {
         ...state,
-        action.skintones
-      ]
+        skintones: action.selectables.skintones
+      }
     default:
       return state
   }
 }
 
-function peen(state= {
+function peen(state = {
   skintone: 1
 }, action) {
   switch(action.type) {
     case SELECT_SKINTONE:
       return {
         ...state,
-        skitone: action.skintone
+        skintone: action.skintone
       }
     default:
       return state
@@ -33,7 +33,7 @@ function peen(state= {
 
 
 const dressUpApp = combineReducers({
-  skintones,
+  selectables,
   peen
 });
 
