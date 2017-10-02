@@ -1,11 +1,11 @@
 import React from 'react';
 
+import Controls from '../Controls';
 import './style.css';
 
 const Selectables = () => (
   <div className="Selectables">
-    <div className="Nav">
-    </div>
+    <Controls />
     <div className="Panel">
     </div>
   </div>
