@@ -3,7 +3,8 @@ const skintones = {
   items: [
     {
       id: 1,
-      color: ''
+      fill: '#FFC9EF',
+      stroke: '#FFABE6'
     },
     {
       id: 2,
