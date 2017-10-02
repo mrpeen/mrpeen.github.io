@@ -1,5 +1,6 @@
 import { connect } from 'react-redux';
 
+import { selectSkintone } from '../../actions';
 import Panel from './component';
 
 const mapStateToProps = ({selectables, peen}) => {
@@ -12,6 +13,20 @@ const mapStateToProps = ({selectables, peen}) => {
   }
 }
 
-const PanelContainer = connect(mapStateToProps)(Panel);
+const mapDispatchToProps = dispatch => {
+  return {
+    onClickItem: (id, selected) => {
+      switch(selected) {
+        case 'skintone':
+          dispatch(selectSkintone(id))
+      }
+    }
+  }
+}
+
+const PanelContainer = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Panel);
 
 export default PanelContainer;
