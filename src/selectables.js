@@ -9,7 +9,7 @@ const skintone = {
     {
       id: 2,
       fill: '#a6fcfc',
-      stroke: '#5dc6c6'
+      stroke: '#71e5f2'
     },
     {
       id: 3,
@@ -19,7 +19,12 @@ const skintone = {
     {
       id: 4,
       fill: '#f7f25d',
-      stroke: '#fcb90f'
+      stroke: '#e8d90b'
+    },
+    {
+      id: 5,
+      fill: '#90f9e8',
+      stroke: '#4de2ca'
     }
   ]
 };

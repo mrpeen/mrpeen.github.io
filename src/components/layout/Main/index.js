@@ -7,7 +7,7 @@ import './style.css';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route exact path={process.env.PUBLIC_URL} component={Home}/>
     </Switch>
   </main>
 )
