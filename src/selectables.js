@@ -1,8 +1,12 @@
+import peen from './icons/peen.png';
+import blush from './icons/blush.png';
+import condom from './icons/condom.png';
+
 export default [
   {
     id: 1,
     name: 'skintone',
-    icon: '',
+    icon: peen,
     isSelected: true,
     items: [
       {
@@ -35,7 +39,7 @@ export default [
   {
     id: 2,
     name: 'blush',
-    icon: '',
+    icon: blush,
     isSelected: false,
     items: []
   },
@@ -49,7 +53,7 @@ export default [
   {
     id: 4,
     name: 'condom',
-    icon: '',
+    icon: condom,
     isSelected: false,
     items: []
   },

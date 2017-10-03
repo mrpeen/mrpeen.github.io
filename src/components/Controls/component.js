@@ -9,7 +9,8 @@ const Controls = ({selectables, onClickItem}) => (
         key={selectable.name}
         onClick={() => onClickItem(selectable.id)}
         className={`Control ${selectable.isSelected ? 'Control--active' : ''}`}>
-        {selectable.name}
+        <img
+          src={selectable.icon} />
       </span>
     )}
   </div>

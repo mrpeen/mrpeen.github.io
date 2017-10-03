@@ -1,15 +1,19 @@
-.Panel--col {
+.Panel {
+  padding: 30px;
+}
+
+.Panel--Item {
   display: inline-block;
-  width: 20%;
-  padding: 5% 0;
+  width: 25%;
+  padding-top: 2%;
 }
 
 .Circle {
   cursor: pointer;
   display: table;
   background: #f00;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
   border-radius: 50%;
   margin: 0 auto;
 }
