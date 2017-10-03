@@ -1,5 +1,6 @@
 const skintone = {
-  selected: true,
+  icon: '',
+  isSelected: true,
   items: [
     {
       id: 1,
@@ -29,6 +30,34 @@ const skintone = {
   ]
 };
 
+const blush = {
+  icon: '',
+  isSelected: false,
+  items: []
+};
+
+const background = {
+  icon: '',
+  isSelected: false,
+  items: []
+};
+
+const condom = {
+  icon: '',
+  isSelected: false,
+  items: []
+};
+
+const toys = {
+  icon: '',
+  isSelected: false,
+  items: []
+};
+
 export default {
-  skintone
+  skintone,
+  blush,
+  background,
+  condom,
+  toys
 }

@@ -1,14 +1,17 @@
-import React from 'react';
+import { connect } from 'react-redux';
 
-import './style.css';
+import Controls from './component';
 
-const Controls = () => (
-  <div className="Controls">
-    <span className="Control">S</span>
-    <span className="Control">BL</span>
-    <span className="Control">C</span>
-    <span className="Control">BG</span>
-  </div>
-);
+const mapStateToProps = ({selectables}) => ({
+  selectables
+})
 
-export default Controls;
+const mapDispatchToProps = dispatch => {
+
+}
+
+const ControlsContainer = connect(
+  mapStateToProps
+)(Controls);
+
+export default ControlsContainer;

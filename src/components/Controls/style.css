@@ -18,3 +18,7 @@
 .Control:last-of-type {
   flex-grow: 100;
 }
+
+.Control--active {
+  border-bottom: none;
+}
