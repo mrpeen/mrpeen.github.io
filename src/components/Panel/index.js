@@ -4,12 +4,12 @@ import { selectSkintone } from '../../actions';
 import Panel from './component';
 
 const mapStateToProps = ({selectables, peen}) => {
-  const selected = Object.keys(selectables).find(item => selectables[item].isSelected);
+  const selected = selectables.find(item => item.isSelected);
 
   return {
-    selected,
-    items: selectables[selected].items,
-    active: peen[selected]
+    selected: selected.name,
+    items: selected.items,
+    active: peen[selected.name]
   }
 }
 

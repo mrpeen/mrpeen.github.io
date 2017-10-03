@@ -2,13 +2,14 @@ import React from 'react';
 
 import './style.css';
 
-const Controls = ({selectables}) => (
+const Controls = ({selectables, onClickItem}) => (
   <div className="Controls">
-    {Object.keys(selectables).map(selectable => 
+    {selectables.map(selectable => 
       <span
-        key={selectable}
-        className={`Control ${selectables[selectable].isSelected ? 'Control--active' : ''}`}>
-        {selectable}
+        key={selectable.name}
+        onClick={() => onClickItem(selectable.id)}
+        className={`Control ${selectable.isSelected ? 'Control--active' : ''}`}>
+        {selectable.name}
       </span>
     )}
   </div>
