@@ -25,7 +25,8 @@ function selectables(state = [], action) {
 }
 
 function peen(state = {
-  skintone: 1
+  skintone: 1,
+  blush: 1
 }, action) {
   console.log(action)
   switch(action.type) {

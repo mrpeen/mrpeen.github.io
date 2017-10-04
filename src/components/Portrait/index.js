@@ -4,11 +4,15 @@ import Portrait from './component';
 
 const mapStateToProps = (state) => {
   const {selectables, peen} = state;
-  const {skintone} = peen;
-  const skintones = selectables.find(({name}) => name === 'skintone').items
- 
+  const {skintone, blush} = peen;
+  const objSelectables = selectables.reduce((acc, item, index) => {
+    acc[item.name] = item.items;
+    return acc;
+  }, {})
+
   return {
-    skintone: skintones.find(({id}) => (id === skintone))
+    skintone: objSelectables.skintone.find(({id}) => (id === skintone)),
+    blush: objSelectables.blush.find(({id}) => (id === blush))
   }
 }
 

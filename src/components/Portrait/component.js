@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-const Portrait = ({skintone}) => (
+const Portrait = ({skintone, blush}) => (
   <div className="Portrait">
     <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 627.5 790.5'>
       <g id='Ebene_2'>
@@ -18,8 +18,8 @@ const Portrait = ({skintone}) => (
       </g>
       <path fill='none' stroke='#000' strokeWidth='5' strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' d='M291.518,252.916c0,0.518,0.145,1.057,0.166,1.575c0.995,13.695-11.499,25.774-27.887,26.935 c-16.389,1.16-30.478-8.992-31.452-22.688c0-0.518,0-1.057,0-1.575' />
       <path fill='none' stroke='#000' strokeWidth='5' strokeLinecap='round' strokeLinejoin='round' strokeMiterlimit='10' d='M291.58,252.895c0.995,13.695,15.063,23.868,31.452,22.688c16.389-1.181,28.882-13.26,27.888-26.935' />
-      <ellipse fill='#FF81D2' cx='142.59' cy='248.626' rx='44.297' ry='15.291' />
-      <ellipse fill='#FF81D2' cx='442.89' cy='229.461' rx='44.297' ry='15.291' />
+      <ellipse fill={blush.fill} cx='142.59' cy='248.626' rx='44.297' ry='15.291' />
+      <ellipse fill={blush.fill} cx='442.89' cy='229.461' rx='44.297' ry='15.291' />
       <circle cx='145.263' cy='203.542' r='17.611' />
       <circle fill='#FFF' cx='149.717' cy='194.385' r='3.502' />
       <circle fill='#FFF' cx='155.498' cy='200.165' r='2.3' />

@@ -33,6 +33,11 @@ export default [
         id: 5,
         fill: '#90f9e8',
         stroke: '#4de2ca'
+      },
+      {
+        id: 6,
+        fill: '#f9b672',
+        stroke: '#f78f25'
       }
     ]
   },
@@ -41,14 +46,52 @@ export default [
     name: 'blush',
     icon: blush,
     isSelected: false,
-    items: []
+    items: [
+      {
+        id: 1,
+        fill: '#ff81d2'
+      },
+      {
+        id: 2,
+        fill: '#ea8f8f'
+      },
+      {
+        id: 3,
+        fill: '#FFC9EF'
+      },
+      {
+        id: 4,
+        fill: '#f7a3b1'
+      },
+      {
+        id: 5,
+        fill: '#f4c6ce'
+      },
+      {
+        id: 6,
+        fill: '#f481ca'
+      },
+      {
+        id: 7,
+        fill: '#f49c61'
+      },
+      {
+        id: 8,
+        fill: '#f28ef2'
+      },
+      {
+        id: 9,
+        fill: '#fcd4ed'
+      }
+    ]
   },
   {
     id: 3,
     name: 'background',
     icon: '',
     isSelected: false,
-    items: []
+    items: [
+    ]
   },
   {
     id: 4,
