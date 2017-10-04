@@ -29,7 +29,6 @@ function peen(state = {
   skintone: 1,
   blush: 1
 }, action) {
-  console.log(action)
   switch(action.type) {
     case SELECT_SKINTONE:
       return {

@@ -20,10 +20,12 @@ const mapDispatchToProps = dispatch => {
   return {
     onClickItem: (id, selected) => {
       switch(selected) {
-        case 'skintone':
-          dispatch(selectSkintone(id))
         case 'blush':
-          dispatch(selectBlush(id))
+          return dispatch(selectBlush(id));
+        case 'skintone':
+          return dispatch(selectSkintone(id));
+        default:
+          return;
       }
     }
   }
