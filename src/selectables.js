@@ -69,7 +69,7 @@ export default [
       },
       {
         id: 6,
-        fill: '#f481ca'
+        fill: '#ed7bb2'
       },
       {
         id: 7,
