@@ -1,6 +1,9 @@
 import { connect } from 'react-redux';
 
-import { selectSkintone } from '../../actions';
+import {
+  selectSkintone,
+  selectBlush
+} from '../../actions';
 import Panel from './component';
 
 const mapStateToProps = ({selectables, peen}) => {
@@ -19,6 +22,8 @@ const mapDispatchToProps = dispatch => {
       switch(selected) {
         case 'skintone':
           dispatch(selectSkintone(id))
+        case 'blush':
+          dispatch(selectBlush(id))
       }
     }
   }

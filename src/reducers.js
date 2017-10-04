@@ -3,7 +3,8 @@ import { combineReducers } from 'redux';
 import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
-  SELECT_CONTROL
+  SELECT_CONTROL,
+  SELECT_BLUSH
 } from './actions';
 
 function selectables(state = [], action) {
@@ -34,6 +35,11 @@ function peen(state = {
       return {
         ...state,
         skintone: action.skintone
+      }
+    case SELECT_BLUSH:
+      return {
+        ...state,
+        blush: action.blush
       }
     default:
       return state
