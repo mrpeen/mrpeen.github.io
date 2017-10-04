@@ -2,7 +2,8 @@ import { connect } from 'react-redux';
 
 import {
   selectSkintone,
-  selectBlush
+  selectBlush,
+  selectCondom
 } from '../../actions';
 import Panel from './component';
 
@@ -24,6 +25,8 @@ const mapDispatchToProps = dispatch => {
           return dispatch(selectBlush(id));
         case 'skintone':
           return dispatch(selectSkintone(id));
+        case 'condom':
+          return dispatch(selectCondom(id));        
         default:
           return;
       }

@@ -4,7 +4,8 @@ import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
   SELECT_CONTROL,
-  SELECT_BLUSH
+  SELECT_BLUSH,
+  SELECT_CONDOM
 } from './actions';
 
 function selectables(state = [], action) {
@@ -27,7 +28,8 @@ function selectables(state = [], action) {
 
 function peen(state = {
   skintone: 1,
-  blush: 1
+  blush: 1,
+  condom: null
 }, action) {
   switch(action.type) {
     case SELECT_SKINTONE:
@@ -39,6 +41,11 @@ function peen(state = {
       return {
         ...state,
         blush: action.blush
+      }
+    case SELECT_CONDOM:
+      return {
+        ...state,
+        condom: action.condom
       }
     default:
       return state

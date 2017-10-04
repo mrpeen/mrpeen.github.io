@@ -98,7 +98,32 @@ export default [
     name: 'condom',
     icon: condom,
     isSelected: false,
-    items: []
+    items: [
+      {
+        id: 1,
+        fill: '#FFABE6'
+      },
+      {
+        id: 2,
+        fill: '#71e5f2'
+      },
+      {
+        id: 3,
+        fill: '#d06bf4'
+      },
+      {
+        id: 4,
+        fill: '#e8d90b'
+      },
+      {
+        id: 5,
+        fill: '#4de2ca'
+      },
+      {
+        id: 6,
+        fill: '#f78f25'
+      }
+    ]
   },
   {
     id: 5,

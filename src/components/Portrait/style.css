@@ -1,9 +1,18 @@
 .Portrait {
   display: inline-block;
   width: 60%;
+  position: relative;
 }
 
-.Portrait svg {
+.MrPeen {
   width: 44%;
   margin: 200px;
+}
+
+.Condom {
+  width: 44%;
+  margin: 200px;
+  position: absolute;
+  top: -8%;
+  left: 0;
 }
