@@ -122,6 +122,10 @@ export default [
       {
         id: 6,
         fill: '#f78f25'
+      },
+      {
+        id: 7,
+        fill: '#edf3fc'
       }
     ]
   },
