@@ -1,0 +1,22 @@
+.UserActions {
+  position: absolute;
+  right: 42%;
+  top: 2%;
+  z-index: 2;
+}
+
+.UserActions--button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Luckiest Guy";
+  padding: 10px;
+  color: #ff81d2;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+  border: 5px solid #ffc9ef;
+}
+
+.UserActions--button:first-of-type {
+  margin-right: 5px;
+}

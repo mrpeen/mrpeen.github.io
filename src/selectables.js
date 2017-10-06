@@ -87,7 +87,7 @@ export default [
   },
   {
     id: 3,
-    name: 'background',
+    name: 'toys',
     icon: '',
     isSelected: false,
     items: [
@@ -131,7 +131,7 @@ export default [
   },
   {
     id: 5,
-    name: 'toys',
+    name: 'background',
     icon: '',
     isSelected: false,
     items: []
