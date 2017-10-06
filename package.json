@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://feychou.github.io/mr-peen-dress-up-game/",
+  "license": "GPL",
   "dependencies": {
     "dom-to-image": "^2.6.0",
     "file-saver": "^1.3.3",
