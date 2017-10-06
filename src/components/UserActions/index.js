@@ -1,20 +1,20 @@
-import React from 'react';
+import { connect } from 'react-redux';
 
-import './style.css';
+import UserActions from './component';
 
-const UserActions = () => (
-  <div className="UserActions">
-    <button
-      type="button"
-      className="UserActions--button">
-      Export &#8677;
-    </button>
-    <button
-      type="button"
-      className="UserActions--button">
-      Reset &#8630;
-    </button>
-  </div>
-);
+import { reset } from '../../actions';
 
-export default UserActions;
+const mapDispatchToProps = dispatch => {
+  return {
+    onClickReset: () => {
+      dispatch(reset());
+    }
+  }
+}
+
+const UserActionsContainer = connect(
+  null,
+  mapDispatchToProps
+)(UserActions);
+
+export default UserActionsContainer;

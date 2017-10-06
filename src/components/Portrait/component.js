@@ -3,7 +3,9 @@ import React from 'react';
 import './style.css';
 
 const Portrait = ({skintone, blush, condom}) => (
-  <div className="Portrait">
+  <div
+    id="Portrait"
+    className="Portrait">
     <svg className="MrPeen" id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 627.5 790.5'>
       <g id='Ebene_2'>
         <g id='Mr_Peen' fill={skintone.fill} stroke={skintone.stroke} strokeWidth='8' strokeLinecap='round'

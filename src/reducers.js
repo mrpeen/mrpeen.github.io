@@ -1,11 +1,13 @@
 import { combineReducers } from 'redux';
 
+import mrPeenDefault from './static/mrpeendefault';
 import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
   SELECT_CONTROL,
   SELECT_BLUSH,
-  SELECT_CONDOM
+  SELECT_CONDOM,
+  RESET
 } from './actions';
 
 function selectables(state = [], action) {
@@ -26,12 +28,13 @@ function selectables(state = [], action) {
   }
 }
 
-function peen(state = {
-  skintone: 1,
-  blush: 1,
-  condom: null
-}, action) {
+function peen(state = mrPeenDefault, action) {
   switch(action.type) {
+    case RESET:
+      return {
+        ...state,
+        ...mrPeenDefault
+      }
     case SELECT_SKINTONE:
       return {
         ...state,

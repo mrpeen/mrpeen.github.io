@@ -1,10 +1,11 @@
-import selectables from './selectables';
+import selectables from './static/selectables';
 
 export const ADD_SELECTABLES = 'ADD_SELECTABLES';
 export const SELECT_SKINTONE = 'SELECT_SKINTONE';
 export const SELECT_CONTROL = 'SELECT_CONTROL';
 export const SELECT_BLUSH = 'SELECT_BLUSH';
 export const SELECT_CONDOM = 'SELECT_CONDOM';
+export const RESET = 'RESET';
 
 export function addSelectables() {
   return {
@@ -38,5 +39,11 @@ export function selectCondom(condom) {
   return {
     type: SELECT_CONDOM,
     condom
+  }
+}
+
+export function reset() {
+  return {
+    type: RESET
   }
 }
