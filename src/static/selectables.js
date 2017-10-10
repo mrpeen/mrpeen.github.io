@@ -117,7 +117,7 @@ export default [
       },
       {
         id: 3,
-        name: 'eye mask',
+        name: 'eyeMask',
         icon: eyeMask
       },
       {
@@ -127,17 +127,17 @@ export default [
       },
       {
         id: 5,
-        name: 'latex mask',
+        name: 'latexMask',
         icon: latexMask
       },
       {
         id: 6,
-        name: 'heart collar',
+        name: 'heartCollar',
         icon: heartCollar
       },
       {
         id: 7,
-        name: 'hishi karada',
+        name: 'hishiKarada',
         icon: hishiKarada
       },
       {

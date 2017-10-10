@@ -15,4 +15,56 @@
   position: absolute;
   top: -8%;
   left: 0;
+  z-index: 5;
+}
+
+.Handcuffs {
+  z-index: 2;
+  width: 83%;
+  margin: 200px;
+  position: absolute;
+  top: -20%;
+  left: -.5%;
+}
+
+.Ballgag {
+  width: 83%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: -.5%;
+}
+
+.EyeMask {
+  width: 79%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: .5%;
+}
+
+.Collar {
+  width: 82%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: -.3%;  
+}
+
+.Wand {
+  z-index: 4;
+  width: 82%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: -.3%;  
+}
+
+.LatexMask {
+  z-index: 3;
+  width: 82%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: -.3%;  
 }
