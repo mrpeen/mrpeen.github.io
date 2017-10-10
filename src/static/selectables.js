@@ -8,6 +8,8 @@ export default [
     name: 'skintone',
     icon: peen,
     isSelected: true,
+    toTakeOff: false,
+    colorChoiceOnly: true,
     items: [
       {
         id: 1,
@@ -46,6 +48,8 @@ export default [
     name: 'blush',
     icon: blush,
     isSelected: false,
+    toTakeOff: false,
+    colorChoiceOnly: true,
     items: [
       {
         id: 1,
@@ -90,6 +94,8 @@ export default [
     name: 'toys',
     icon: '',
     isSelected: false,
+    toTakeOff: true,
+    colorChoiceOnly: false,
     items: [
     ]
   },
@@ -98,6 +104,8 @@ export default [
     name: 'condom',
     icon: condom,
     isSelected: false,
+    toTakeOff: true,
+    colorChoiceOnly: true,
     items: [
       {
         id: 1,
@@ -134,6 +142,8 @@ export default [
     name: 'background',
     icon: '',
     isSelected: false,
+    toTakeOff: true,
+    colorChoiceOnly: false,
     items: []
   }
 ]

@@ -1,0 +1,20 @@
+.Circle {
+  cursor: pointer;
+  display: table;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.Circle--reset {
+  border: 5px solid #ffc9ef;
+}
+
+.Circle--label {
+  font-size: 25px;
+  color: #ff81d2;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}

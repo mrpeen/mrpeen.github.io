@@ -1,30 +1,29 @@
 import React from 'react';
 
+import Circle from '../Circle';
 import './style.css';
 
-const toTakeOff = ['condom'];
-
-const Panel = ({selected, items, active, onClickItem}) => (
+const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff}) => (
   <div className="Panel">
     {items.map(({fill, id}) =>
       <div
         key={fill}
         className="Panel--Item"> 
-        <span
-          onClick={() => onClickItem(id, selected)}
-          style={{backgroundColor: fill}}
-          className="Circle" />
+        {colorChoiceOnly ?
+          <Circle
+            id={id}
+            fill={fill}
+            selected={selected} 
+            onClick={onClickItem} />
+            : ''}
       </div>)}
 
-      {(toTakeOff.indexOf(selected) !== -1) &&
+      {toTakeOff &&
         <div className="Panel--Item">
-          <span
-            onClick={() => onClickItem(null, selected)}
-            className="Circle Circle--reset">
-            <span className="Circle--label">
-              Take off
-            </span>
-          </span>
+          <Circle
+            isReset={true}
+            selected={selected}
+            onClick={onClickItem} />
         </div>}
   </div>
 );

@@ -12,6 +12,8 @@ const mapStateToProps = ({selectables, peen}) => {
 
   return {
     selected: selected.name,
+    toTakeOff: selected.toTakeOff,
+    colorChoiceOnly: selected.colorChoiceOnly,
     items: selected.items,
     active: peen[selected.name]
   }
