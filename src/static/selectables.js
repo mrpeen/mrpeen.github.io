@@ -1,6 +1,7 @@
 import peen from './icons/peen.png';
 import blush from './icons/blush.png';
 import condom from './icons/condom.png';
+import toys from './icons/toys.png';
 
 export default [
   {
@@ -92,7 +93,7 @@ export default [
   {
     id: 3,
     name: 'toys',
-    icon: '',
+    icon: toys,
     isSelected: false,
     toTakeOff: true,
     colorChoiceOnly: false,
