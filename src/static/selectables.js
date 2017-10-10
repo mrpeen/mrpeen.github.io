@@ -1,7 +1,7 @@
 import peen from './icons/peen.png';
 import blush from './icons/blush.png';
 import condom from './icons/condom.png';
-import toys from './icons/toys.png';
+import handcuffs from './icons/handcuffs.png';
 
 export default [
   {
@@ -93,11 +93,17 @@ export default [
   {
     id: 3,
     name: 'toys',
-    icon: toys,
+    icon: handcuffs,
     isSelected: false,
     toTakeOff: true,
     colorChoiceOnly: false,
     items: [
+      {
+        id: 1,
+        name: 'handcuffs',
+        icon: '',
+        fill: ''
+      }
     ]
   },
   {
