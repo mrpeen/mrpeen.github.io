@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Karada from '../Karada';
 import './style.css';
 
 const Portrait = ({skintone, blush, condom, toys}) => {
@@ -260,6 +261,8 @@ const Portrait = ({skintone, blush, condom, toys}) => {
             <ellipse transform='rotate(-3.279 229.891 450.774)' fill='#DBDADA' cx='230.033' cy='451.036' rx='6.895' ry='6.895' />
           </g>
         </svg>}
+
+      {objToys.hishiKarada && <Karada />}
     </div>)};
 
 export default Portrait;
