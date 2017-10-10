@@ -7,7 +7,7 @@ const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff
   <div className="Panel">
     {items.map(({fill, id, icon, name}) =>
       <div
-        key={fill}
+        key={id}
         className="Panel--Item"> 
         {colorChoiceOnly ?
           <Circle
@@ -16,7 +16,9 @@ const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff
             selected={selected} 
             onClick={onClickItem} />
             :
-            <span className="Wearable">
+            <span
+              className="Wearable"
+              key={id}>
               <img src={icon} alt={name} />
             </span>}
       </div>)}
