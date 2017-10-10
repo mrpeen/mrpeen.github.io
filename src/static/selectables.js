@@ -2,6 +2,13 @@ import peen from './icons/peen.png';
 import blush from './icons/blush.png';
 import condom from './icons/condom.png';
 import handcuffs from './icons/handcuffs.png';
+import ballgag from './icons/ballgag.png';
+import collar from './icons/collar.png';
+import eyeMask from './icons/eye-mask.png';
+import latexMask from './icons/latex-mask.png';
+import heartCollar from './icons/heart-collar.png';
+import hishiKarada from './icons/hishi-karada.png';
+import wand from './icons/wand.png';
 
 export default [
   {
@@ -101,8 +108,42 @@ export default [
       {
         id: 1,
         name: 'handcuffs',
-        icon: '',
-        fill: ''
+        icon: handcuffs
+      },
+      {
+        id: 2,
+        name: 'ballgag',
+        icon: ballgag
+      },
+      {
+        id: 3,
+        name: 'eye mask',
+        icon: eyeMask
+      },
+      {
+        id: 4,
+        name: 'collar',
+        icon: collar
+      },
+      {
+        id: 5,
+        name: 'latex mask',
+        icon: latexMask
+      },
+      {
+        id: 6,
+        name: 'heart collar',
+        icon: heartCollar
+      },
+      {
+        id: 7,
+        name: 'hishi karada',
+        icon: hishiKarada
+      },
+      {
+        id: 8,
+        name: 'wand',
+        icon: wand
       }
     ]
   },

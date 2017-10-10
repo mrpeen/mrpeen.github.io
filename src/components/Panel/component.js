@@ -5,7 +5,7 @@ import './style.css';
 
 const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff}) => (
   <div className="Panel">
-    {items.map(({fill, id}) =>
+    {items.map(({fill, id, icon, name}) =>
       <div
         key={fill}
         className="Panel--Item"> 
@@ -15,7 +15,10 @@ const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff
             fill={fill}
             selected={selected} 
             onClick={onClickItem} />
-            : ''}
+            :
+            <span className="Wearable">
+              <img src={icon} alt={name} />
+            </span>}
       </div>)}
 
       {toTakeOff &&
