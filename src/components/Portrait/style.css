@@ -14,7 +14,7 @@
   margin: 200px;
   position: absolute;
   top: -8%;
-  left: 0;
+  left: -.3%;
   z-index: 5;
 }
 
@@ -62,6 +62,14 @@
 
 .LatexMask {
   z-index: 3;
+  width: 82%;
+  margin: 200px;
+  position: absolute;
+  top: -19%;
+  left: -.3%;  
+}
+
+.HeartCollar {
   width: 82%;
   margin: 200px;
   position: absolute;
