@@ -3,13 +3,15 @@ import { connect } from 'react-redux';
 import {
   selectSkintone,
   selectBlush,
-  selectCondom
+  selectCondom,
+  addToy,
+  removeToy,
+  removeAllToys
 } from '../../actions';
 import Panel from './component';
 
 const mapStateToProps = ({selectables, peen}) => {
   const selected = selectables.find(item => item.isSelected);
-
   return {
     selected: selected.name,
     toTakeOff: selected.toTakeOff,
@@ -21,7 +23,7 @@ const mapStateToProps = ({selectables, peen}) => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onClickItem: (id, selected) => {
+    onClickColor: (id, selected) => {
       switch(selected) {
         case 'blush':
           return dispatch(selectBlush(id));
@@ -32,6 +34,16 @@ const mapDispatchToProps = dispatch => {
         default:
           return;
       }
+    },
+    onClickToy: (id, active) => {
+      if (active.indexOf(id) >= 0) {
+        return dispatch(removeToy(id));
+      } else {
+        return dispatch(addToy(id));
+      }
+    },
+    onClickRemoveToys: () => {
+      dispatch(removeAllToys());
     }
   }
 }

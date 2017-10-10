@@ -6,7 +6,7 @@ const Circle = ({fill, onClick, id, selected, isReset}) => {
   return (
     isReset ?
     <span
-      onClick={() => onClick(null, selected)}
+      onClick={onClick}
       className="Circle Circle--reset">
       <span className="Circle--label">
         Take off

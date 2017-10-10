@@ -7,6 +7,9 @@ import {
   SELECT_CONTROL,
   SELECT_BLUSH,
   SELECT_CONDOM,
+  ADD_TOY,
+  REMOVE_TOY,
+  REMOVE_ALL_TOYS,
   RESET
 } from './actions';
 
@@ -49,6 +52,24 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         condom: action.condom
+      }
+    case ADD_TOY:
+      return {
+        ...state,
+        toys: [
+          ...state.toys,
+          action.toy
+        ]
+      }
+    case REMOVE_TOY:
+      return {
+        ...state,
+        toys: state.toys.filter(toy => toy !== action.toy)
+      }
+    case REMOVE_ALL_TOYS:
+      return {
+        ...state,
+        toys: []
       }
     default:
       return state

@@ -3,7 +3,7 @@ import React from 'react';
 import Circle from '../Circle';
 import './style.css';
 
-const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff}) => (
+const Panel = ({selected, items, active, onClickColor, onClickToy, onClickRemoveToys, colorChoiceOnly, toTakeOff}) => (
   <div className="Panel">
     {items.map(({fill, id, icon, name}) =>
       <div
@@ -14,21 +14,30 @@ const Panel = ({selected, items, active, onClickItem, colorChoiceOnly, toTakeOff
             id={id}
             fill={fill}
             selected={selected} 
-            onClick={onClickItem} />
+            onClick={onClickColor} />
             :
             <span
               className="Wearable"
-              key={id}>
+              key={id}
+              onClick={() => onClickToy(id, active)}>
               <img src={icon} alt={name} />
             </span>}
       </div>)}
 
-      {toTakeOff &&
+      {toTakeOff && selected !== 'toys' &&
         <div className="Panel--Item">
           <Circle
             isReset={true}
             selected={selected}
-            onClick={onClickItem} />
+            onClick={() => onClickColor(null, selected)} />
+        </div>}
+
+      {toTakeOff && selected === 'toys' &&
+        <div className="Panel--Item">
+          <Circle
+            isReset={true}
+            selected={selected}
+            onClick={onClickRemoveToys} />
         </div>}
   </div>
 );
