@@ -10,6 +10,7 @@ import {
   ADD_TOY,
   REMOVE_TOY,
   REMOVE_ALL_TOYS,
+  CLEAR_AND_ADD_TOYS,
   RESET
 } from './actions';
 
@@ -65,6 +66,14 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         toys: state.toys.filter(toy => toy !== action.toy)
+      }
+    case CLEAR_AND_ADD_TOYS:
+      return {
+        ...state,
+        toys: [
+          ...state.toys.filter(toy => action.clearables.indexOf(toy) < 0),
+          action.newToy
+        ]
       }
     case REMOVE_ALL_TOYS:
       return {

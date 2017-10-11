@@ -133,42 +133,50 @@ export default [
       {
         id: 1,
         name: 'handcuffs',
-        icon: handcuffs
+        icon: handcuffs,
+        clears: []
       },
       {
         id: 2,
         name: 'ballgag',
-        icon: ballgag
+        icon: ballgag,
+        clears: []
       },
       {
         id: 3,
         name: 'eyeMask',
-        icon: eyeMask
+        icon: eyeMask,
+        clears: []
       },
       {
         id: 4,
         name: 'collar',
-        icon: collar
+        icon: collar,
+        clears: [6]
       },
       {
         id: 5,
         name: 'latexMask',
-        icon: latexMask
+        icon: latexMask,
+        clears: []
       },
       {
         id: 6,
         name: 'heartCollar',
-        icon: heartCollar
+        icon: heartCollar,
+        clears: [4]
       },
       {
         id: 7,
         name: 'hishiKarada',
-        icon: hishiKarada
+        icon: hishiKarada,
+        clears: []
       },
       {
         id: 8,
         name: 'wand',
-        icon: wand
+        icon: wand,
+        clears: []
       }
     ]
   },

@@ -6,6 +6,7 @@ import {
   selectCondom,
   addToy,
   removeToy,
+  clearAndAddToys,
   removeAllToys
 } from '../../../actions';
 import Panel from './component';
@@ -35,10 +36,11 @@ const mapDispatchToProps = dispatch => {
           return;
       }
     },
-    onClickToy: (id, active) => {
+    onClickToy: (id, active, clears) => {
       if (active.indexOf(id) >= 0) {
         return dispatch(removeToy(id));
       } else {
+        if (clears.length) return dispatch(clearAndAddToys(id, clears));
         return dispatch(addToy(id));
       }
     },
