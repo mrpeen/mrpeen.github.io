@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-const LatexMask = ({skintone}) => (
+const LatexMask = () => (
   <svg className="LatexMask" xmlns='http://www.w3.org/2000/svg' viewBox='0 -300.375 1169.547 1092.375'>
     <g id='Mask'>
       <g id='Ebene_2_1_'>
