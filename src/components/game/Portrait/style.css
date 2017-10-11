@@ -51,15 +51,6 @@
   left: -.3%;
 }
 
-.Wand {
-  z-index: 4;
-  width: 82%;
-  margin: 200px;
-  position: absolute;
-  top: -19%;
-  left: -.3%;  
-}
-
 .LatexMask {
   z-index: 3;
   width: 82%;
