@@ -4,10 +4,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux'
 
-import Header from './components/layout/Header';
-import Main from './components/layout/Main';
-import dressUpApp from './reducers';
-import { addSelectables } from './actions';
+import Header from './website/components/Header';
+import Main from './website/components/Main';
+import dressUpApp from './game/reducers';
+import { addSelectables } from './game/actions';
 
 import './index.css';
 

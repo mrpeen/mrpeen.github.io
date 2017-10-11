@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 
 import UserActions from './component';
 
-import { reset } from '../../../actions';
+import { reset } from '../../actions';
 
 const mapDispatchToProps = dispatch => {
   return {
