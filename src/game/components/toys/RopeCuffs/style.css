@@ -1,8 +1,8 @@
 .RopeCuffs {
   z-index: 2;
   width: 37.5%;
-  margin: 200px;
+  margin: 150px 200px;
   position: absolute;
-  top: -.8%;
+  top: -.5%;
   left: 2.5%;
 }

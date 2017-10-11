@@ -1,8 +1,8 @@
 .Condom {
   width: 44%;
-  margin: 200px;
+  margin: 150px 200px;
   position: absolute;
-  top: -8%;
+  top: -9%;
   left: -.3%;
   z-index: 5;
 }
