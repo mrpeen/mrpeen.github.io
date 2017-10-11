@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Karada from '../Karada';
+import Karada from '../toys/Karada';
 import './style.css';
 
 const Portrait = ({skintone, blush, condom, toys}) => {

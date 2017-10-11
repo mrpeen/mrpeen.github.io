@@ -7,7 +7,7 @@ import {
   addToy,
   removeToy,
   removeAllToys
-} from '../../actions';
+} from '../../../actions';
 import Panel from './component';
 
 const mapStateToProps = ({selectables, peen}) => {

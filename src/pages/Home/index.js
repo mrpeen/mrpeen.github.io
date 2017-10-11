@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Game from '../../components/Game';
+import Game from '../../components/game/Main';
 
 const Home = () => (
   <div className="Home">

@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import Controls from './component';
-import { selectControl } from '../../actions';
+import { selectControl } from '../../../actions';
 
 const mapStateToProps = ({selectables}) => ({
   selectables
