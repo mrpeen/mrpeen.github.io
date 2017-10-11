@@ -4,7 +4,6 @@ import Peen from './component';
 
 const mapStateToProps = (state) => {
   const {peen, selectables} = state;
-  const {skintone, blush} = peen;
 
   const objSelectables = selectables.reduce((acc, item, index) => {
     acc[item.name] = item.items;
