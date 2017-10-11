@@ -9,6 +9,8 @@ import latexMask from './icons/latex-mask.png';
 import heartCollar from './icons/heart-collar.png';
 import hishiKarada from './icons/hishi-karada.png';
 import wand from './icons/wand.png';
+import ankleCuffs from './icons/ankle-cuffs.png';
+import ropeCuffs from './icons/rope-cuffs.png';
 
 export default [
   {
@@ -134,7 +136,7 @@ export default [
         id: 1,
         name: 'handcuffs',
         icon: handcuffs,
-        clears: []
+        clears: [10]
       },
       {
         id: 2,
@@ -177,6 +179,18 @@ export default [
         name: 'wand',
         icon: wand,
         clears: []
+      },
+      {
+        id: 9,
+        name: 'ankleCuffs',
+        icon: ankleCuffs,
+        clears: []
+      },
+      {
+        id: 10,
+        name: 'ropeCuffs',
+        icon: ropeCuffs,
+        clears: [1]
       }
     ]
   },

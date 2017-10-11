@@ -3,6 +3,7 @@ import React from 'react';
 import MrPeen from '../Peen';
 import Condom from '../Condom';
 import {
+  AnkleCuffs,
   Ballgag,
   Collar,
   EyeMask,
@@ -10,6 +11,7 @@ import {
   HeartCollar,
   Karada,
   LatexMask,
+  RopeCuffs,
   Wand
 } from '../toys';
 import './style.css';
@@ -25,6 +27,8 @@ const Portrait = ({condom, toys}) => (
 
     {toys.handcuffs && <Handcuffs />}
 
+    {toys.ropeCuffs && <RopeCuffs />}
+
     {toys.ballgag && <Ballgag />}
 
     {toys.eyeMask && <EyeMask />}
@@ -38,6 +42,9 @@ const Portrait = ({condom, toys}) => (
     {toys.heartCollar && <HeartCollar />}
 
     {toys.hishiKarada && <Karada />}
+
+    {toys.ankleCuffs && <AnkleCuffs />}
+
   </div>
 );
 
