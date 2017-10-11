@@ -45,6 +45,11 @@ export default [
         stroke: '#e8d90b'
       },
       {
+        id: 11,
+        fill: '#c8c6ef',
+        stroke: '#ada9f2'
+      },      
+      {
         id: 6,
         fill: '#f9b672',
         stroke: '#f78f25'
