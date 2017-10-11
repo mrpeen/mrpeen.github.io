@@ -3,17 +3,3 @@
   width: 60%;
   position: relative;
 }
-
-.MrPeen {
-  width: 44%;
-  margin: 198px;
-}
-
-.Condom {
-  width: 44%;
-  margin: 200px;
-  position: absolute;
-  top: -8%;
-  left: -.3%;
-  z-index: 5;
-}
