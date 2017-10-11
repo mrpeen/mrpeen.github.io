@@ -36,18 +36,38 @@ export default [
       },
       {
         id: 4,
-        fill: '#f7f25d',
-        stroke: '#e8d90b'
+        fill: '#9de295',
+        stroke: '#5ecc51'
       },
       {
         id: 5,
-        fill: '#90f9e8',
-        stroke: '#4de2ca'
+        fill: '#f7f25d',
+        stroke: '#e8d90b'
       },
       {
         id: 6,
         fill: '#f9b672',
         stroke: '#f78f25'
+      },
+      {
+        id: 7,
+        fill: '#90f9e8',
+        stroke: '#4de2ca'
+      },
+      {
+        id: 8,
+        fill: '#eaceef',
+        stroke: '#e2a8ed'
+      },
+      {
+        id: 9,
+        fill: '#f4abf3',
+        stroke: '#ef83ee'
+      },
+      {
+        id: 10,
+        fill: '#b2e2f7',
+        stroke: '#83ceef'
       }
     ]
   },
