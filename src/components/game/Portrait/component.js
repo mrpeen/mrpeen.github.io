@@ -2,14 +2,16 @@ import React from 'react';
 
 import MrPeen from '../Peen';
 import Condom from '../Condom';
-import Karada from '../toys/Karada';
-import Wand from '../toys/Wand';
-import LatexMask from '../toys/LatexMask';
-import EyeMask from '../toys/EyeMask';
-import Handcuffs from '../toys/Handcuffs';
-import Collar from '../toys/Collar';
-import HeartCollar from '../toys/HeartCollar';
-import Ballgag from '../toys/Ballgag';
+import {
+  Ballgag,
+  Collar,
+  EyeMask,
+  Handcuffs,
+  HeartCollar,
+  Karada,
+  LatexMask,
+  Wand
+} from '../toys';
 import './style.css';
 
 const Portrait = ({condom, toys}) => (
