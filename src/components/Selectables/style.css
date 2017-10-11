@@ -4,4 +4,5 @@
   vertical-align: top;
   text-align: left;
   border-left: 5px solid #ffc9ef;
+  z-index: 10;
 }

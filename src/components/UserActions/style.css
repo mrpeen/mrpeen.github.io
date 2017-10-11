@@ -2,7 +2,7 @@
   position: absolute;
   right: 42%;
   top: 2%;
-  z-index: 2;
+  z-index: 10;
 }
 
 .UserActions--button {
