@@ -7,6 +7,8 @@ import LatexMask from '../toys/LatexMask';
 import EyeMask from '../toys/EyeMask';
 import Handcuffs from '../toys/Handcuffs';
 import Collar from '../toys/Collar';
+import HeartCollar from '../toys/HeartCollar';
+import Ballgag from '../toys/Ballgag';
 import './style.css';
 
 const Portrait = ({skintone, blush, condom, toys}) => {
@@ -47,44 +49,7 @@ const Portrait = ({skintone, blush, condom, toys}) => {
 
       {objToys.handcuffs && <Handcuffs />}
 
-      {objToys.ballgag &&
-        <svg className="Ballgag" xmlns='http://www.w3.org/2000/svg' viewBox='0 -300.375 1169.547 1092.375'>
-          <g id='Gag'>
-            <path fill='none' stroke='#A7A5A6' strokeWidth='5' strokeMiterlimit='10' d='M239.512,265.793l0.702,12.26 c0.641,11.202-7.914,20.796-19.116,21.438l-8.216,0.47l-3.024-52.813l8.217-0.471C229.276,246.036,238.871,254.591,239.512,265.793 z' />
-            <path fill='none' stroke='#A7A5A6' strokeWidth='5' strokeMiterlimit='10' d='M345.592,259.718l0.702,12.26 c0.641,11.202,10.236,19.757,21.438,19.116l8.216-0.471l-3.024-52.813l-8.216,0.47 C353.506,238.921,344.951,248.516,345.592,259.718z' />
-            <path fill='gray' stroke='#000' strokeWidth='3' strokeMiterlimit='10' d='M219.39,293.97L51,303.33 c0.227-0.85,0.453-1.69,0.68-2.53c1.792-6.66,3.604-13.26,5.458-19.78c1.926-6.78,3.882-13.48,5.88-20.1l153.922-8.56 L219.39,293.97z' />
-            <path fill='gray' stroke='#000' strokeWidth='3' strokeMiterlimit='10' d='M555,275.01L369.041,285.4l-2.451-41.61 l173.388-9.68c1.077,2.69,2.153,5.39,3.209,8.12c2.399,6.16,4.727,12.43,6.993,18.8C551.821,265.64,553.421,270.3,555,275.01z' />
-            <rect x='232.237' y='257.44' transform='rotate(-3.279 292.208 268.743)' fill='gray' stroke='#000' strokeWidth='3' strokeMiterlimit='10' width='120.333' height='22.947' />
-            <g fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10'>
-              <line x1='232.001' y1='264.503' x2='234.496' y2='264.351' />
-              <line strokeDasharray='5.012,5.012' x1='239.499' y1='264.048' x2='347.06' y2='257.519' />
-              <line x1='349.561' y1='257.367' x2='352.057' y2='257.215' />
-            </g>
-            <g fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10'>
-              <line x1='232.001' y1='280.489' x2='234.496' y2='280.337' />
-              <line strokeDasharray='5.012,5.012' x1='239.499' y1='280.034' x2='347.06' y2='273.505' />
-              <line x1='349.561' y1='273.353' x2='352.057' y2='273.201' />
-            </g>
-            <ellipse transform='rotate(-3.279 291.548 268.785)' fill='#FF3939' stroke='#F00' strokeWidth='5' strokeMiterlimit='10' cx='291.737' cy='268.951' rx='27.985' ry='27.985' />
-            <ellipse transform='rotate(-3.279 192.924 274.408)' fill='#DBDADA' cx='193.067' cy='274.601' rx='6.895' ry='6.895' />
-            <ellipse transform='rotate(-3.279 388.514 263.248)' fill='#DBDADA' cx='388.746' cy='263.397' rx='6.895' ry='6.895' />
-            <ellipse transform='rotate(-3.279 334.283 266.321)' fill='#DBDADA' cx='334.524' cy='266.503' rx='3.709' ry='3.709' />
-            <ellipse transform='rotate(-3.279 247.732 271.34)' fill='#DBDADA' cx='247.852' cy='271.465' rx='3.709' ry='3.709' />
-            <line fill='none' stroke='#000' strokeWidth='3' strokeMiterlimit='10' x1='65.705' y1='267.215' x2='65.705' y2='267.215' />
-            <g fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10'>
-              <line x1='61.702' y1='265.31' x2='65.197' y2='265.129' />
-              <line strokeDasharray='7.0826,7.0826' x1='72.27' y1='264.763' x2='210.195' y2='257.616' />
-              <line x1='213.732' y1='257.432' x2='217.227' y2='257.251' />
-            </g>
-            <g fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10'>
-              <line x1='52.217' y1='298.809' x2='55.712' y2='298.619' />
-              <line strokeDasharray='6.9639,6.9639' x1='62.665' y1='298.242' x2='212.17' y2='290.134' />
-              <line x1='215.647' y1='289.946' x2='219.142' y2='289.756' />
-            </g>
-            <line fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10' strokeDasharray='7' x1='366.876' y1='248.648' x2='542.035' y2='239.282' />
-            <line fill='none' stroke='#000' strokeWidth='2' strokeMiterlimit='10' strokeDasharray='7' x1='368.812' y1='281.515' x2='553.405' y2='270.292' />
-          </g>
-        </svg>}
+      {objToys.ballgag && <Ballgag />}
 
       {objToys.eyeMask && <EyeMask />}
 
@@ -94,20 +59,7 @@ const Portrait = ({skintone, blush, condom, toys}) => {
 
       {objToys.latexMask && <LatexMask />}
 
-      {objToys.heartCollar &&
-        <svg className="HeartCollar" xmlns='http://www.w3.org/2000/svg' viewBox='0 -300.375 1169.547 1092.375'>
-          <g id='Heart_Collar'>
-            <path fill='#969292' stroke='#666' strokeWidth='2' strokeMiterlimit='10' d='M356.601,393.575 c-13.335-6.042-30.902,1.087-44.513,16.407c-15.875-12.958-34.353-17.201-46.548-9.114c-30.975,22.034-18.373,77.018,2.544,83.967 l51.885,23.56l47.474-31.518C386.998,466.687,390.679,410.399,356.601,393.575z M359.18,473.676l-39.871,26.465l-43.566-19.782 c-17.572-5.839-28.144-52.007-2.137-70.505c10.24-6.788,25.761-3.233,39.085,7.653c11.43-12.869,26.179-18.848,37.377-13.777 C378.688,417.852,375.59,465.115,359.18,473.676z' />
-            <polygon fill='#7ACED6' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' points='271.33,469.67 271.66,474.43 92.5,486.94 93.03,482.46 98.28,437.64 98.96,431.86 267.9,420.05 268.3,425.88' />
-            <path fill='#7ACED6' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' d='M540.5,455.64l-127.28,8.9h-0.01l-14.47,1.01 l-36.77,2.57l-0.34-4.93l-3.01-43.55l-0.41-5.9l167.78-11.73c0.57,1.98,1.14,3.96,1.7,5.94c4.11,14.44,7.96,28.62,11.5,42.5 C539.63,452.18,540.07,453.91,540.5,455.64z' />
-            <line fill='none' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='527.69' y1='407.95' x2='358.62' y2='419.64' />
-            <line fill='none' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='268.3' y1='425.88' x2='98.28' y2='437.64' />
-            <line fill='none' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='539.19' y1='450.45' x2='361.63' y2='463.19' />
-            <polyline fill='none' stroke='#12AEBC' strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' points='271.33,469.67 93.03,482.46 92.5,482.5' />
-            <ellipse transform='rotate(-3.279 398.792 437.39)' fill='#DBDADA' cx='399.033' cy='437.64' rx='6.895' ry='6.895' />
-            <ellipse transform='rotate(-3.279 229.891 450.774)' fill='#DBDADA' cx='230.033' cy='451.036' rx='6.895' ry='6.895' />
-          </g>
-        </svg>}
+      {objToys.heartCollar && <HeartCollar />}
 
       {objToys.hishiKarada && <Karada />}
     </div>)};
