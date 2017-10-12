@@ -17,8 +17,10 @@ import {
 import './style.css';
 
 const getStyle = (background) => {
-  const fill = background.fill;
+  if (!background) return;
 
+  const fill = background.fill;
+  
   if (background.type === 'background') {
     return {backgroundImage: `url(${fill})`}
   }

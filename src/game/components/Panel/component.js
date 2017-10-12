@@ -8,7 +8,8 @@ const getItem = (
   selected,
   active,
   onClickToy,
-  onClickColor) => {
+  onClickColor,
+  onClickBackground) => {
   switch(type) {
     case 'color':
       return (<Circle
@@ -26,17 +27,27 @@ const getItem = (
     default: 
       return (<Circle
                 id={id}
-                background={fill} />)
+                background={fill}
+                onClick={onClickBackground} />)
   }
 }
 
-const Panel = ({selected, items, active, onClickColor, onClickToy, onClickRemoveToys, toClear}) => (
+const Panel = ({
+  selected,
+  items,
+  active,
+  onClickColor,
+  onClickToy,
+  onClickRemoveToys,
+  toClear,
+  onClickBackground
+}) => (
   <div className="Panel">
     {items.map((item) => 
       <div
         key={item.id}
         className="Panel--Item"> 
-          {getItem(item, selected, active, onClickToy, onClickColor)}
+          {getItem(item, selected, active, onClickToy, onClickColor, onClickBackground)}
       </div>)}
 
       {toClear && selected === 'condom' &&
@@ -61,7 +72,7 @@ const Panel = ({selected, items, active, onClickColor, onClickToy, onClickRemove
             isReset={true}
             selected={selected}
             text="Clear"
-            onClick={() => {}} />
+            onClick={() => onClickBackground(null)} />
         </div>}
   </div>
 );

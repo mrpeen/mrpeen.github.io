@@ -11,6 +11,7 @@ import {
   REMOVE_TOY,
   REMOVE_ALL_TOYS,
   CLEAR_AND_ADD_TOYS,
+  SET_BACKGROUND,
   RESET
 } from './actions';
 
@@ -79,6 +80,11 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         toys: []
+      }
+    case SET_BACKGROUND:
+      return {
+        ...state,
+        background: action.background
       }
     default:
       return state

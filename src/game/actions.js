@@ -9,6 +9,7 @@ export const ADD_TOY = 'ADD_TOY';
 export const REMOVE_TOY = 'REMOVE_TOY';
 export const REMOVE_ALL_TOYS = 'REMOVE_ALL_TOYS';
 export const CLEAR_AND_ADD_TOYS = 'CLEAR_AND_ADD_TOYS';
+export const SET_BACKGROUND = 'SET_BACKGROUND';
 export const RESET = 'RESET';
 
 export function addSelectables() {
@@ -61,8 +62,6 @@ export function removeToy(toy) {
 }
 
 export function clearAndAddToys(newToy, clearables) {
-  console.log(newToy)
-  console.log(clearables)
   return {
     type: CLEAR_AND_ADD_TOYS,
     newToy,
@@ -73,6 +72,13 @@ export function clearAndAddToys(newToy, clearables) {
 export function removeAllToys() {
   return {
     type: REMOVE_ALL_TOYS
+  }
+}
+
+export function setBackground(background) {
+  return {
+    type: SET_BACKGROUND,
+    background
   }
 }
 

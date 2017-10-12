@@ -17,7 +17,7 @@ const Circle = ({fill, onClick, id, selected, isReset, text = 'Take off', backgr
   if (background) {
     return (
       <span
-        onClick={onClick}
+        onClick={() => onClick(id)}
         style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}
         className="Circle" />
     )

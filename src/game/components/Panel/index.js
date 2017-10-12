@@ -4,6 +4,7 @@ import {
   selectSkintone,
   selectBlush,
   selectCondom,
+  setBackground,
   addToy,
   removeToy,
   clearAndAddToys,
@@ -30,7 +31,9 @@ const mapDispatchToProps = dispatch => {
         case 'skintone':
           return dispatch(selectSkintone(id));
         case 'condom':
-          return dispatch(selectCondom(id));        
+          return dispatch(selectCondom(id));
+        case 'background':
+          return dispatch(setBackground(id));
         default:
           return;
       }
@@ -42,6 +45,9 @@ const mapDispatchToProps = dispatch => {
         if (clears.length) return dispatch(clearAndAddToys(id, clears));
         return dispatch(addToy(id));
       }
+    },
+    onClickBackground: (id) => {
+      return dispatch(setBackground(id));
     },
     onClickRemoveToys: () => {
       dispatch(removeAllToys());

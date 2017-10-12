@@ -8,7 +8,6 @@ const mapStateToProps = (state) => {
   const backgroundsList = selectables.find(({name}) => name === 'background').items;
   const toysList = selectables.find(({name}) => name === 'toys').items;
   const selectedToys = toysList.filter(({id}) => toys.indexOf(id) >= 0) || [];
-  console.log(backgroundsList.find(({id}) => id === background));
 
   return {
     condom: condom,
