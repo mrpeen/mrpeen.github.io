@@ -45,6 +45,13 @@ const Portrait = ({condom, toys}) => (
 
     {toys.heartCollar && <HeartCollar />}
 
+    {toys.heartCollarPink &&
+      <HeartCollar
+        fill="#FFC9EF"
+        stroke="#FFABE6"
+        metalFill="#FFD700"
+        metalStroke="#D4AF37" />}
+
     {toys.hishiKarada && <Karada />}
 
     {toys.ankleCuffs && <AnkleCuffs />}
