@@ -5,7 +5,7 @@ import FileSaver from 'file-saver';
 import './style.css';
 
 const onExport = () => {
-  domtoimage.toBlob(document.getElementById('Portrait'))
+  domtoimage.toBlob(document.getElementById('Photo'))
     .then(function (blob) {
       FileSaver.saveAs(blob, 'mr-peen.png');
     });

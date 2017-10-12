@@ -17,45 +17,46 @@ import {
 import './style.css';
 
 const Portrait = ({condom, toys}) => (
-  <div
-    id="Portrait"
-    className="Portrait">
+  <div className="Portrait">
+    <div
+      id="Photo"
+      className="Photo">
+      
+      <MrPeen />
 
-    <MrPeen />
+      {condom && <Condom />}
 
-    {condom && <Condom />}
+      {toys.handcuffs && <Handcuffs />}
 
-    {toys.handcuffs && <Handcuffs />}
+      {toys.ropeCuffs && <RopeCuffs />}
 
-    {toys.ropeCuffs && <RopeCuffs />}
+      {toys.ballgag && <Ballgag />}
 
-    {toys.ballgag && <Ballgag />}
+      {toys.eyeMask && <EyeMask />}
 
-    {toys.eyeMask && <EyeMask />}
+      {toys.collar && <Collar />}
 
-    {toys.collar && <Collar />}
+      {toys.collarRed && <Collar fill="#e51b04" stroke="#b71603" />}
 
-    {toys.collarRed && <Collar fill="#e51b04" stroke="#b71603" />}
+      {toys.wand && <Wand />}
 
-    {toys.wand && <Wand />}
+      {toys.latexMask && <LatexMask />}
 
-    {toys.latexMask && <LatexMask />}
+      {toys.latexMaskPink && <LatexMask fill="#f4abf3" stroke="#ef83ee" />}
 
-    {toys.latexMaskPink && <LatexMask fill="#f4abf3" stroke="#ef83ee" />}
+      {toys.heartCollar && <HeartCollar />}
 
-    {toys.heartCollar && <HeartCollar />}
+      {toys.heartCollarPink &&
+        <HeartCollar
+          fill="#FFC9EF"
+          stroke="#FFABE6"
+          metalFill="#FFD700"
+          metalStroke="#D4AF37" />}
 
-    {toys.heartCollarPink &&
-      <HeartCollar
-        fill="#FFC9EF"
-        stroke="#FFABE6"
-        metalFill="#FFD700"
-        metalStroke="#D4AF37" />}
+      {toys.hishiKarada && <Karada />}
 
-    {toys.hishiKarada && <Karada />}
-
-    {toys.ankleCuffs && <AnkleCuffs />}
-
+      {toys.ankleCuffs && <AnkleCuffs />}
+    </div>
   </div>
 );
 
