@@ -2,4 +2,9 @@
   display: inline-block;
   width: 60%;
   position: relative;
+  /*
+  background-image: url('../../static/backgrounds/galaxy1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  */
 }
