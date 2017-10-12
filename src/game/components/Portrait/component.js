@@ -16,12 +16,23 @@ import {
 } from '../toys';
 import './style.css';
 
-const Portrait = ({condom, toys}) => (
+const getStyle = (background) => {
+  const fill = background.fill;
+
+  if (background.type === 'background') {
+    return {backgroundImage: `url(${fill})`}
+  }
+
+  return {backgroundColor: fill}
+}
+
+const Portrait = ({condom, toys, background}) => (
   <div className="Portrait">
     <div
       id="Photo"
-      className="Photo">
-      
+      className="Photo"
+      style={getStyle(background)}>
+
       <MrPeen />
 
       {condom && <Condom />}
