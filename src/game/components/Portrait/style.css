@@ -8,7 +8,11 @@
 }
 
 .Photo {
-  /* background: url('../../static/backgrounds/room.png'); */
+  /*
+  background-image: url('../../static/backgrounds/sparkle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
+  */
 }
