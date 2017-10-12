@@ -3,7 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 -300.375 1169.547 1092.375" enable-background="new 0 -300.375 1169.547 1092.375" xml:space="preserve">
 <g id="Collar">
-    <path fill="#333333" stroke="#231F20" stroke-width="3" stroke-miterlimit="10" d="M540.5,455.64l-127.28,8.9h-0.01l-14.469,1.01
+    <path fill="#e51b04" stroke="#b71603" stroke-width="3" stroke-miterlimit="10" d="M540.5,455.64l-127.28,8.9h-0.01l-14.469,1.01
         L92.5,486.94l6.46-55.08l427.03-29.85C531.258,420.31,536.129,438.22,540.5,455.64z"/>
     
         <line fill="none" stroke="#231F20" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="10" x1="98.282" y1="437.645" x2="527.688" y2="407.946"/>
