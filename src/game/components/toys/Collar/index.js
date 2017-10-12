@@ -4,7 +4,7 @@ import './style.css';
 
 const Collar = ({fill = '#333', stroke = '#231F20'}) => (
   <svg className="Collar" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 451.59 108.06'>
-    <g id='Ebene_2' dataName='Ebene 2'>
+    <g id='Ebene_2' dataname='Ebene 2'>
       <g id='Collar' strokeMiterlimit='10'>
         <path d='M449.7,55.21l-127.28,8.9h0l-14.47,1L1.7,86.51,8.16,31.43l427-29.85Q443.09,29,449.7,55.21Z' fill={fill} stroke={stroke} strokeWidth='3' />
         <line x1='7.48' y1='37.22' x2='436.89' y2='7.52' fill='none' stroke='#231f20' strokeWidth='3' strokeDasharray='10' />

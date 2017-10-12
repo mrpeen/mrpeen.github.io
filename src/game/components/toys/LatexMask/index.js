@@ -6,7 +6,7 @@ const LatexMask = ({fill = '#000', stroke = '#000'}) => (
   <svg className="LatexMask" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.33 436.33'>
     <g id='Ebene_2' dataname='Ebene 2'>
       <g id='Mask'>
-        <g id='Ebene_2-2' dataName='Ebene 2'>
+        <g id='Ebene_2-2' dataname='Ebene 2'>
           <path d='M532.29,327.55c-73.06-441.64-499.83-430.47-530,0C-2.2,391.69-2.77,419,56.87,433.72h0c65.7,10.92,403.12-23.92,429.28-32.95l.05,0C519.24,389.37,539.78,365.69,532.29,327.55Zm-427-99.39a23.29,23.29,0,1,1,23.29-23.29A23.29,23.29,0,0,1,105.26,228.16Zm297.63-17.61a23.29,23.29,0,1,1,23.29-23.29A23.29,23.29,0,0,1,402.89,210.55Z' stroke={stroke} fill={fill} strokeMiterlimit='10' id='Mr_Peen' dataName='Mr Peen' />
         </g>
         <rect x='171.75' y='264.9' width='4.17' height='8' transform='rotate(-4.7 173.859 268.917)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
