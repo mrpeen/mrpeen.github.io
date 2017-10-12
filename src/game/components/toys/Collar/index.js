@@ -3,14 +3,15 @@ import React from 'react';
 import './style.css';
 
 const Collar = ({fill = '#333', stroke = '#231F20'}) => (
-  <svg className="Collar" xmlns='http://www.w3.org/2000/svg' viewBox='0 -300.375 1169.547 1092.375'>
-    <g id='Collar' strokeMiterlimit='10'>
-      <path fill={fill} stroke={stroke} strokeWidth='3' d='M540.5,455.64l-127.28,8.9h-0.01l-14.469,1.01 L92.5,486.94l6.46-55.08l427.03-29.85C531.258,420.31,536.129,438.22,540.5,455.64z' />
-      <line fill='none' stroke='#231F20' strokeWidth='3' strokeDasharray='10' x1='98.282' y1='437.645' x2='527.688' y2='407.946' />
-      <line fill='none' stroke='#231F20' strokeWidth='3' strokeDasharray='10' x1='92.5' y1='482.5' x2='539.186' y2='450.453' />
-      <circle display='none' fill='none' stroke='#7B7979' strokeWidth='9' cx='322.891' cy='482.086' r='30.414' />
-      <path fill='#BFBFBF' stroke='#7B7979' strokeWidth='2' d='M310.141,437.735 c-19.231,1.369-33.722,18.071-32.351,37.312c1.37,19.231,18.081,33.721,37.312,32.351c19.241-1.37,33.721-18.081,32.351-37.312 C346.083,450.845,329.382,436.365,310.141,437.735z M314.474,498.581c-14.364,1.023-26.844-9.798-27.867-24.161 c-1.024-14.374,9.798-26.844,24.162-27.867c14.364-1.023,26.843,9.788,27.867,24.162 C339.658,485.078,328.837,497.558,314.474,498.581z' />
-      <ellipse transform='rotate(-4.052 310.92 444.486)' fill='#BFBFBF' stroke='#7B7979' strokeWidth='2' cx='310.615' cy='444.383' rx='15.342' ry='15.342' />
+  <svg className="Collar" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 451.59 108.06'>
+    <g id='Ebene_2' dataName='Ebene 2'>
+      <g id='Collar' strokeMiterlimit='10'>
+        <path d='M449.7,55.21l-127.28,8.9h0l-14.47,1L1.7,86.51,8.16,31.43l427-29.85Q443.09,29,449.7,55.21Z' fill={fill} stroke={stroke} strokeWidth='3' />
+        <line x1='7.48' y1='37.22' x2='436.89' y2='7.52' fill='none' stroke='#231f20' strokeWidth='3' strokeDasharray='10' />
+        <line x1='1.7' y1='82.07' x2='448.39' y2='50.02' fill='none' stroke='#231f20' strokeWidth='3' strokeDasharray='10' />
+        <path d='M219.34,37.31a34.92,34.92,0,1,0,37.31,32.35A34.92,34.92,0,0,0,219.34,37.31Zm4.33,60.85a26.08,26.08,0,1,1,24.16-27.87A26.08,26.08,0,0,1,223.67,98.15Z' fill='#bfbfbf' stroke='#7b7979' strokeWidth='2' />
+        <circle cx='219.82' cy='43.95' r='15.34' transform='rotate(-4.07 220.062 44.03)' fill='#bfbfbf' stroke='#7b7979' strokeWidth='2' />
+      </g>
     </g>
   </svg>
 );
