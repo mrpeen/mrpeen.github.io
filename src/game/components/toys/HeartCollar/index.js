@@ -3,17 +3,19 @@ import React from 'react';
 import './style.css';
 
 const HeartCollar = ({fill = '#7ACED6', stroke = '#12AEBC', metalFill = '#DBDADA', metalStroke = '#666'}) => (
-  <svg className="HeartCollar" xmlns='http://www.w3.org/2000/svg' viewBox='0 -300.375 1169.547 1092.375'>
-    <g id='Heart_Collar'>
-      <path fill={metalFill} stroke={metalStroke} strokeWidth='2' strokeMiterlimit='10' d='M356.601,393.575 c-13.335-6.042-30.902,1.087-44.513,16.407c-15.875-12.958-34.353-17.201-46.548-9.114c-30.975,22.034-18.373,77.018,2.544,83.967 l51.885,23.56l47.474-31.518C386.998,466.687,390.679,410.399,356.601,393.575z M359.18,473.676l-39.871,26.465l-43.566-19.782 c-17.572-5.839-28.144-52.007-2.137-70.505c10.24-6.788,25.761-3.233,39.085,7.653c11.43-12.869,26.179-18.848,37.377-13.777 C378.688,417.852,375.59,465.115,359.18,473.676z' />
-      <polygon fill={fill} stroke={stroke} strokeWidth='3' strokeMiterlimit='10' points='271.33,469.67 271.66,474.43 92.5,486.94 93.03,482.46 98.28,437.64 98.96,431.86 267.9,420.05 268.3,425.88' />
-      <path fill={fill} stroke={stroke} strokeWidth='3' strokeMiterlimit='10' d='M540.5,455.64l-127.28,8.9h-0.01l-14.47,1.01 l-36.77,2.57l-0.34-4.93l-3.01-43.55l-0.41-5.9l167.78-11.73c0.57,1.98,1.14,3.96,1.7,5.94c4.11,14.44,7.96,28.62,11.5,42.5 C539.63,452.18,540.07,453.91,540.5,455.64z' />
-      <line fill='none' stroke={stroke} strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='527.69' y1='407.95' x2='358.62' y2='419.64' />
-      <line fill='none' stroke={stroke} strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='268.3' y1='425.88' x2='98.28' y2='437.64' />
-      <line fill='none' stroke={stroke} strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' x1='539.19' y1='450.45' x2='361.63' y2='463.19' />
-      <polyline fill='none' stroke={stroke} strokeWidth='3' strokeMiterlimit='10' strokeDasharray='10' points='271.33,469.67 93.03,482.46 92.5,482.5' />
-      <ellipse transform='rotate(-3.279 398.792 437.39)' fill={metalFill} cx='399.033' cy='437.64' rx='6.895' ry='6.895' />
-      <ellipse transform='rotate(-3.279 229.891 450.774)' fill={metalFill} cx='230.033' cy='451.036' rx='6.895' ry='6.895' />
+  <svg className="HeartCollar" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 451.59 119.1'>
+    <g id='Ebene_2' dataname='Ebene 2'>
+      <g id='Heart_Collar' dataname='Heart Collar'>
+        <path d='M265.8,3.14c-13.33-6-30.9,1.09-44.51,16.41-15.88-13-34.35-17.2-46.55-9.11-31,22-18.37,77,2.54,84L229.17,118l47.47-31.52C296.2,76.26,299.88,20,265.8,3.14Zm2.58,80.1-39.87,26.46L184.95,89.93c-17.57-5.84-28.14-52-2.14-70.51,10.24-6.79,25.76-3.23,39.08,7.65,11.43-12.87,26.18-18.85,37.38-13.78C287.89,27.42,284.79,74.68,268.38,83.24Z' fill={metalFill} stroke={metalStroke} strokeMiterlimit='10' strokeWidth='2' />
+        <polygon points='180.53 79.24 180.86 84 1.7 96.51 2.23 92.03 7.48 47.21 8.16 41.43 177.1 29.62 177.5 35.45 180.53 79.24' fill={fill} stroke={stroke} strokeMiterlimit='10' strokeWidth='3' />
+        <path d='M449.7,65.21l-127.28,8.9h0l-14.47,1-36.77,2.57-.34-4.93-3-43.55-.41-5.9L435.19,11.58q.85,3,1.7,5.94,6.17,21.66,11.5,42.5Q449.05,62.61,449.7,65.21Z' fill={fill} stroke={stroke} strokeMiterlimit='10' strokeWidth='3' />
+        <line x1='436.89' y1='17.52' x2='267.82' y2='29.21' fill='none' stroke={stroke} strokeMiterlimit='10' strokeWidth='3' strokeDasharray='10' />
+        <line x1='177.5' y1='35.45' x2='7.48' y2='47.21' fill='none' stroke={stroke} strokeMiterlimit='10' strokeWidth='3' strokeDasharray='10' />
+        <line x1='448.39' y1='60.02' x2='270.83' y2='72.76' fill='none' stroke={stroke} strokeMiterlimit='10' strokeWidth='3' strokeDasharray='10' />
+        <polyline points='180.53 79.24 2.23 92.03 1.7 92.07' fill='none' stroke={stroke} strokeMiterlimit='10' strokeWidth='3' strokeDasharray='10' />
+        <circle cx='308.24' cy='47.21' r='6.89' transform='translate(-2.19 17.7)' fill={metalFill} />
+        <circle cx='139.24' cy='60.6' r='6.89' transform='translate(-3.24 8.06)' fill={metalFill} />
+      </g>
     </g>
   </svg>
 );
