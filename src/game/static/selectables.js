@@ -6,6 +6,7 @@ import ballgag from './icons/ballgag.png';
 import collar from './icons/collar.png';
 import eyeMask from './icons/eye-mask.png';
 import latexMask from './icons/latex-mask.png';
+import latexMaskPink from './icons/latex-mask-pink.png';
 import heartCollar from './icons/heart-collar.png';
 import hishiKarada from './icons/hishi-karada.png';
 import wand from './icons/wand.png';
@@ -160,34 +161,40 @@ export default [
         id: 5,
         name: 'latexMask',
         icon: latexMask,
-        clears: []
+        clears: [6]
       },
       {
         id: 6,
+        name: 'latexMaskPink',
+        icon: latexMaskPink,
+        clears: [5]
+      },
+      {
+        id: 7,
         name: 'heartCollar',
         icon: heartCollar,
         clears: [4]
       },
       {
-        id: 7,
+        id: 8,
         name: 'hishiKarada',
         icon: hishiKarada,
         clears: []
       },
       {
-        id: 8,
+        id: 9,
         name: 'wand',
         icon: wand,
         clears: []
       },
       {
-        id: 9,
+        id: 10,
         name: 'ankleCuffs',
         icon: ankleCuffs,
         clears: []
       },
       {
-        id: 10,
+        id: 11,
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]

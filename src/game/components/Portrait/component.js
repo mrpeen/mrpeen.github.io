@@ -39,6 +39,8 @@ const Portrait = ({condom, toys}) => (
 
     {toys.latexMask && <LatexMask />}
 
+    {toys.latexMaskPink && <LatexMask fill="#f4abf3" stroke="#ef83ee" />}
+
     {toys.heartCollar && <HeartCollar />}
 
     {toys.hishiKarada && <Karada />}
