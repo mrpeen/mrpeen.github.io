@@ -137,7 +137,7 @@ export default [
         id: 1,
         name: 'handcuffs',
         icon: handcuffs,
-        clears: [10]
+        clears: [11]
       },
       {
         id: 2,
@@ -155,7 +155,7 @@ export default [
         id: 4,
         name: 'collar',
         icon: collar,
-        clears: [6]
+        clears: [7]
       },
       {
         id: 5,
