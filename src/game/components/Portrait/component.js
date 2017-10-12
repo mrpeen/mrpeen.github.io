@@ -35,6 +35,8 @@ const Portrait = ({condom, toys}) => (
 
     {toys.collar && <Collar />}
 
+    {toys.collarRed && <Collar fill="#e51b04" stroke="#b71603" />}
+
     {toys.wand && <Wand />}
 
     {toys.latexMask && <LatexMask />}
