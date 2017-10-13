@@ -2,6 +2,7 @@ import React from 'react';
 
 import MrPeen from '../Peen';
 import Condom from '../Condom';
+import Bubble from '../Bubble';
 import {
   AnkleCuffs,
   Ballgag,
@@ -36,6 +37,8 @@ const Portrait = ({condom, toys, background}) => (
       style={getStyle(background)}>
 
       <MrPeen />
+
+      {toys.thoughtBubble && <Bubble />}
 
       {condom && <Condom />}
 

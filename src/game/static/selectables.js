@@ -14,6 +14,7 @@ import hishiKarada from './icons/hishi-karada.png';
 import wand from './icons/wand.png';
 import ankleCuffs from './icons/ankle-cuffs.png';
 import ropeCuffs from './icons/rope-cuffs.png';
+import thoughtBubble from './icons/thought-bubble.png';
 import room from './icons/room.png';
 import Clouds from './icons/clouds.png';
 import Galaxy from './icons/galaxy.jpg';
@@ -255,6 +256,13 @@ export default [
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
+      },
+      {
+        id: 14,
+        type: 'icon',
+        name: 'thoughtBubble',
+        icon: thoughtBubble,
+        clears: []
       }
     ]
   },
