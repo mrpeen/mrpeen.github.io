@@ -15,12 +15,18 @@ import wand from './icons/wand.png';
 import ankleCuffs from './icons/ankle-cuffs.png';
 import ropeCuffs from './icons/rope-cuffs.png';
 import room from './icons/room.png';
-import Clouds from './backgrounds/clouds.png';
-import Galaxy from './backgrounds/galaxy.jpg';
-import Galaxy2 from './backgrounds/galaxy2.jpg';
-import Galaxy3 from './backgrounds/galaxy3.jpg';
-import Sharks from './backgrounds/sharks.jpg';
-import Sparkle from './backgrounds/sparkle.png';
+import Clouds from './icons/clouds.png';
+import Galaxy from './icons/galaxy.jpg';
+import Galaxy2 from './icons/galaxy2.jpg';
+import Galaxy3 from './icons/galaxy3.jpg';
+import Sharks from './icons/sharks.jpg';
+import Sparkle from './icons/sparkle.png';
+import CloudsBg from './backgrounds/clouds.png';
+import GalaxyBg from './backgrounds/galaxy.jpg';
+import Galaxy2Bg from './backgrounds/galaxy2.jpg';
+import Galaxy3Bg from './backgrounds/galaxy3.jpg';
+import SharksBg from './backgrounds/sharks.jpg';
+import SparkleBg from './backgrounds/sparkle.png';
 
 export default [
   {
@@ -331,32 +337,38 @@ export default [
       {
         id: 6,
         type: 'background',
-        fill: Clouds
+        fill: CloudsBg,
+        icon: Clouds
       },
       {
         id: 7,
         type: 'background',
-        fill: Galaxy
+        fill: GalaxyBg,
+        icon: Galaxy
       },
       {
         id: 8,
         type: 'background',
-        fill: Galaxy2
+        fill: Galaxy2Bg,
+        icon: Galaxy2
       },
       {
         id: 9,
         type: 'background',
-        fill: Galaxy3
+        fill: Galaxy3Bg,
+        icon: Galaxy3
       },
       {
         id: 10,
         type: 'background',
-        fill: Sharks
+        fill: SharksBg,
+        icon: Sharks
       },
       {
         id: 11,
         type: 'background',
-        fill: Sparkle
+        fill: SparkleBg,
+        icon: Sparkle
       }
     ]
   }

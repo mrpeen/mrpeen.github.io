@@ -27,7 +27,7 @@ const getItem = (
     default: 
       return (<Circle
                 id={id}
-                background={fill}
+                background={icon}
                 onClick={onClickBackground} />)
   }
 }
