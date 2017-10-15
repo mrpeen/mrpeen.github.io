@@ -3,75 +3,75 @@ import React from 'react';
 import './style.css';
 
 const LatexMask = ({fill = '#000', stroke = '#000'}) => (
-  <svg className="LatexMask" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.33 436.33'>
-    <g id='Ebene_2' dataname='Ebene 2'>
+  <svg className="LatexMask" id='Ebene_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.3 436.3'>
+    <g id='Ebene_2'>
       <g id='Mask'>
-        <g id='Ebene_2-2' dataname='Ebene 2'>
-          <path d='M532.29,327.55c-73.06-441.64-499.83-430.47-530,0C-2.2,391.69-2.77,419,56.87,433.72h0c65.7,10.92,403.12-23.92,429.28-32.95l.05,0C519.24,389.37,539.78,365.69,532.29,327.55Zm-427-99.39a23.29,23.29,0,1,1,23.29-23.29A23.29,23.29,0,0,1,105.26,228.16Zm297.63-17.61a23.29,23.29,0,1,1,23.29-23.29A23.29,23.29,0,0,1,402.89,210.55Z' stroke={stroke} fill={fill} strokeMiterlimit='10' id='Mr_Peen' dataName='Mr Peen' />
+        <g id='Ebene_2-2'>
+          <path className='st0' stroke={stroke} fill={fill} strokeMiterlimit='10' d='M532.4,328c-73.1-441.6-499.8-430.5-530,0c-4.5,64.1-5.1,91.5,54.6,106.2l0,0 c65.7,10.9,403.1-23.9,429.3-33h0C519.3,389.8,539.9,366.1,532.4,328z M105.4,228.6c-12.9,0-23.3-10.4-23.3-23.3 S92.5,182,105.4,182s23.3,10.4,23.3,23.3C128.7,218.1,118.2,228.6,105.4,228.6C105.4,228.6,105.4,228.6,105.4,228.6L105.4,228.6 z M403,211c-12.9,0-23.3-10.4-23.3-23.3c0-12.9,10.4-23.3,23.3-23.3c12.9,0,23.3,10.4,23.3,23.3C426.3,200.5,415.9,211,403,211 C403,211,403,211,403,211L403,211z' id='Mr_Peen' />
         </g>
-        <rect x='171.75' y='264.9' width='4.17' height='8' transform='rotate(-4.7 173.859 268.917)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='172.9' y='278.86' width='4.17' height='8' transform='rotate(-4.7 174.995 282.876)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='177.73' y='264.41' width='4.17' height='8' transform='rotate(-4.7 179.859 268.43)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='178.88' y='278.37' width='4.17' height='8' transform='rotate(-4.7 180.995 282.39)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='183.71' y='263.92' width='4.17' height='8' transform='rotate(-4.7 185.859 267.944)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='184.86' y='277.87' width='4.17' height='8' transform='rotate(-4.7 186.995 281.904)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='189.69' y='263.43' width='4.17' height='8' transform='rotate(-4.7 191.737 267.453)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='190.84' y='277.38' width='4.17' height='8' transform='rotate(-4.7 192.995 281.418)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='195.67' y='262.94' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.21 17.1)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='196.82' y='276.89' width='4.17' height='8' transform='rotate(-4.7 198.995 280.932)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='201.65' y='262.45' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.15 17.59)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='202.8' y='276.4' width='4.17' height='8' transform='rotate(-4.7 204.995 280.446)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='207.63' y='261.95' width='4.17' height='8' transform='rotate(-4.7 209.737 265.995)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='208.78' y='275.91' width='4.17' height='8' transform='rotate(-4.7 210.873 279.955)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='213.61' y='261.46' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.03 18.57)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='214.76' y='275.42' width='4.17' height='8' transform='rotate(-4.7 216.873 279.469)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='219.59' y='260.97' width='4.17' height='8' transform='rotate(-4.7 221.616 265.018)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='220.74' y='274.92' width='4.17' height='8' transform='rotate(-4.7 222.873 278.983)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='225.57' y='260.48' width='4.17' height='8' transform='rotate(-4.7 227.616 264.532)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='226.72' y='274.43' width='4.17' height='8' transform='rotate(-4.7 228.873 278.497)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='231.55' y='259.99' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -20.84 20.03)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='232.7' y='273.94' width='4.17' height='8' transform='rotate(-4.7 234.756 277.884)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='237.53' y='259.5' width='4.17' height='8' transform='rotate(-4.7 239.616 263.56)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='238.68' y='273.45' width='4.17' height='8' transform='rotate(-4.7 240.756 277.398)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='243.51' y='259' width='4.17' height='8' transform='rotate(-4.7 245.62 262.952)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='244.66' y='272.96' width='4.17' height='8' transform='rotate(-4.7 246.756 276.912)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='249.49' y='258.51' width='4.17' height='8' transform='rotate(-4.7 251.499 262.461)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='250.64' y='272.47' width='4.17' height='8' transform='rotate(-4.7 252.756 276.426)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='255.47' y='258.02' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -20.6 21.98)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='256.62' y='271.97' width='4.17' height='8' transform='rotate(-4.7 258.756 275.94)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='261.45' y='257.53' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -20.54 22.47)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='262.6' y='271.48' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.68 22.61)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='267.43' y='257.04' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -20.48 22.96)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='268.58' y='270.99' width='4.17' height='8' transform='rotate(-4.7 270.635 274.963)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='273.41' y='256.55' width='4.17' height='8' transform='rotate(-4.7 275.499 260.517)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='274.56' y='270.5' width='4.17' height='8' transform='rotate(-4.7 276.635 274.477)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='279.39' y='256.05' width='4.17' height='8' transform='rotate(-4.7 281.5 260.031)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='280.54' y='270.01' width='4.17' height='8' transform='rotate(-4.7 282.635 273.99)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='285.37' y='255.56' width='4.17' height='8' transform='rotate(-4.7 287.5 259.545)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='286.52' y='269.52' width='4.17' height='8' transform='rotate(-4.7 288.635 273.505)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='291.35' y='255.07' width='4.17' height='8' transform='rotate(-4.7 293.377 259.054)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='292.5' y='269.02' width='4.17' height='8' transform='rotate(-4.7 294.513 273.014)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='297.33' y='254.58' width='4.17' height='8' transform='rotate(-4.7 299.377 258.568)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='298.48' y='268.53' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.32 25.54)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='303.31' y='254.09' width='4.17' height='8' transform='rotate(-4.7 305.377 258.082)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='304.46' y='268.04' width='4.17' height='8' transform='rotate(-4.7 306.513 272.042)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='309.29' y='253.6' width='4.17' height='8' transform='rotate(-4.7 311.377 257.596)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='310.44' y='267.55' width='4.17' height='8' transform='rotate(-4.7 312.513 271.556)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='315.27' y='253.1' width='4.17' height='8' transform='rotate(-4.7 317.377 257.11)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='316.42' y='267.06' width='4.17' height='8' transform='rotate(-4.7 318.513 271.07)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='321.25' y='252.61' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -19.94 27.36)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='322.4' y='266.57' width='4.17' height='8' transform='rotate(-4.7 324.513 270.584)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='327.23' y='252.12' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -19.88 27.84)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='328.38' y='266.07' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -21.02 27.99)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='333.21' y='251.63' width='4.17' height='8' transform='matrix(1 -.08 .08 1 -19.82 28.33)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='334.36' y='265.58' width='4.17' height='8' transform='rotate(-4.7 336.391 269.606)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='172.06' y='268.37' width='163.04' height='2' transform='rotate(-4.7 253.656 269.384)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='172.06' y='268.24' width='166.17' height='2' transform='rotate(-4.7 255.123 269.322)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <rect x='162.98' y='265.53' width='7' height='22' transform='rotate(-4.7 166.467 276.546)' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <path d='M358.09,260.78h0a10.13,10.13,0,0,1,0,1.67,10.7,10.7,0,0,1-1.45,4.72,2.6,2.6,0,0,1-2.45-1.43,2.52,2.52,0,0,1-.27-1.38,3.2,3.2,0,0,0,2.69-2.42,3,3,0,0,0,.09-1.05c0-.11,0-.23,0-.34a3.24,3.24,0,1,0-4.22,3.68,4.2,4.2,0,0,0,.22,2l.2.47,1.61,3.17a10.94,10.94,0,0,1-6.43,2.77l-.5,0h0l-7,.57-1.8-21.93,7-.57h0l.5-.05A11,11,0,0,1,358.09,260.78Z' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <path d='M373.2,288.07l-7.58,3.84-11.15-22-1.61-3.17-.2-.47a4.2,4.2,0,0,1-.22-2,4.24,4.24,0,0,1,2.29-3.24,4,4,0,0,1,1.93-.44c0,.11,0,.23,0,.34a3,3,0,0,1-.09,1.05,2.63,2.63,0,0,0-2.69,2.42,2.52,2.52,0,0,0,.27,1.38,2.6,2.6,0,0,0,2.45,1.43,2.47,2.47,0,0,0,1.07-.28,2.6,2.6,0,0,0,1.16-3.52,2.55,2.55,0,0,0-.78-.93,10.13,10.13,0,0,0,0-1.67,4.18,4.18,0,0,1,2.1,1.64c.09.14.17.29.26.44Z' fill='#bfbfbf' stroke='#7f7c7c' strokeMiterlimit='10' />
-        <path d='M514.59,313.42a81.5,81.5,0,0,1-104.11,78.26q4.09.38,8.29.38a91.58,91.58,0,0,0,89.78-109.45A80.92,80.92,0,0,1,514.59,313.42Z' fill='#fff' />
-        <path d='M229.79,26.55c97.67-20.83,192.58,36.11,212,127.16a157.31,157.31,0,0,1,2.83,47.35q-1-8.46-2.75-17C420,81.78,313.39,17.78,203.63,41.19A216.42,216.42,0,0,0,165.51,53,191,191,0,0,1,229.79,26.55Z' fill='#fff' />
+        <rect x='171.8' y='265.3' transform='scale(.99996) rotate(-4.7 173.916 269.32)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='173' y='279.3' transform='scale(.99996) rotate(-4.7 175.067 283.278)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='177.8' y='264.8' transform='scale(.99996) rotate(-4.7 179.896 268.83)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='179' y='278.8' transform='scale(.99996) rotate(-4.7 181.046 282.789)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='183.8' y='264.3' transform='scale(.99996) rotate(-4.7 185.876 268.342)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='184.9' y='278.3' transform='scale(.99996) rotate(-4.7 187.025 282.291)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='189.8' y='263.8' transform='scale(.99996) rotate(-4.7 191.856 267.844)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='190.9' y='277.8' transform='scale(.99996) rotate(-4.7 193.005 281.803)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='195.9' y='263.2' transform='matrix(.9968 -.07975 .07975 .9968 -20.677 16.64)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='196.9' y='277.3' transform='matrix(.9966 -.08194 .08194 .9966 -22.381 17.25)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='201.7' y='262.8' transform='matrix(.9968 -.07975 .07975 .9968 -20.628 17.102)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='202.9' y='276.8' transform='scale(.99996) rotate(-4.7 204.964 280.826)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='207.7' y='262.4' transform='scale(.99996) rotate(-4.7 209.795 266.37)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='208.9' y='276.3' transform='matrix(.9966 -.08194 .08194 .9966 -22.26 18.227)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' width='4.2' height='8' />
+        <rect x='213.7' y='262' transform='matrix(.9968 -.07975 .07975 .9968 -20.526 18.053)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='214.8' y='275.8' transform='matrix(.9966 -.08194 .08194 .9966 -22.2 18.715)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='219.7' y='261.4' transform='matrix(.9966 -.08194 .08194 .9966 -21 19.063)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='220.8' y='275.3' transform='scale(.99996) rotate(-4.7 222.903 279.34)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='225.6' y='260.9' transform='matrix(.9966 -.08194 .08194 .9966 -20.94 19.55)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='226.8' y='274.9' transform='matrix(.9966 -.08194 .08194 .9966 -22.08 19.692)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='231.6' y='260.3' transform='matrix(.9968 -.07975 .07975 .9968 -20.333 19.478)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='232.8' y='274.4' transform='scale(.99996) rotate(-4.7 234.872 278.354)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='237.6' y='259.9' transform='scale(.99996) rotate(-4.7 239.693 263.918)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='238.8' y='273.9' transform='matrix(.9966 -.08194 .08194 .9966 -21.958 20.67)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='243.6' y='259.4' transform='scale(.99996) rotate(-4.7 245.682 263.419)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='244.7' y='273.4' transform='scale(.99996) rotate(-4.7 246.832 277.378)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='249.6' y='258.9' transform='scale(.99996) rotate(-4.7 251.661 262.921)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='250.7' y='272.9' transform='scale(.99996) rotate(-4.7 252.811 276.89)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='255.5' y='258.6' transform='matrix(.9968 -.07975 .07975 .9968 -20.126 21.38)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='256.7' y='272.4' transform='scale(.99996) rotate(-4.7 258.79 276.39)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='261.5' y='258.1' transform='matrix(.9968 -.07975 .07975 .9968 -20.063 21.856)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='262.7' y='271.8' transform='matrix(.9968 -.07975 .07975 .9968 -21.153 21.992)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='267.6' y='257.4' transform='matrix(.9968 -.07975 .07975 .9968 -19.988 22.336)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='268.7' y='271.4' transform='scale(.99996) rotate(-4.7 270.75 275.405)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='273.5' y='257' transform='scale(.99996) rotate(-4.7 275.58 260.968)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='274.6' y='270.9' transform='matrix(.9966 -.08194 .08194 .9966 -21.596 23.6)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='279.5' y='256.5' transform='scale(.99996) rotate(-4.7 281.56 260.469)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='280.6' y='270.4' transform='scale(.99996) rotate(-4.7 282.71 274.427)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='285.5' y='256' transform='scale(.99996) rotate(-4.7 287.54 259.98)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='286.6' y='269.9' transform='scale(.99996) rotate(-4.7 288.69 273.94)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='291.4' y='255.5' transform='scale(.99996) rotate(-4.7 293.52 259.483)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='292.6' y='269.4' transform='scale(.99996) rotate(-4.7 294.668 273.432)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='297.4' y='255' transform='scale(.99996) rotate(-4.7 299.499 258.993)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='298.6' y='269' transform='matrix(.9968 -.07975 .07975 .9968 -20.814 24.846)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='303.4' y='254.5' transform='matrix(.9966 -.08194 .08194 .9966 -20.154 25.9)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='304.5' y='268.5' transform='matrix(.9966 -.08194 .08194 .9966 -21.293 26.04)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='309.4' y='254' transform='scale(.99996) rotate(-4.7 311.459 258.017)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='310.5' y='268' transform='matrix(.9966 -.08194 .08194 .9966 -21.233 26.53)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='315.4' y='253.5' transform='scale(.99996) rotate(-4.7 317.437 257.52)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='316.5' y='267.5' transform='scale(.99996) rotate(-4.7 318.588 271.478)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='321.6' y='253.1' transform='matrix(.9968 -.07975 .07975 .9968 -19.475 26.63)' className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='322.5' y='267' transform='scale(.99996) rotate(-4.7 324.567 270.989)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='327.8' y='252.5' transform='matrix(.9968 -.07975 .07975 .9968 -19.404 27.123)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='328.5' y='266.3' transform='matrix(.9968 -.07975 .07975 .9968 -20.5 27.226)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='333.3' y='251.8' transform='matrix(.9968 -.07975 .07975 .9968 -19.334 27.563)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='334.4' y='266' transform='scale(.99996) rotate(-4.7 336.525 269.993)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='4.2' height='8' />
+        <rect x='172.1' y='268.8' transform='scale(.99996) rotate(-4.7 253.662 269.794)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='163' height='2' />
+        <rect x='172.1' y='268.7' transform='scale(.99996) rotate(-4.7 255.22 269.655)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='166.2' height='2' />
+        <rect x='163.1' y='265.9' transform='matrix(.9966 -.08194 .08194 .9966 -22.132 14.58)' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' width='7' height='22' />
+        <path className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' d='M358.2,261.2L358.2,261.2c0,0.6,0,1.1,0,1.7c-0.1,1.7-0.6,3.3-1.5,4.7c-1,0.1-2-0.5-2.5-1.4 c-0.2-0.4-0.3-0.9-0.3-1.4c1.3-0.2,2.4-1.1,2.7-2.4c0.1-0.3,0.1-0.7,0.1-1c0-0.1,0-0.2,0-0.3c-0.3-1.8-2-2.9-3.8-2.6 c-1.8,0.3-2.9,2-2.6,3.8c0.2,1.1,1,2.1,2.1,2.5c-0.1,0.7,0,1.4,0.2,2l0.2,0.5l1.6,3.2c-1.8,1.6-4,2.6-6.4,2.8h-0.5l0,0l-7,0.6 l-1.8-21.9l7-0.6l0,0l0.5-0.1C352.4,250.6,357.7,255.1,358.2,261.2z' />
+        <path className='st1' fill='#BFBFBF' stroke='#7F7C7C' strokeMiterlimit='10' d='M373.3,288.5l-7.6,3.8l-11.1-22l-1.6-3.2l-0.2-0.5c-0.2-0.6-0.3-1.3-0.2-2c0.2-1.4,1-2.6,2.3-3.2 c0.6-0.3,1.3-0.5,1.9-0.4c0,0.1,0,0.2,0,0.3c0,0.4,0,0.7-0.1,1c-1.4,0-2.6,1-2.7,2.4c0,0.5,0.1,1,0.3,1.4c0.5,0.9,1.4,1.5,2.5,1.4 c0.4,0,0.7-0.1,1.1-0.3c1.3-0.6,1.8-2.2,1.2-3.5c0,0,0,0,0,0c-0.2-0.4-0.4-0.7-0.8-0.9c0-0.6,0-1.1,0-1.7c0.9,0.3,1.6,0.9,2.1,1.6 c0.1,0.1,0.2,0.3,0.3,0.4L373.3,288.5z' />
+        <path className='st2' fill='#FFF' d='M514.7,313.8c0,45-36.5,81.5-81.5,81.5c-7.6,0-15.2-1.1-22.6-3.2c2.7,0.3,5.5,0.4,8.3,0.4 c50.6,0,91.6-41,91.5-91.6c0-6-0.6-12-1.8-17.8C512.6,292.8,514.7,303.3,514.7,313.8z' />
+        <path className='st2' fill='#FFF' d='M229.9,27c97.7-20.8,192.6,36.1,212,127.2c3.3,15.5,4.3,31.5,2.8,47.3c-0.7-5.6-1.6-11.3-2.8-17 C420.1,82.2,313.5,18.2,203.7,41.6c-13,2.8-25.8,6.7-38.1,11.8C185.2,40.7,207,31.8,229.9,27z' />
       </g>
     </g>
   </svg>
