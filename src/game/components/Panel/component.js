@@ -71,7 +71,6 @@ const Panel = ({
           <Circle
             isReset={true}
             selected={selected}
-            text="Clear"
             onClick={() => onClickBackground(null)} />
         </div>}
   </div>

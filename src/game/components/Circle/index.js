@@ -2,14 +2,14 @@ import React from 'react';
 
 import './style.css';
 
-const Circle = ({fill, onClick, id, selected, isReset, text = 'Take off', background}) => {
+const Circle = ({fill, onClick, id, selected, isReset, background}) => {
   if (isReset) {
     return (
       <span
         onClick={onClick}
         className="Circle Circle--reset">
         <span className="Circle--label">
-          {text}
+          Clear
         </span>
       </span>
     )
