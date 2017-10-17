@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Circle from '../Circle';
+import SkintonePanel from '../SkintonePanel';
 import './style.css';
 
 const getItem = (
@@ -43,7 +44,10 @@ const Panel = ({
   onClickBackground
 }) => (
   <div className="Panel">
-    {items.map((item) => 
+
+    {selected === 'skintone' && <SkintonePanel />}
+
+    {/* {items.map((item) => 
       <div
         key={item.id}
         className="Panel--Item"> 
@@ -72,7 +76,7 @@ const Panel = ({
             isReset={true}
             selected={selected}
             onClick={() => onClickBackground(null)} />
-        </div>}
+        </div>} */}
   </div>
 );
 

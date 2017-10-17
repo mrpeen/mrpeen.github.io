@@ -3,8 +3,7 @@ const mrPeenDefault = {
   blush: 1,
   condom: null,
   toys: [],
-  background: null,
-  thought: ''
+  background: null
 };
 
 export default mrPeenDefault;
