@@ -3,8 +3,8 @@ import React from 'react';
 import Circle from '../Circle';
 // import './style.css';
 
-const SkintonePanel = ({items, active, onClick}) => (
-  <div className="SkintonePanel">
+const MakeUpPanel = ({items, active, onClick}) => (
+  <div className="MakeUpPanel">
     {items.map(({fill, id}) => 
       <div
         key={id}
@@ -17,4 +17,4 @@ const SkintonePanel = ({items, active, onClick}) => (
   </div>
 );
 
-export default SkintonePanel;
+export default MakeUpPanel;
