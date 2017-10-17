@@ -25,7 +25,7 @@ const pickPanel = (selected) => {
 }
 
 const Panel = ({selected}) => (
-  <div className="Panel">
+  <div className="PanelWrapper">
     {pickPanel(selected)}
   </div>
 );

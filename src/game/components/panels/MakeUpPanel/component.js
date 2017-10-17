@@ -1,19 +1,17 @@
 import React from 'react';
 
 import Circle from '../../Circle';
-// import './style.css';
+import PanelItem from '../atoms/PanelItem';
 
 const MakeUpPanel = ({items, active, onClick}) => (
   <div className="MakeUpPanel">
     {items.map(({fill, id}) => 
-      <div
-        key={id}
-        className="Panel--Item"> 
+      <PanelItem key={id}>
           <Circle
             id={id}
             fill={fill}
             onClick={onClick} />
-      </div>)}
+      </PanelItem>)}
   </div>
 );
 

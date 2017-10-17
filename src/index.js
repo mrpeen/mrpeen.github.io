@@ -18,6 +18,7 @@ const unsubscribe = store.subscribe(() =>
 );
 
 store.dispatch(addSelectables());
+unsubscribe();
 
 ReactDOM.render(
   <Provider store={store}>

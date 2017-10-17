@@ -1,19 +1,17 @@
 import React from 'react';
 
 import Circle from '../../Circle';
-// import './style.css';
+import PanelItem from '../atoms/PanelItem';
 
 const SkintonePanel = ({items, active, onClick}) => (
   <div className="SkintonePanel">
     {items.map(({fill, id}) => 
-      <div
-        key={id}
-        className="Panel--Item"> 
-          <Circle
-            id={id}
-            fill={fill}
-            onClick={onClick} />
-      </div>)}
+      <PanelItem key={id}> 
+        <Circle
+          id={id}
+          fill={fill}
+          onClick={onClick} />
+      </PanelItem>)}
   </div>
 );
 

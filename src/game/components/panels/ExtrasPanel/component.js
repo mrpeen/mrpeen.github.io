@@ -1,25 +1,23 @@
 import React from 'react';
 
 import Circle from '../../Circle';
-// import './style.css';
+import PanelItem from '../atoms/PanelItem';
 
 const ExtrasPanel = ({items, active, onClick}) => (
   <div className="ExtrasPanel">
     {items.map(({fill, id}) => 
-      <div
-        key={id}
-        className="Panel--Item"> 
-          <Circle
-            id={id}
-            fill={fill}
-            onClick={onClick} />
-      </div>)}
+      <PanelItem key={id}>
+        <Circle
+          id={id}
+          fill={fill}
+          onClick={onClick} />
+      </PanelItem>)}
 
-    <div className="Panel--Item">
-      <Circle
-        isReset={true}
-        onClick={() => onClick(null)} />
-    </div>
+      <PanelItem>
+        <Circle
+          isReset={true}
+          onClick={() => onClick(null)} />
+      </PanelItem>
   </div>
 );
 
