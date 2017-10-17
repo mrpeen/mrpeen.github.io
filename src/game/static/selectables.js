@@ -35,7 +35,6 @@ export default [
     name: 'skintone',
     icon: peen,
     isSelected: true,
-    toClear: false,
     items: [
       {
         id: 1,
@@ -107,10 +106,9 @@ export default [
   },
   {
     id: 2,
-    name: 'blush',
+    name: 'makeUp',
     icon: blush,
     isSelected: false,
-    toClear: false,
     items: [
       {
         id: 1,
@@ -164,7 +162,6 @@ export default [
     name: 'toys',
     icon: handcuffs,
     isSelected: false,
-    toClear: true,
     items: [
       {
         id: 1,
@@ -268,10 +265,9 @@ export default [
   },
   {
     id: 4,
-    name: 'condom',
+    name: 'extras',
     icon: condom,
     isSelected: false,
-    toClear: true,
     items: [
       {
         id: 1,
@@ -315,7 +311,6 @@ export default [
     name: 'background',
     icon: room,
     isSelected: false,
-    toClear: true,
     items: [
       {
         id: 1,

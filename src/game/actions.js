@@ -33,17 +33,17 @@ export function selectSkintone(skintone) {
   }
 }
 
-export function selectBlush(blush) {
+export function selectBlush(makeUp) {
   return {
     type: SELECT_BLUSH,
-    blush
+    makeUp
   }
 }
 
-export function selectCondom(condom) {
+export function selectCondom(extra) {
   return {
     type: SELECT_CONDOM,
-    condom
+    extra
   }
 }
 

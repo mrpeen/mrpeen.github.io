@@ -1,10 +1,9 @@
 const mrPeenDefault = {
   skintone: 1,
-  blush: 1,
-  condom: null,
+  makeUp: 1,
+  extras: null,
   toys: [],
-  background: null,
-  thought: ''
+  background: null
 };
 
 export default mrPeenDefault;

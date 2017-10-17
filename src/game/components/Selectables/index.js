@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Controls from '../Controls';
-import Panel from '../Panel';
+import Panel from '../PanelWrapper';
 import './style.css';
 
 const Selectables = () => (

@@ -29,7 +29,7 @@ export default class Bubble extends React.Component {
         <input
           ref={(input) => { this.textInput = input; }}
           type="text"
-          maxlength={15} />
+          maxLength={15} />
       </div>
     );
   }
