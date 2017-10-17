@@ -12,7 +12,7 @@ const mapStateToProps = (state) => {
 
   return {
     skintone: objSelectables.skintone.find(({id}) => peen.skintone === id),
-    blush: objSelectables.blush.find(({id}) => peen.blush === id)
+    blush: objSelectables.makeUp.find(({id}) => peen.makeUp === id)
   }
 }
 

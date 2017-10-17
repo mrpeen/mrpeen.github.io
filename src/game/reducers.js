@@ -48,7 +48,7 @@ function peen(state = mrPeenDefault, action) {
     case SELECT_BLUSH:
       return {
         ...state,
-        blush: action.blush
+        makeUp: action.makeUp
       }
     case SELECT_CONDOM:
       return {

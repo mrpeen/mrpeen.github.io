@@ -107,7 +107,7 @@ export default [
   },
   {
     id: 2,
-    name: 'blush',
+    name: 'makeUp',
     icon: blush,
     isSelected: false,
     toClear: false,
