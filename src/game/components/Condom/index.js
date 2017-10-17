@@ -4,10 +4,9 @@ import Condom from './component';
 
 const mapStateToProps = (state) => {
   const {peen, selectables} = state;
-  const condoms = selectables.find(({name}) => name === 'condom').items;
-
+  const extras = selectables.find(({name}) => name === 'extras').items;
   return {
-    condom: condoms.find(({id}) => peen.condom === id)
+    condom: extras.find(({id}) => peen.extras === id)
   }
 }
 

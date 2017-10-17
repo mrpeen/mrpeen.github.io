@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-const Circle = ({fill, onClick, id, selected, isReset, background}) => {
+const Circle = ({fill, onClick, id, isReset, background}) => {
   if (isReset) {
     return (
       <span
@@ -24,7 +24,7 @@ const Circle = ({fill, onClick, id, selected, isReset, background}) => {
   }
   return (
     <span
-      onClick={() => onClick(id, selected)}
+      onClick={() => onClick(id)}
       style={{backgroundColor: fill}}
       className="Circle" />
   )

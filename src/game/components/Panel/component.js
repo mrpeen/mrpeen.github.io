@@ -4,6 +4,7 @@ import Circle from '../Circle';
 import SkintonePanel from '../SkintonePanel';
 import MakeUpPanel from '../MakeUpPanel';
 import ToysPanel from '../ToysPanel';
+import ExtrasPanel from '../ExtrasPanel';
 import './style.css';
 
 const getItem = (
@@ -52,6 +53,8 @@ const Panel = ({
     {selected === 'makeUp' && <MakeUpPanel />}
 
     {selected === 'toys' && <ToysPanel />}
+
+    {selected === 'extras' && <ExtrasPanel />}
 
     {/* {items.map((item) => 
       <div

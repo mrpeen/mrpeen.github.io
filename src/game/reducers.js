@@ -53,7 +53,7 @@ function peen(state = mrPeenDefault, action) {
     case SELECT_CONDOM:
       return {
         ...state,
-        condom: action.condom
+        extras: action.extra
       }
     case ADD_TOY:
       return {

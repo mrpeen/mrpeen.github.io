@@ -40,10 +40,10 @@ export function selectBlush(makeUp) {
   }
 }
 
-export function selectCondom(condom) {
+export function selectCondom(extra) {
   return {
     type: SELECT_CONDOM,
-    condom
+    extra
   }
 }
 

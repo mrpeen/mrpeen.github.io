@@ -268,7 +268,7 @@ export default [
   },
   {
     id: 4,
-    name: 'condom',
+    name: 'extras',
     icon: condom,
     isSelected: false,
     toClear: true,
