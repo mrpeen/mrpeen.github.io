@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import BackgroundPanel from './component';
-import { setBackground } from '../../actions';
+import { setBackground } from '../../../actions';
 
 const mapStateToProps = ({selectables, peen}) => {
   const backgrounds = selectables.find(({name}) => name === 'background')

@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import Panel from './component';
+import PanelWrapper from './component';
 
 const mapStateToProps = ({selectables}) => {
   const selected = selectables.find(item => item.isSelected);
@@ -9,8 +9,8 @@ const mapStateToProps = ({selectables}) => {
   }
 }
 
-const PanelContainer = connect(
+const PanelWrapperContainer = connect(
   mapStateToProps,
-)(Panel);
+)(PanelWrapper);
 
-export default PanelContainer;
+export default PanelWrapperContainer;

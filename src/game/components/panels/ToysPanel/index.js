@@ -6,7 +6,7 @@ import {
   removeToy,
   clearAndAddToys,
   removeAllToys
-} from '../../actions';
+} from '../../../actions';
 
 const mapStateToProps = ({selectables, peen}) => {
   const toys = selectables.find(({name}) => name === 'toys')

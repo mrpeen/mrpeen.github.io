@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Circle from '../Circle';
+import Circle from '../../Circle';
 // import './style.css';
 
 const ExtrasPanel = ({items, active, onClick}) => (

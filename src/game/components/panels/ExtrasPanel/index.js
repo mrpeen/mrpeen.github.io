@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import ExtrasPanel from './component';
-import { selectCondom } from '../../actions';
+import { selectCondom } from '../../../actions';
 
 const mapStateToProps = ({selectables, peen}) => {
   const extras = selectables.find(({name}) => name === 'extras')

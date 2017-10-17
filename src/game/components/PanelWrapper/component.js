@@ -1,10 +1,12 @@
 import React from 'react';
 
-import SkintonePanel from '../SkintonePanel';
-import MakeUpPanel from '../MakeUpPanel';
-import ToysPanel from '../ToysPanel';
-import ExtrasPanel from '../ExtrasPanel';
-import BackgroundPanel from '../BackgroundPanel';
+import {
+  SkintonePanel,
+  MakeUpPanel,
+  ToysPanel,
+  ExtrasPanel,
+  BackgroundPanel
+} from '../panels';
 import './style.css';
 
 const Panel = ({selected}) => (

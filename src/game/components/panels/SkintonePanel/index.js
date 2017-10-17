@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import SkintonePanel from './component';
-import { selectSkintone } from '../../actions';
+import { selectSkintone } from '../../../actions';
 
 const mapStateToProps = ({selectables, peen}) => {
   const skintone = selectables.find(({name}) => name === 'skintone')
