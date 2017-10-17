@@ -5,6 +5,7 @@ import SkintonePanel from '../SkintonePanel';
 import MakeUpPanel from '../MakeUpPanel';
 import ToysPanel from '../ToysPanel';
 import ExtrasPanel from '../ExtrasPanel';
+import BackgroundPanel from '../BackgroundPanel';
 import './style.css';
 
 const getItem = (
@@ -56,6 +57,7 @@ const Panel = ({
 
     {selected === 'extras' && <ExtrasPanel />}
 
+    {selected === 'background' && <BackgroundPanel />}
     {/* {items.map((item) => 
       <div
         key={item.id}
