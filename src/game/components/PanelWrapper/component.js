@@ -9,17 +9,24 @@ import {
 } from '../panels';
 import './style.css';
 
+const pickPanel = (selected) => {
+  switch(selected) {
+    case 'skintone':
+      return <SkintonePanel />
+    case 'makeUp':
+      return <MakeUpPanel />
+    case 'toys':
+      return <ToysPanel />
+    case 'extras':
+      return <ExtrasPanel />
+    default:
+      return <BackgroundPanel />
+  }
+}
+
 const Panel = ({selected}) => (
   <div className="Panel">
-    {selected === 'skintone' && <SkintonePanel />}
-
-    {selected === 'makeUp' && <MakeUpPanel />}
-
-    {selected === 'toys' && <ToysPanel />}
-
-    {selected === 'extras' && <ExtrasPanel />}
-
-    {selected === 'background' && <BackgroundPanel />}
+    {pickPanel(selected)}
   </div>
 );
 
