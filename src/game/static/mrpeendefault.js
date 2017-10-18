@@ -1,7 +1,7 @@
 const mrPeenDefault = {
   skintone: 1,
   makeUp: 1,
-  extras: null,
+  extras: [],
   toys: [],
   background: null
 };

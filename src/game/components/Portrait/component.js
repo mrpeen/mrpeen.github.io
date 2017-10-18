@@ -29,7 +29,7 @@ const getStyle = (background) => {
   return {backgroundColor: fill}
 }
 
-const Portrait = ({condom, toys, background}) => (
+const Portrait = ({condom, toys, background, thoughtBubble}) => (
   <div className="Portrait">
     <div
       id="Photo"
@@ -38,7 +38,7 @@ const Portrait = ({condom, toys, background}) => (
 
       <MrPeen />
 
-      {toys.thoughtBubble && <Bubble />}
+      {thoughtBubble && <Bubble />}
 
       {condom && 
         <Condom

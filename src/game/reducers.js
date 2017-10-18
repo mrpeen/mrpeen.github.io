@@ -11,6 +11,10 @@ import {
   REMOVE_TOY,
   REMOVE_ALL_TOYS,
   CLEAR_AND_ADD_TOYS,
+  ADD_EXTRA,
+  REMOVE_EXTRA,
+  REMOVE_ALL_EXTRAS,
+  CLEAR_AND_ADD_EXTRAS,
   SET_BACKGROUND,
   RESET
 } from './actions';
@@ -80,6 +84,32 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         toys: []
+      }
+    case ADD_EXTRA:
+      return {
+        ...state,
+        extras: [
+          ...state.extras,
+          action.extra
+        ]
+      }
+    case REMOVE_EXTRA:
+      return {
+        ...state,
+        extras: state.extras.filter(extra => extra !== action.extra)
+      }
+    case CLEAR_AND_ADD_EXTRAS:
+      return {
+        ...state,
+        extras: [
+          ...state.extras.filter(extra => action.clearables.indexOf(extra) < 0),
+          action.newExtra
+        ]
+      }
+    case REMOVE_ALL_EXTRAS:
+      return {
+        ...state,
+        extras: []
       }
     case SET_BACKGROUND:
       return {

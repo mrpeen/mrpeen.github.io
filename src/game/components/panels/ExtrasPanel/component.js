@@ -5,7 +5,7 @@ import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
 
-const ExtrasPanel = ({items, active, onClick}) => (
+const ExtrasPanel = ({items, active, onClick, onClickClear}) => (
   <div className="ExtrasPanel">
     {items.map(({id, fill, icon, clears, type}) => 
       <PanelItem key={id}>
@@ -20,7 +20,7 @@ const ExtrasPanel = ({items, active, onClick}) => (
       <PanelItem>
         <Circle
           isReset={true}
-          onClick={() => onClick(null)} />
+          onClick={onClickClear} />
       </PanelItem>
   </div>
 );

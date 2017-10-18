@@ -1,7 +1,12 @@
 import { connect } from 'react-redux';
 
 import ExtrasPanel from './component';
-import { selectCondom } from '../../../actions';
+import {
+  addExtra,
+  removeExtra,
+  clearAndAddExtras,
+  removeAllExtras
+} from '../../../actions';
 
 const mapStateToProps = ({selectables, peen}) => {
   const extras = selectables.find(({name}) => name === 'extras')
@@ -14,8 +19,16 @@ const mapStateToProps = ({selectables, peen}) => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    onClick: (id) => {
-      dispatch(selectCondom(id));
+    onClick: (id, active, clears) => {
+      if (active.indexOf(id) >= 0) {
+        return dispatch(removeExtra(id));
+      } else {
+        if (clears.length) return dispatch(clearAndAddExtras(id, clears));
+        return dispatch(addExtra(id));
+      }
+    },
+    onClickClear: () => {
+      dispatch(removeAllExtras());
     }
   }
 }

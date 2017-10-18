@@ -11,7 +11,8 @@ const mapStateToProps = (state) => {
   const selectedToys = toysList.filter(({id}) => toys.indexOf(id) >= 0) || [];
 
   return {
-    condom: extrasList.find(({id}) => extras === id),
+    condom: extrasList.find(({id, type}) => extras.indexOf(id) > -1 && type === 'condom'),
+    thoughtBubble: extrasList.find(({id, type}) => extras.indexOf(id) > -1 && type === 'thoughtBubble'),
     toys: selectedToys.reduce((acc, item, index) => {
       acc[item.name] = item;
       return acc;

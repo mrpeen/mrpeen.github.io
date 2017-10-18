@@ -9,6 +9,10 @@ export const ADD_TOY = 'ADD_TOY';
 export const REMOVE_TOY = 'REMOVE_TOY';
 export const REMOVE_ALL_TOYS = 'REMOVE_ALL_TOYS';
 export const CLEAR_AND_ADD_TOYS = 'CLEAR_AND_ADD_TOYS';
+export const ADD_EXTRA = 'ADD_EXTRA';
+export const REMOVE_EXTRA = 'REMOVE_EXTRA';
+export const REMOVE_ALL_EXTRAS = 'REMOVE_ALL_EXTRAS';
+export const CLEAR_AND_ADD_EXTRAS = 'CLEAR_AND_ADD_EXTRAS';
 export const SET_BACKGROUND = 'SET_BACKGROUND';
 export const RESET = 'RESET';
 
@@ -72,6 +76,34 @@ export function clearAndAddToys(newToy, clearables) {
 export function removeAllToys() {
   return {
     type: REMOVE_ALL_TOYS
+  }
+}
+
+export function addExtra(extra) {
+  return {
+    type: ADD_EXTRA,
+    extra
+  }
+}
+
+export function removeExtra(extra) {
+  return {
+    type: REMOVE_EXTRA,
+    extra
+  }
+}
+
+export function clearAndAddExtras(newExtra, clearables) {
+  return {
+    type: CLEAR_AND_ADD_EXTRAS,
+    newExtra,
+    clearables
+  }
+}
+
+export function removeAllExtras() {
+  return {
+    type: REMOVE_ALL_EXTRAS
   }
 }
 
