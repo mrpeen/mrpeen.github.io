@@ -13,6 +13,7 @@ import {
   Karada,
   LatexMask,
   MiniPeen,
+  PeenPaddle,
   RopeCuffs,
   SlutPaddle,
   Wand
@@ -87,6 +88,8 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.miniPeen && <MiniPeen />}
 
       {toys.slutPaddle && <SlutPaddle />}
+
+      {toys.peenPaddle && <PeenPaddle />}
     </div>
   </div>
 );

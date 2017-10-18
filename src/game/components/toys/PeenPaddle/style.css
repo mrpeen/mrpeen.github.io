@@ -1,0 +1,7 @@
+.PeenPaddle {
+  width: 27%;
+  position: absolute;
+  top: 55.8%;
+  left: 41.5%;
+  z-index: 5;
+}
