@@ -221,12 +221,6 @@ export default [
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
-      },
-      {
-        id: 14,
-        name: 'thoughtBubble',
-        icon: thoughtBubble,
-        clears: []
       }
     ]
   },
@@ -264,19 +258,28 @@ export default [
         id: 5,
         fill: '#82edde',
         type: 'condom',
+        imgType: 'svg',
         clears: [1, 2, 3, 4, 6, 7]
       },
       {
         id: 6,
         fill: '#f78f25',
         type: 'condom',
+        imgType: 'svg',
         clears: [1, 2, 3, 4, 5, 7]
       },
       {
         id: 7,
         fill: '#edf3fc',
         type: 'condom',
+        imgType: 'svg',
         clears: [1, 2, 3, 4, 5, 6]
+      },
+      {
+        id: 14,
+        type: 'thoughtBubble',
+        icon: thoughtBubble,
+        clears: []
       }
     ]
   },

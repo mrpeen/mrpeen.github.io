@@ -5,25 +5,15 @@ import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
 
-const getIcon = (item) => {
-  switch(item.type) {
-    case 'condom':
-      return <Condom
-              color={item.fill}
-              type='icon' />
-    default:
-      return ''
-  }
-}
-
 const ExtrasPanel = ({items, active, onClick}) => (
   <div className="ExtrasPanel">
-    {items.map((item) => 
-      <PanelItem key={item.id}>
+    {items.map(({id, fill, icon, clears, type}) => 
+      <PanelItem key={id}>
         <PanelItemIcon
-          key={item.id}
-          onClick={() => onClick(item.id, active, item.clears)}>
-          {getIcon(item)}
+          key={id}
+          icon={icon}
+          onClick={() => onClick(id, active, clears)}>
+          {type === 'condom' && <Condom color={fill} type='icon' />}
         </PanelItemIcon>
       </PanelItem>)}
 
