@@ -294,32 +294,32 @@ export default [
       },
       {
         id: 6,
-        fill: CloudsBg,
+        image: CloudsBg,
         icon: Clouds
       },
       {
         id: 7,
-        fill: GalaxyBg,
+        image: GalaxyBg,
         icon: Galaxy
       },
       {
         id: 8,
-        fill: Galaxy2Bg,
+        image: Galaxy2Bg,
         icon: Galaxy2
       },
       {
         id: 9,
-        fill: Galaxy3Bg,
+        image: Galaxy3Bg,
         icon: Galaxy3
       },
       {
         id: 10,
-        fill: SharksBg,
+        image: SharksBg,
         icon: Sharks
       },
       {
         id: 11,
-        fill: SparkleBg,
+        image: SparkleBg,
         icon: Sparkle
       }
     ]

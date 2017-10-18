@@ -20,10 +20,10 @@ import './style.css';
 const getStyle = (background) => {
   if (!background) return;
 
-  const fill = background.fill;
-  
-  if (background.type === 'background') {
-    return {backgroundImage: `url(${fill})`}
+  const {image, fill} = background;
+
+  if (image) {
+    return {backgroundImage: `url(${image})`}
   }
 
   return {backgroundColor: fill}
