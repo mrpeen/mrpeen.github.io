@@ -8,6 +8,7 @@ import Karada from './Karada';
 import LatexMask from './LatexMask';
 import MiniPeen from './MiniPeen';
 import RopeCuffs from './RopeCuffs';
+import SlutPaddle from './SlutPaddle';
 import Wand from './Wand';
 
 export {
@@ -21,5 +22,6 @@ export {
   LatexMask,
   MiniPeen,
   RopeCuffs,
+  SlutPaddle,
   Wand
 }

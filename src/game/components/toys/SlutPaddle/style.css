@@ -1,0 +1,7 @@
+.SlutPaddle {
+  width: 27%;
+  position: absolute;
+  top: 55.7%;
+  left: 41.3%;
+  z-index: 5;
+}

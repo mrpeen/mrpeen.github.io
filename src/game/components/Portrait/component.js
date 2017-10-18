@@ -14,6 +14,7 @@ import {
   LatexMask,
   MiniPeen,
   RopeCuffs,
+  SlutPaddle,
   Wand
 } from '../toys';
 import './style.css';
@@ -84,6 +85,8 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.ankleCuffs && <AnkleCuffs />}
 
       {toys.miniPeen && <MiniPeen />}
+
+      {toys.slutPaddle && <SlutPaddle />}
     </div>
   </div>
 );
