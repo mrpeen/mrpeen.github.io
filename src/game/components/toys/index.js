@@ -6,6 +6,7 @@ import Handcuffs from './Handcuffs';
 import HeartCollar from './HeartCollar';
 import Karada from './Karada';
 import LatexMask from './LatexMask';
+import MiniPeen from './MiniPeen';
 import RopeCuffs from './RopeCuffs';
 import Wand from './Wand';
 
@@ -18,6 +19,7 @@ export {
   HeartCollar,
   Karada,
   LatexMask,
+  MiniPeen,
   RopeCuffs,
   Wand
 }

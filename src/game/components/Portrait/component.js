@@ -12,6 +12,7 @@ import {
   HeartCollar,
   Karada,
   LatexMask,
+  MiniPeen,
   RopeCuffs,
   Wand
 } from '../toys';
@@ -81,6 +82,8 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.hishiKarada && <Karada />}
 
       {toys.ankleCuffs && <AnkleCuffs />}
+
+      {toys.miniPeen && <MiniPeen />}
     </div>
   </div>
 );

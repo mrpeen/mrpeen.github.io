@@ -207,7 +207,7 @@ export default [
         id: 11,
         name: 'wand',
         icon: wand,
-        clears: []
+        clears: [14]
       },
       {
         id: 12,
@@ -221,6 +221,27 @@ export default [
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
+      },
+      {
+        id: 14,
+        type: 'icon',
+        name: 'miniPeen',
+        icon: '',
+        clears: [11]
+      },
+      {
+        id: 15,
+        type: 'icon',
+        name: 'slutPaddle',
+        icon: '',
+        clears: [16]
+      },
+      {
+        id: 16,
+        type: 'icon',
+        name: 'peenPaddle',
+        icon: '',
+        clears: [15]
       }
     ]
   },
