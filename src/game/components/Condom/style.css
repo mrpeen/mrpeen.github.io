@@ -1,8 +1,12 @@
-.Condom {
+.Condom--portrait {
   width: 44%;
   margin: 150px 200px;
   position: absolute;
   top: -9%;
   left: -.3%;
   z-index: 5;
+}
+
+.Condom--icon {
+  width: 60%;
 }

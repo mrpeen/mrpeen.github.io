@@ -40,7 +40,10 @@ const Portrait = ({condom, toys, background}) => (
 
       {toys.thoughtBubble && <Bubble />}
 
-      {condom && <Condom />}
+      {condom && 
+        <Condom
+          color={condom.fill}
+          type="portrait" />}
 
       {toys.handcuffs && <Handcuffs />}
 
@@ -52,13 +55,19 @@ const Portrait = ({condom, toys, background}) => (
 
       {toys.collar && <Collar />}
 
-      {toys.collarRed && <Collar fill="#e51b04" stroke="#b71603" />}
+      {toys.collarRed &&
+        <Collar
+          fill="#e51b04"
+          stroke="#b71603" />}
 
       {toys.wand && <Wand />}
 
       {toys.latexMask && <LatexMask />}
 
-      {toys.latexMaskPink && <LatexMask fill="#f4abf3" stroke="#ef83ee" />}
+      {toys.latexMaskPink &&
+        <LatexMask
+          fill="#f4abf3"
+          stroke="#ef83ee" />}
 
       {toys.heartCollar && <HeartCollar />}
 

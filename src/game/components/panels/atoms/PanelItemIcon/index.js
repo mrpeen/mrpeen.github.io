@@ -2,11 +2,13 @@ import React from 'react';
 
 import './style.css';
 
-const PanelItemIcon = ({icon, name, onClick}) => (
+const PanelItemIcon = ({icon, name, onClick, children}) => (
   <span
     className="PanelItemIcon"
     onClick={onClick}>
-    <img src={icon} alt={name} />
+    {icon ?
+      <img src={icon} alt={name} />
+      : children}
   </span>
 );
 

@@ -238,31 +238,45 @@ export default [
     items: [
       {
         id: 1,
-        fill: '#FFABE6'
+        fill: '#FFABE6',
+        type: 'condom',
+        clears: [2, 3, 4, 5, 6, 7]
       },
       {
         id: 2,
-        fill: '#71e5f2'
+        fill: '#71e5f2',
+        type: 'condom',
+        clears: [1, 3, 4, 5, 6, 7]
       },
       {
         id: 3,
-        fill: '#ada9f2'
+        fill: '#ada9f2',
+        type: 'condom',
+        clears: [1, 2, 4, 5, 6, 7]
       },
       {
         id: 4,
-        fill: '#e8d90b'
+        fill: '#e8d90b',
+        type: 'condom',
+        clears: [1, 2, 3, 5, 6, 7]
       },
       {
         id: 5,
-        fill: '#82edde'
+        fill: '#82edde',
+        type: 'condom',
+        clears: [1, 2, 3, 4, 6, 7]
       },
       {
         id: 6,
-        fill: '#f78f25'
+        fill: '#f78f25',
+        type: 'condom',
+        clears: [1, 2, 3, 4, 5, 7]
       },
       {
         id: 7,
-        fill: '#edf3fc'
+        fill: '#edf3fc',
+        type: 'condom',
+        clears: [1, 2, 3, 4, 5, 6]
       }
     ]
   },
