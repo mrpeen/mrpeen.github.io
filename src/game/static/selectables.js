@@ -16,6 +16,9 @@ import ankleCuffs from './icons/ankle-cuffs.png';
 import ropeCuffs from './icons/rope-cuffs.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import room from './icons/room.png';
+import miniPeen from './icons/mini-peen.png';
+import slutPaddle from './icons/slut-paddle.png';
+import peenPaddle from './icons/peen-paddle.png';
 import Clouds from './icons/clouds.png';
 import Galaxy from './icons/galaxy.jpg';
 import Galaxy2 from './icons/galaxy2.jpg';
@@ -226,21 +229,21 @@ export default [
         id: 14,
         type: 'icon',
         name: 'miniPeen',
-        icon: '',
+        icon: miniPeen,
         clears: [11]
       },
       {
         id: 15,
         type: 'icon',
         name: 'slutPaddle',
-        icon: '',
+        icon: slutPaddle,
         clears: [16]
       },
       {
         id: 16,
         type: 'icon',
         name: 'peenPaddle',
-        icon: '',
+        icon: peenPaddle,
         clears: [15]
       }
     ]
