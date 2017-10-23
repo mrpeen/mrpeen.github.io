@@ -36,6 +36,7 @@ import SharksBg from './backgrounds/sharks.jpg';
 import SparkleBg from './backgrounds/sparkle.png';
 import roomBg from './backgrounds/room.png';
 import heartPatternBg from './backgrounds/heart-pattern.png';
+import heartFrameBg from './backgrounds/heart-frame.jpg';
 
 export default [
   {
@@ -399,6 +400,12 @@ export default [
         image: heartPatternBg,
         icon: heartPattern,
         type: 'pattern'
+      },
+      {
+        id: 14,
+        image: heartFrameBg,
+        icon: heartFrameBg,
+        type: 'cover'
       }
     ]
   }
