@@ -19,6 +19,8 @@ import room from './icons/room.png';
 import miniPeen from './icons/mini-peen.png';
 import slutPaddle from './icons/slut-paddle.png';
 import peenPaddle from './icons/peen-paddle.png';
+import dildo from './icons/dildo.png';
+import buttPlug from './icons/butt-plug.png';
 import Clouds from './icons/clouds.png';
 import Galaxy from './icons/galaxy.jpg';
 import Galaxy2 from './icons/galaxy2.jpg';
@@ -211,7 +213,7 @@ export default [
         id: 11,
         name: 'wand',
         icon: wand,
-        clears: [14]
+        clears: [14, 17, 18]
       },
       {
         id: 12,
@@ -231,7 +233,7 @@ export default [
         type: 'icon',
         name: 'miniPeen',
         icon: miniPeen,
-        clears: [11]
+        clears: [11, 17, 18]
       },
       {
         id: 15,
@@ -246,6 +248,20 @@ export default [
         name: 'peenPaddle',
         icon: peenPaddle,
         clears: [15]
+      },
+      {
+        id: 17,
+        type: 'icon',
+        name: 'dildo',
+        icon: dildo,
+        clears: [14, 11, 18]
+      },
+      {
+        id: 18,
+        type: 'icon',
+        name: 'buttPlug',
+        icon: buttPlug,
+        clears: [14, 11, 17]
       }
     ]
   },

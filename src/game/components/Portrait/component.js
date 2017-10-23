@@ -7,6 +7,7 @@ import {
   AnkleCuffs,
   Ballgag,
   Collar,
+  Dildo,
   EyeMask,
   Handcuffs,
   HeartCollar,
@@ -90,6 +91,8 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.slutPaddle && <SlutPaddle />}
 
       {toys.peenPaddle && <PeenPaddle />}
+
+      {toys.dildo && <Dildo />}
     </div>
   </div>
 );
