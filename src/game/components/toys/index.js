@@ -1,5 +1,6 @@
 import AnkleCuffs from './AnkleCuffs';
 import Ballgag from './Ballgag';
+import ButtPlug from './ButtPlug';
 import Collar from './Collar';
 import Dildo from './Dildo';
 import EyeMask from './EyeMask';
@@ -16,6 +17,7 @@ import Wand from './Wand';
 export {
   AnkleCuffs,
   Ballgag,
+  ButtPlug,
   Collar,
   Dildo,
   EyeMask,

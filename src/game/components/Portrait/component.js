@@ -6,6 +6,7 @@ import Bubble from '../Bubble';
 import {
   AnkleCuffs,
   Ballgag,
+  ButtPlug,
   Collar,
   Dildo,
   EyeMask,
@@ -93,6 +94,8 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.peenPaddle && <PeenPaddle />}
 
       {toys.dildo && <Dildo />}
+
+      {toys.buttPlug && <ButtPlug />}
     </div>
   </div>
 );
