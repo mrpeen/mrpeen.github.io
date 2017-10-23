@@ -27,6 +27,7 @@ import Galaxy2 from './icons/galaxy2.jpg';
 import Galaxy3 from './icons/galaxy3.jpg';
 import Sharks from './icons/sharks.jpg';
 import Sparkle from './icons/sparkle.png';
+import heartPattern from './icons/heart-pattern.png';
 import CloudsBg from './backgrounds/clouds.png';
 import GalaxyBg from './backgrounds/galaxy.jpg';
 import Galaxy2Bg from './backgrounds/galaxy2.jpg';
@@ -34,6 +35,7 @@ import Galaxy3Bg from './backgrounds/galaxy3.jpg';
 import SharksBg from './backgrounds/sharks.jpg';
 import SparkleBg from './backgrounds/sparkle.png';
 import roomBg from './backgrounds/room.png';
+import heartPatternBg from './backgrounds/heart-pattern.png';
 
 export default [
   {
@@ -353,37 +355,50 @@ export default [
       {
         id: 6,
         image: CloudsBg,
-        icon: Clouds
+        icon: Clouds,
+        type: 'cover'
       },
       {
         id: 7,
         image: GalaxyBg,
-        icon: Galaxy
+        icon: Galaxy,
+        type: 'cover'
       },
       {
         id: 8,
         image: Galaxy2Bg,
-        icon: Galaxy2
+        icon: Galaxy2,
+        type: 'cover'
       },
       {
         id: 9,
         image: Galaxy3Bg,
-        icon: Galaxy3
+        icon: Galaxy3,
+        type: 'cover'
       },
       {
         id: 10,
         image: SharksBg,
-        icon: Sharks
+        icon: Sharks,
+        type: 'cover'
       },
       {
         id: 11,
         image: SparkleBg,
-        icon: Sparkle
+        icon: Sparkle,
+        type: 'cover'
       },
       {
         id: 12,
         image: roomBg,
-        icon: room
+        icon: room,
+        type: 'cover'
+      },
+      {
+        id: 13,
+        image: heartPatternBg,
+        icon: heartPattern,
+        type: 'pattern'
       }
     ]
   }

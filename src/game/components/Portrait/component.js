@@ -25,10 +25,14 @@ import './style.css';
 const getStyle = (background) => {
   if (!background) return;
 
-  const {image, fill} = background;
+  const {image, fill, type} = background;
 
   if (image) {
-    return {backgroundImage: `url(${image})`}
+    return {
+      backgroundImage: `url(${image})`,
+      backgroundSize: type === 'cover' && 'cover',
+      backgroundRepeat: type === 'cover' && 'no-repeat'
+    }
   }
 
   return {backgroundColor: fill}
