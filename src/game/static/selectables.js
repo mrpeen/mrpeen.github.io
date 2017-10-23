@@ -31,6 +31,7 @@ import Galaxy2Bg from './backgrounds/galaxy2.jpg';
 import Galaxy3Bg from './backgrounds/galaxy3.jpg';
 import SharksBg from './backgrounds/sharks.jpg';
 import SparkleBg from './backgrounds/sparkle.png';
+import roomBg from './backgrounds/room.png';
 
 export default [
   {
@@ -362,6 +363,11 @@ export default [
         id: 11,
         image: SparkleBg,
         icon: Sparkle
+      },
+      {
+        id: 12,
+        image: roomBg,
+        icon: room
       }
     ]
   }
