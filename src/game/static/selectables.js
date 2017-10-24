@@ -37,6 +37,7 @@ import SparkleBg from './backgrounds/sparkle.png';
 import roomBg from './backgrounds/room.png';
 import heartPatternBg from './backgrounds/heart-pattern.png';
 import heartFrameBg from './backgrounds/heart-frame.jpg';
+import dungeon from './backgrounds/dungeon.png';
 
 export default [
   {
@@ -405,6 +406,12 @@ export default [
         id: 14,
         image: heartFrameBg,
         icon: heartFrameBg,
+        type: 'cover'
+      },
+      {
+        id: 15,
+        image: dungeon,
+        icon: dungeon,
         type: 'cover'
       }
     ]
