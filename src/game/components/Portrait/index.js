@@ -4,20 +4,26 @@ import Portrait from './component';
 
 const mapStateToProps = (state) => {
   const {selectables, peen} = state;
-  const {extras, toys, background} = peen;
-  const backgroundsList = selectables.find(({name}) => name === 'background').items;
-  const toysList = selectables.find(({name}) => name === 'toys').items;
-  const extrasList = selectables.find(({name}) => name === 'extras').items;
-  const selectedToys = toysList.filter(({id}) => toys.indexOf(id) >= 0) || [];
+  const {extras, toys, background, makeUp, skintone} = peen;
+
+  const objSelectables = selectables.reduce((acc, item, index) => {
+    acc[item.name] = item.items;
+    return acc;
+  }, {})
+
+  const selectedToys = objSelectables.toys.filter(({id}) => toys.indexOf(id) >= 0) || [];
 
   return {
-    condom: extrasList.find(({id, type}) => extras.indexOf(id) > -1 && type === 'condom'),
-    thoughtBubble: extrasList.find(({id, type}) => extras.indexOf(id) > -1 && type === 'thoughtBubble'),
+    background: objSelectables.background.find(({id}) => id === background),
+    skintone: objSelectables.skintone.find(({id}) => skintone === id),
+    blush: objSelectables.makeUp.find(({id}) => makeUp === id),
+    condom: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'condom'),
+    babyPeen: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'peen'),
+    thoughtBubble: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'thoughtBubble'),
     toys: selectedToys.reduce((acc, item, index) => {
       acc[item.name] = item;
       return acc;
-    }, {}),
-    background: backgroundsList.find(({id}) => id === background)
+    }, {}),  
   }
 }
 

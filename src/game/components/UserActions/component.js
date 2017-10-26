@@ -6,7 +6,7 @@ import './style.css';
 
 const onExport = () => {
   domtoimage.toBlob(document.getElementById('Photo'))
-    .then(function (blob) {
+    .then(blob => {
       FileSaver.saveAs(blob, 'mr-peen.png');
     });
 }

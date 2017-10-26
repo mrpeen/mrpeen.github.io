@@ -1,4 +1,16 @@
-.MrPeen {
+.MrPeen--icon {
+  width: 64%;
+}
+
+.MrPeen--portrait {
   width: 44%;
   margin: 150px 198px;
+}
+
+.MrPeen--mini {
+  position: absolute;
+  z-index: 7;
+  width: 18%;
+  left: 56%;
+  top: 56%;
 }

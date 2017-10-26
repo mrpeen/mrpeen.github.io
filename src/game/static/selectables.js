@@ -303,25 +303,43 @@ export default [
         id: 5,
         fill: '#82edde',
         type: 'condom',
-        imgType: 'svg',
         clears: [1, 2, 3, 4, 6, 7]
       },
       {
         id: 6,
         fill: '#f78f25',
         type: 'condom',
-        imgType: 'svg',
         clears: [1, 2, 3, 4, 5, 7]
       },
       {
         id: 7,
         fill: '#edf3fc',
         type: 'condom',
-        imgType: 'svg',
         clears: [1, 2, 3, 4, 5, 6]
       },
       {
-        id: 14,
+        id: 8,
+        fill: '#FFC9EF',
+        stroke: '#FFABE6',
+        type: 'peen',
+        clears: [9, 10]
+      },
+      {
+        id: 9,
+        fill: '#a6fcfc',
+        stroke: '#71e5f2',
+        type: 'peen',
+        clears: [8, 10]
+      },
+      {
+        id: 10,
+        fill: '#f7f25d',
+        stroke: '#e8d90b',
+        type: 'peen',
+        clears: [8, 9]
+      },
+      {
+        id: 11,
         type: 'thoughtBubble',
         icon: thoughtBubble,
         clears: []

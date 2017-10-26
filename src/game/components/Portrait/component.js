@@ -38,14 +38,24 @@ const getStyle = (background) => {
   return {backgroundColor: fill}
 }
 
-const Portrait = ({condom, toys, background, thoughtBubble}) => (
+const Portrait = ({
+  condom,
+  toys,
+  background,
+  thoughtBubble,
+  skintone,
+  blush,
+  babyPeen}) => (
   <div className="Portrait">
     <div
       id="Photo"
       className="Photo"
       style={getStyle(background)}>
 
-      <MrPeen />
+      <MrPeen
+        type="portrait"
+        skintone={skintone}
+        blush={blush.fill} />
 
       {thoughtBubble && <Bubble />}
 
@@ -100,6 +110,11 @@ const Portrait = ({condom, toys, background, thoughtBubble}) => (
       {toys.dildo && <Dildo />}
 
       {toys.buttPlug && <ButtPlug />}
+
+      {babyPeen &&
+        <MrPeen type="mini"
+          skintone={{fill: babyPeen.fill, stroke: babyPeen.stroke}}
+          blush="#ff81d2" />}
     </div>
   </div>
 );
