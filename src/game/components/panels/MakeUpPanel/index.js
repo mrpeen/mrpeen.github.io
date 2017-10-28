@@ -28,6 +28,9 @@ const mapDispatchToProps = dispatch => {
         if (clearables.length) return dispatch(clearAndAddMakeUp(id, clearables));
         return dispatch(addMakeUp(id));
       }
+    },
+    onClickClear: () => {
+      dispatch(removeAllMakeUp());
     }
   }
 }

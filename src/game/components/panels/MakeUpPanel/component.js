@@ -1,10 +1,11 @@
 import React from 'react';
 
 import Blush from '../../Blush';
+import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
 
-const MakeUpPanel = ({items, active, onClick}) => (
+const MakeUpPanel = ({items, active, onClick, onClickClear}) => (
   <div className="MakeUpPanel">
     {items.map(({fill, id, type, icon, clears}) => 
       <PanelItem key={id}>
@@ -14,6 +15,12 @@ const MakeUpPanel = ({items, active, onClick}) => (
           {type === 'blush' && <Blush color={fill} />}
         </PanelItemIcon>
       </PanelItem>)}
+
+      <PanelItem>
+        <Circle
+          isReset={true}
+          onClick={onClickClear} />
+      </PanelItem>
   </div>
 );
 
