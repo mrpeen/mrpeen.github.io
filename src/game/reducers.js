@@ -5,7 +5,6 @@ import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
   SELECT_CONTROL,
-  SELECT_BLUSH,
   SELECT_CONDOM,
   ADD_TOY,
   REMOVE_TOY,
@@ -15,6 +14,10 @@ import {
   REMOVE_EXTRA,
   REMOVE_ALL_EXTRAS,
   CLEAR_AND_ADD_EXTRAS,
+  ADD_MAKE_UP,
+  REMOVE_MAKE_UP,
+  REMOVE_ALL_MAKE_UP,
+  CLEAR_AND_ADD_MAKE_UP,
   SET_BACKGROUND,
   RESET
 } from './actions';
@@ -48,11 +51,6 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         skintone: action.skintone
-      }
-    case SELECT_BLUSH:
-      return {
-        ...state,
-        makeUp: action.makeUp
       }
     case SELECT_CONDOM:
       return {
@@ -110,6 +108,35 @@ function peen(state = mrPeenDefault, action) {
       return {
         ...state,
         extras: []
+      }
+    case ADD_MAKE_UP:
+      return {
+        ...state,
+        makeUp: [
+          ...state.makeUp,
+          action.makeUpItem
+        ]
+      }
+    case REMOVE_MAKE_UP:
+      return {
+        ...state,
+        makeUp: [
+          state.makeUp.filter(makeUpItem => makeUpItem !== action.makeUpItem),
+          ...1
+        ]
+      }
+    case CLEAR_AND_ADD_MAKE_UP:
+      return {
+        ...state,
+        makeUp: [
+          ...state.makeUp.filter(makeUpItem => action.clearables.indexOf(makeUpItem) < 0),
+          action.newMakeUpItems
+        ]
+      }
+    case REMOVE_ALL_MAKE_UP:
+      return {
+        ...state,
+        makeUp: [1]
       }
     case SET_BACKGROUND:
       return {

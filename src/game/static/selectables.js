@@ -15,6 +15,7 @@ import wand from './icons/wand.png';
 import ankleCuffs from './icons/ankle-cuffs.png';
 import ropeCuffs from './icons/rope-cuffs.png';
 import thoughtBubble from './icons/thought-bubble.png';
+import lashes from './icons/lashes.png';
 import room from './icons/room.png';
 import miniPeen from './icons/mini-peen.png';
 import slutPaddle from './icons/slut-paddle.png';
@@ -113,37 +114,48 @@ export default [
         id: 1,
         fill: '#ff81d2',
         type: 'blush',
-        clears: []
+        clears: [2, 3, 4, 5, 6, 7, 8]
       },
       {
         id: 2,
         fill: '#FFC9EF',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 3, 4, 5, 6, 7, 8]
       },
       {
         id: 3,
         fill: '#ea8f8f',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 2, 4, 5, 6, 7, 8]
       },
       {
         id: 4,
         fill: '#f4c6ce',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 2, 3, 5, 6, 7, 8]
       },
       {
         id: 6,
         fill: '#fcd4ed',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 2, 3, 4, 5, 7, 8]
       },
       {
         id: 7,
         fill: '#ed7bb2',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 2, 3, 4, 5, 6, 8]
       },
       {
         id: 8,
         fill: '#f28ef2',
-        type: 'blush'
+        type: 'blush',
+        clears: [1, 2, 3, 4, 5, 6, 7]
+      },
+      {
+        id: 9,
+        type: 'lashes',
+        icon: lashes
       }
     ]
   },

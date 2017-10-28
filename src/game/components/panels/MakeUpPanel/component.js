@@ -6,9 +6,11 @@ import PanelItemIcon from '../atoms/PanelItemIcon';
 
 const MakeUpPanel = ({items, active, onClick}) => (
   <div className="MakeUpPanel">
-    {items.map(({fill, id, type}) => 
+    {items.map(({fill, id, type, icon, clears}) => 
       <PanelItem key={id}>
-        <PanelItemIcon onClick={() => onClick(id)}>
+        <PanelItemIcon
+          icon={icon}
+          onClick={() => onClick(id, active, clears, type)}>
           {type === 'blush' && <Blush color={fill} />}
         </PanelItemIcon>
       </PanelItem>)}
