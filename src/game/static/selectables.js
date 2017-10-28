@@ -111,39 +111,39 @@ export default [
     items: [
       {
         id: 1,
-        fill: '#ff81d2'
+        fill: '#ff81d2',
+        type: 'blush',
+        clears: []
       },
       {
         id: 2,
-        fill: '#ea8f8f'
+        fill: '#FFC9EF',
+        type: 'blush'
       },
       {
         id: 3,
-        fill: '#FFC9EF'
+        fill: '#ea8f8f',
+        type: 'blush'
       },
       {
         id: 4,
-        fill: '#f7a3b1'
-      },
-      {
-        id: 5,
-        fill: '#f4c6ce'
+        fill: '#f4c6ce',
+        type: 'blush'
       },
       {
         id: 6,
-        fill: '#ed7bb2'
+        fill: '#fcd4ed',
+        type: 'blush'
       },
       {
         id: 7,
-        fill: '#f49c61'
+        fill: '#ed7bb2',
+        type: 'blush'
       },
       {
         id: 8,
-        fill: '#f28ef2'
-      },
-      {
-        id: 9,
-        fill: '#fcd4ed'
+        fill: '#f28ef2',
+        type: 'blush'
       }
     ]
   },
