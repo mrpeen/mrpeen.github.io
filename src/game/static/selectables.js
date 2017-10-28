@@ -155,7 +155,8 @@ export default [
       {
         id: 9,
         type: 'lashes',
-        icon: lashes
+        icon: lashes,
+        clears: []
       }
     ]
   },

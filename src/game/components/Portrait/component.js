@@ -2,6 +2,7 @@ import React from 'react';
 
 import MrPeen from '../Peen';
 import Condom from '../Condom';
+import Lashes from '../Lashes';
 import Bubble from '../Bubble';
 import {
   AnkleCuffs,
@@ -45,6 +46,7 @@ const Portrait = ({
   thoughtBubble,
   skintone,
   blush,
+  lashes,
   babyPeen}) => (
   <div className="Portrait">
     <div
@@ -56,6 +58,8 @@ const Portrait = ({
         type="portrait"
         skintone={skintone}
         blush={blush.fill} />
+
+      {lashes && <Lashes />}
 
       {thoughtBubble && <Bubble />}
 

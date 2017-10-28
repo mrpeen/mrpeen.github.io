@@ -120,10 +120,7 @@ function peen(state = mrPeenDefault, action) {
     case REMOVE_MAKE_UP:
       return {
         ...state,
-        makeUp: [
-          state.makeUp.filter(makeUpItem => makeUpItem !== action.makeUpItem),
-          ...1
-        ]
+        makeUp: state.makeUp.filter(makeUpItem => makeUpItem !== action.makeUpItem)
       }
     case CLEAR_AND_ADD_MAKE_UP:
       return {
@@ -136,7 +133,7 @@ function peen(state = mrPeenDefault, action) {
     case REMOVE_ALL_MAKE_UP:
       return {
         ...state,
-        makeUp: [1]
+        makeUp: mrPeenDefault.makeUp
       }
     case SET_BACKGROUND:
       return {
