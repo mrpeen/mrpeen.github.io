@@ -5,7 +5,6 @@ import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
   SELECT_CONTROL,
-  SELECT_CONDOM,
   ADD_TOY,
   REMOVE_TOY,
   REMOVE_ALL_TOYS,
@@ -21,6 +20,32 @@ import {
   SET_BACKGROUND,
   RESET
 } from './actions';
+
+const addItem = (state, id, type) => ({
+  ...state,
+  [type]: [
+    ...state[type],
+    id
+  ]
+});
+
+const removeItem = (state, id, type) => ({
+  ...state,
+  [type]: state[type].filter(item => item !== id)
+});
+
+const clearAndAddItems = (state, id, type, clearables) => ({
+  ...state,
+  [type]: [
+    ...state[type].filter(item => clearables.indexOf(item) < 0),
+    id
+  ]
+});
+
+const removeAllItems = (state, type, initial) => ({
+  ...state,
+  [type]: initial
+});
 
 function selectables(state = [], action) {
   switch(action.type) {
@@ -42,104 +67,42 @@ function selectables(state = [], action) {
 
 function peen(state = mrPeenDefault, action) {
   switch(action.type) {
-    case RESET:
-      return {
-        ...state,
-        ...mrPeenDefault
-      }
     case SELECT_SKINTONE:
       return {
         ...state,
         skintone: action.skintone
-      }
-    case SELECT_CONDOM:
-      return {
-        ...state,
-        extras: action.extra
-      }
-    case ADD_TOY:
-      return {
-        ...state,
-        toys: [
-          ...state.toys,
-          action.toy
-        ]
-      }
-    case REMOVE_TOY:
-      return {
-        ...state,
-        toys: state.toys.filter(toy => toy !== action.toy)
-      }
-    case CLEAR_AND_ADD_TOYS:
-      return {
-        ...state,
-        toys: [
-          ...state.toys.filter(toy => action.clearables.indexOf(toy) < 0),
-          action.newToy
-        ]
-      }
-    case REMOVE_ALL_TOYS:
-      return {
-        ...state,
-        toys: []
-      }
-    case ADD_EXTRA:
-      return {
-        ...state,
-        extras: [
-          ...state.extras,
-          action.extra
-        ]
-      }
-    case REMOVE_EXTRA:
-      return {
-        ...state,
-        extras: state.extras.filter(extra => extra !== action.extra)
-      }
-    case CLEAR_AND_ADD_EXTRAS:
-      return {
-        ...state,
-        extras: [
-          ...state.extras.filter(extra => action.clearables.indexOf(extra) < 0),
-          action.newExtra
-        ]
-      }
-    case REMOVE_ALL_EXTRAS:
-      return {
-        ...state,
-        extras: []
-      }
-    case ADD_MAKE_UP:
-      return {
-        ...state,
-        makeUp: [
-          ...state.makeUp,
-          action.makeUpItem
-        ]
-      }
-    case REMOVE_MAKE_UP:
-      return {
-        ...state,
-        makeUp: state.makeUp.filter(makeUpItem => makeUpItem !== action.makeUpItem)
-      }
-    case CLEAR_AND_ADD_MAKE_UP:
-      return {
-        ...state,
-        makeUp: [
-          ...state.makeUp.filter(makeUpItem => action.clearables.indexOf(makeUpItem) < 0),
-          action.newMakeUpItems
-        ]
-      }
-    case REMOVE_ALL_MAKE_UP:
-      return {
-        ...state,
-        makeUp: mrPeenDefault.makeUp
       }
     case SET_BACKGROUND:
       return {
         ...state,
         background: action.background
       }
+    case ADD_TOY:
+      return addItem(state, action.toy, 'toys')
+    case REMOVE_TOY:
+      return removeItem(state, action.toy, 'toys')
+    case CLEAR_AND_ADD_TOYS:
+      return clearAndAddItems(state, action.newToy, 'toys', action.clearables)
+    case REMOVE_ALL_TOYS:
+      return removeAllItems(state, 'toys', mrPeenDefault.toys)
+    case ADD_EXTRA:
+      return addItem(state, action.extra, 'extras')
+    case REMOVE_EXTRA:
+      return removeItem(state, action.extra, 'extras')
+    case CLEAR_AND_ADD_EXTRAS:
+      return clearAndAddItems(state, action.newExtra, 'extras', action.clearables)
+    case REMOVE_ALL_EXTRAS:
+      return removeAllItems(state, 'extras', mrPeenDefault.extras)
+    case ADD_MAKE_UP:
+      return addItem(state, action.makeUpItem, 'makeUp')
+    case REMOVE_MAKE_UP:
+      return removeItem(state, action.makeUpItem, 'makeUp')
+    case CLEAR_AND_ADD_MAKE_UP:
+      return clearAndAddItems(state, action.newMakeUpItem, 'makeUp', action.clearables)
+    case REMOVE_ALL_MAKE_UP:
+      return removeAllItems(state, 'makeUp', mrPeenDefault.makeUp)
+    case RESET:
+      return mrPeenDefault
     default:
       return state
   }

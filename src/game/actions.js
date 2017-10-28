@@ -3,7 +3,6 @@ import selectables from './static/selectables';
 export const ADD_SELECTABLES = 'ADD_SELECTABLES';
 export const SELECT_SKINTONE = 'SELECT_SKINTONE';
 export const SELECT_CONTROL = 'SELECT_CONTROL';
-export const SELECT_CONDOM = 'SELECT_CONDOM';
 export const ADD_TOY = 'ADD_TOY';
 export const REMOVE_TOY = 'REMOVE_TOY';
 export const REMOVE_ALL_TOYS = 'REMOVE_ALL_TOYS';
@@ -110,10 +109,10 @@ export function removeMakeUp(makeUpItem) {
   }
 }
 
-export function clearAndAddMakeUp(newMakeUpItems, clearables) {
+export function clearAndAddMakeUp(newMakeUpItem, clearables) {
   return {
     type: CLEAR_AND_ADD_MAKE_UP,
-    newMakeUpItems,
+    newMakeUpItem,
     clearables
   }
 }
