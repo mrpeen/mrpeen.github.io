@@ -18,6 +18,7 @@ const mapStateToProps = (state) => {
     skintone: objSelectables.skintone.find(({id}) => skintone === id),
     blush: objSelectables.makeUp.find(({id, type}) => makeUp.indexOf(id) > -1 && type === 'blush'),
     lashes: objSelectables.makeUp.find(({id, type}) => makeUp.indexOf(id) > -1 && type === 'lashes'), 
+    eyeshadow: objSelectables.makeUp.find(({id, type}) => makeUp.indexOf(id) > -1 && type === 'eyeshadow'),
     condom: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'condom'),
     babyPeen: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'peen'),
     thoughtBubble: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'thoughtBubble'),

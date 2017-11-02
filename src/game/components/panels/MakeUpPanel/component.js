@@ -1,6 +1,9 @@
 import React from 'react';
 
-import Blush from '../../Blush';
+import {
+  Blush,
+  EyeShadow
+} from '../../makeUp';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
@@ -13,6 +16,7 @@ const MakeUpPanel = ({items, active, onClick, onClickClear}) => (
           icon={icon}
           onClick={() => onClick(id, active, clears, type)}>
           {type === 'blush' && <Blush color={fill} />}
+          {type === 'eyeshadow' && <EyeShadow color={fill} type='icon' />}
         </PanelItemIcon>
       </PanelItem>)}
 

@@ -158,6 +158,30 @@ export default [
         type: 'lashes',
         icon: lashes,
         clears: []
+      },
+      {
+        id: 10,
+        fill: '#c2c0f1',
+        type: 'eyeshadow',
+        clears: [11, 12, 13]
+      },
+      {
+        id: 11,
+        fill: '#aff6f7',
+        type: 'eyeshadow',
+        clears: [10, 12, 13]
+      },
+      {
+        id: 12,
+        fill: '#f5cdf7',
+        type: 'eyeshadow',
+        clears: [10, 11, 13]
+      },
+      {
+        id: 13,
+        fill: '#b5fccd',
+        type: 'eyeshadow',
+        clears: [10, 11, 12]
       }
     ]
   },
