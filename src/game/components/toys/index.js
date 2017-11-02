@@ -4,6 +4,7 @@ import ButtPlug from './ButtPlug';
 import Collar from './Collar';
 import Dildo from './Dildo';
 import EyeMask from './EyeMask';
+import GlassDildo from './GlassDildo';
 import Handcuffs from './Handcuffs';
 import HeartCollar from './HeartCollar';
 import Karada from './Karada';
@@ -21,6 +22,7 @@ export {
   Collar,
   Dildo,
   EyeMask,
+  GlassDildo,
   Handcuffs,
   HeartCollar,
   Karada,

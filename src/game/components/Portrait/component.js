@@ -11,6 +11,7 @@ import {
   Collar,
   Dildo,
   EyeMask,
+  GlassDildo,
   Handcuffs,
   HeartCollar,
   Karada,
@@ -112,6 +113,8 @@ const Portrait = ({
       {toys.peenPaddle && <PeenPaddle />}
 
       {toys.dildo && <Dildo />}
+
+      {toys.glassDildo && <GlassDildo />}
 
       {toys.buttPlug && <ButtPlug />}
 

@@ -14,6 +14,7 @@ import hishiKarada from './icons/hishi-karada.png';
 import wand from './icons/wand.png';
 import ankleCuffs from './icons/ankle-cuffs.png';
 import ropeCuffs from './icons/rope-cuffs.png';
+import glassDildo from './icons/glass-dildo.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
 import room from './icons/room.png';
@@ -230,7 +231,7 @@ export default [
         id: 11,
         name: 'wand',
         icon: wand,
-        clears: [14, 17, 18]
+        clears: [14, 17, 18, 19]
       },
       {
         id: 12,
@@ -240,45 +241,45 @@ export default [
       },
       {
         id: 13,
-        type: 'icon',
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
       },
       {
         id: 14,
-        type: 'icon',
         name: 'miniPeen',
         icon: miniPeen,
-        clears: [11, 17, 18]
+        clears: [11, 17, 18, 19]
       },
       {
         id: 15,
-        type: 'icon',
         name: 'slutPaddle',
         icon: slutPaddle,
         clears: [16]
       },
       {
         id: 16,
-        type: 'icon',
         name: 'peenPaddle',
         icon: peenPaddle,
         clears: [15]
       },
       {
         id: 17,
-        type: 'icon',
         name: 'dildo',
         icon: dildo,
-        clears: [14, 11, 18]
+        clears: [14, 11, 18, 19]
       },
       {
         id: 18,
-        type: 'icon',
         name: 'buttPlug',
         icon: buttPlug,
-        clears: [14, 11, 17]
+        clears: [14, 11, 17, 19]
+      },
+      {
+        id: 19,
+        name: 'glassDildo',
+        icon: glassDildo,
+        clears: [14, 11, 17, 18]
       }
     ]
   },
