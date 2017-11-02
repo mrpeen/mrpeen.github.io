@@ -12,7 +12,7 @@ const GlassDildo = ({skintone}) => (
         <path d="M155.67,61.12a84.28,84.28,0,0,0-8.62-28" fill="#74edcd" stroke="#41e8c2" strokeWidth="3"/>
         <path d="M133.82,67.2a71,71,0,0,1-7-27.06" fill="#74edcd" stroke="#41e8c2" strokeWidth="3"/>
         <path d="M66.79,124.14c-9.23-6.09-18.14-10.3-26.51-11.11" fill="#74edcd" stroke="#41e8c2" strokeWidth="3"/>
-        <path d="M107.94,23.29a47.12,47.12,0,0,1,6.92,16.33c5.93,27.62-13.86,55.26-44.17,61.76S11,90.77,5.05,63.15a46.89,46.89,0,0,1-.39-17.71" fill="#ffc9ef" stroke="#ffabe6" strokeLinecap="round" strokeWidth="8"/>
+        <path d="M107.94,23.29a47.12,47.12,0,0,1,6.92,16.33c5.93,27.62-13.86,55.26-44.17,61.76S11,90.77,5.05,63.15a46.89,46.89,0,0,1-.39-17.71" fill={skintone.fill} stroke={skintone.stroke} strokeLinecap="round" strokeWidth="8"/>
       </g>
     </g>
   </svg>
