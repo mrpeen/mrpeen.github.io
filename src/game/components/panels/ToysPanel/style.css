@@ -1,0 +1,22 @@
+.ArrowLeft,
+.ArrowRight {
+  cursor: pointer;
+}
+
+.ArrowLeft:before {
+  content: ' ';
+  border: solid #ffc9ef;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(135deg);
+}
+
+.ArrowRight:before {
+  content: ' ';
+  border: solid #ffc9ef;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  transform: rotate(-45deg);
+}

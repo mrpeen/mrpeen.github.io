@@ -205,6 +205,18 @@ export default [
         clears: []
       },
       {
+        id: 14,
+        name: 'miniPeen',
+        icon: miniPeen,
+        clears: [11, 17, 18, 19]
+      },
+      {
+        id: 15,
+        name: 'slutPaddle',
+        icon: slutPaddle,
+        clears: [16]
+      },
+      {
         id: 4,
         name: 'collar',
         icon: collar,
@@ -241,16 +253,16 @@ export default [
         clears: [4, 5, 8]
       },
       {
-        id: 10,
-        name: 'hishiKarada',
-        icon: hishiKarada,
-        clears: []
-      },
-      {
         id: 11,
         name: 'wand',
         icon: wand,
         clears: [14, 17, 18, 19]
+      },
+      {
+        id: 10,
+        name: 'hishiKarada',
+        icon: hishiKarada,
+        clears: []
       },
       {
         id: 12,
@@ -263,18 +275,6 @@ export default [
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
-      },
-      {
-        id: 14,
-        name: 'miniPeen',
-        icon: miniPeen,
-        clears: [11, 17, 18, 19]
-      },
-      {
-        id: 15,
-        name: 'slutPaddle',
-        icon: slutPaddle,
-        clears: [16]
       },
       {
         id: 16,

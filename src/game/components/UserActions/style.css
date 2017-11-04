@@ -20,3 +20,9 @@
 .UserActions--button:first-of-type {
   margin-right: 5px;
 }
+
+@media all and (max-width: 1200px) {
+  .UserActions {
+    right: 4%;
+  }
+}

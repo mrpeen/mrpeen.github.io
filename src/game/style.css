@@ -4,3 +4,12 @@
   display: flex;
   position: relative;
 }
+
+@media all and (max-width: 1200px) {
+  .Game {
+    display: block;
+    max-width: 714px;
+    margin: auto;
+    border-radius: 0;
+  }
+}

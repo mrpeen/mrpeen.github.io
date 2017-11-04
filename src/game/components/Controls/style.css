@@ -36,3 +36,17 @@
 .Control--active {
   border-bottom: 5px solid white;
 }
+
+@media all and (max-width: 1200px) {
+  .Controls {
+    position: absolute;
+    background: white;
+    top: -92%;
+    left: 0;
+    border-top: 5px solid #ffc9ef;
+  }
+
+  .Control:last-of-type {
+    border-right: 5px solid #ffc9ef;
+  }
+}

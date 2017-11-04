@@ -1,3 +1,11 @@
 .PanelWrapper {
   padding: 30px;
 }
+
+@media all and (max-width: 1200px) {
+  .PanelWrapper {
+    height: 115px;
+    padding: 5px;
+    overflow: hidden;
+  }
+}
