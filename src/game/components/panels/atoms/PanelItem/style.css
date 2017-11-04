@@ -13,7 +13,13 @@
     width: 16%;
   }
 
-  .PanelItem--arrow {
+  .PanelItem--arrow-right,
+  .PanelItem--arrow-left {
     width: 10%;
+  }
+
+  .PanelItem--arrow-right {
+    margin-top: 11px;
+    float: right;
   }
 }

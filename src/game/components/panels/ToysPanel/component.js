@@ -69,7 +69,7 @@ export default class ToysPanel extends React.Component {
     return (
       <div className="ToysPanel">
         {isTablet &&
-          <PanelItem type="arrow">
+          <PanelItem type="arrow-left">
             <NavigationArrow
               direction="left"
               onClick={() => this.navigate('back')} />
@@ -91,7 +91,7 @@ export default class ToysPanel extends React.Component {
         </PanelItem>
 
         {isTablet &&
-          <PanelItem type="arrow">
+          <PanelItem type="arrow-right">
             <NavigationArrow
               direction="right"
               onClick={() => this.navigate('forward')} />
