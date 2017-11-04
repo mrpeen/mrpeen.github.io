@@ -7,6 +7,9 @@ import {
   removeAllMakeUp,
   clearAndAddMakeUp
 } from '../../../actions';
+import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
+
 
 const stickyMakeUp = ['blush'];
 
@@ -38,6 +41,6 @@ const mapDispatchToProps = dispatch => {
 const MakeUpPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(MakeUpPanel);
+)(withWindowResize(withSlidingPanel(MakeUpPanel)));
 
 export default MakeUpPanelContainer;
