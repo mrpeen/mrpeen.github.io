@@ -3,6 +3,12 @@
   cursor: pointer;
 }
 
+.Arrow--right {
+  position: absolute;
+  top: 34%;
+  right: 3.5%;
+}
+
 .Arrow--left:before,
 .Arrow--right:before {
   content: ' ';
