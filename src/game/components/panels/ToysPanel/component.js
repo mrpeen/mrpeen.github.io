@@ -3,6 +3,7 @@ import React from 'react';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
+import NavigationArrow from '../atoms/NavigationArrow';
 import './style.css';
 
 export default class ToysPanel extends React.Component {
@@ -69,7 +70,9 @@ export default class ToysPanel extends React.Component {
       <div className="ToysPanel">
         {isTablet &&
           <PanelItem type="arrow">
-            <div className="ArrowLeft" onClick={() => this.navigate('back')} />
+            <NavigationArrow
+              direction="left"
+              onClick={() => this.navigate('back')} />
           </PanelItem>}
 
         {items.map(({id, clears, icon, name}) => 
@@ -89,7 +92,9 @@ export default class ToysPanel extends React.Component {
 
         {isTablet &&
           <PanelItem type="arrow">
-            <div className="ArrowRight" onClick={() => this.navigate('forward')} />
+            <NavigationArrow
+              direction="right"
+              onClick={() => this.navigate('forward')} />
           </PanelItem>}
       </div>
     )
