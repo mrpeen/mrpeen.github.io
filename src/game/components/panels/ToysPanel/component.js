@@ -6,97 +6,49 @@ import PanelItemIcon from '../atoms/PanelItemIcon';
 import NavigationArrow from '../atoms/NavigationArrow';
 import './style.css';
 
-export default class ToysPanel extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isTablet: props.windowWidth <= 1200,
-      items: props.items,
-      currentChunk: 0
-    }
-  }
+const ToysPanel = ({
+  onClickClear,
+  onClick,
+  active,
+  isTablet,
+  currentChunk,
+  onClickNavArrow,
+  items
+}) => {
+    
+  const visibleItems = isTablet ? items[currentChunk] : items;
 
-  componentWillMount() {
-    const { isTablet, items } = this.state;
+  return (
+    <div className="ToysPanel">
+      {isTablet &&
+        <PanelItem type="arrow">
+          <NavigationArrow
+            direction="left"
+            onClick={() => onClickNavArrow('back')} />
+        </PanelItem>}
 
-    if (!isTablet) return;
-    this.setState({
-      items: items.reduce((acc, value, index) => {
-        if (index % 4 === 0 && index !== 0) acc.push([])
-        acc[acc.length - 1].push(value);
-        return acc;
-      }, [[]])
-    });
-  }
+      {visibleItems.map(({id, clears, icon, name}) => 
+        <PanelItem key={id}>
+          <PanelItemIcon
+            key={id}
+            onClick={() => onClick(id, active, clears)}
+            icon={icon}
+            name={name} />
+        </PanelItem>)}
 
-  navigate(direction) {
-    const { currentChunk, items } = this.state;
-    const chunkNumber = items.length - 1;
+      <PanelItem>
+        <Circle
+          isReset={true}
+          onClick={onClickClear} />
+      </PanelItem>
 
-    if (direction === 'back') {
-      if (currentChunk === 0) {
-        this.setState({
-          currentChunk: chunkNumber
-        })
-      } else {
-        this.setState({
-          currentChunk: currentChunk - 1
-        })
-      }
-    } else {
-      if (currentChunk === chunkNumber) {
-        this.setState({
-          currentChunk: 0
-        })
-      } else {
-        this.setState({
-          currentChunk: currentChunk + 1
-        })
-      }
-    }
-  }
-
-  render() {
-    const {
-      onClickClear,
-      onClick,
-      active
-    } = this.props;
-
-    const { isTablet, currentChunk } = this.state;
-    const items = isTablet ? this.state.items[currentChunk] : this.props.items;
-
-    return (
-      <div className="ToysPanel">
-        {isTablet &&
-          <PanelItem type="arrow">
-            <NavigationArrow
-              direction="left"
-              onClick={() => this.navigate('back')} />
-          </PanelItem>}
-
-        {items.map(({id, clears, icon, name}) => 
-          <PanelItem key={id}>
-            <PanelItemIcon
-              key={id}
-              onClick={() => onClick(id, active, clears)}
-              icon={icon}
-              name={name} />
-          </PanelItem>)}
-
-        <PanelItem>
-          <Circle
-            isReset={true}
-            onClick={onClickClear} />
-        </PanelItem>
-
-        {isTablet &&
-          <PanelItem type="arrow">
-            <NavigationArrow
-              direction="right"
-              onClick={() => this.navigate('forward')} />
-          </PanelItem>}
-      </div>
-    )
-  }
+      {isTablet &&
+        <PanelItem type="arrow">
+          <NavigationArrow
+            direction="right"
+            onClick={() => onClickNavArrow('forward')} />
+        </PanelItem>}
+    </div>)
 }
+
+export default ToysPanel;

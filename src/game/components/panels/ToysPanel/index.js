@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 
 import ToysPanel from './component';
 import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
 import {
   addToy,
   removeToy,
@@ -37,6 +38,6 @@ const mapDispatchToProps = dispatch => {
 const ToysPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(withWindowResize(ToysPanel));
+)(withWindowResize(withSlidingPanel(ToysPanel)));
 
 export default ToysPanelContainer;
