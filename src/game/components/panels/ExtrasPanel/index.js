@@ -16,7 +16,8 @@ const mapStateToProps = ({selectables, peen}) => {
 
   return {
     items: extras.items,
-    active: peen.extras
+    active: peen.extras,
+    isClearable: true
   }
 }
 

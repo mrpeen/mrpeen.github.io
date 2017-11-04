@@ -10,7 +10,8 @@ const mapStateToProps = ({selectables, peen}) => {
 
   return {
     items: backgrounds.items,
-    active: peen.background
+    active: peen.background,
+    isClearable: true
   }
 }
 

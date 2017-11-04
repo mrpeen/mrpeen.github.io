@@ -7,18 +7,20 @@ function withSlidingPanel (WrappedComponent) {
       this.state = {
         isTablet: props.windowWidth <= 1200,
         items: props.items,
-        currentChunk: 0
+        currentChunk: 0,
+        isClearable: props.isClearable
       }
       this.navigate = this.navigate.bind(this)
     }
 
     componentWillMount() {
-      const { isTablet, items } = this.state;
+      const { isTablet, items, isClearable } = this.state;
+      const numberInRow = isClearable ? 4 : 5;
 
       if (!isTablet) return;
       this.setState({
         items: items.reduce((acc, value, index) => {
-          if (index % 4 === 0 && index !== 0) acc.push([])
+          if (index % numberInRow === 0 && index !== 0) acc.push([])
           acc[acc.length - 1].push(value);
           return acc;
         }, [[]])
