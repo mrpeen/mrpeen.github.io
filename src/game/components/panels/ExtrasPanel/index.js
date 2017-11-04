@@ -7,6 +7,9 @@ import {
   clearAndAddExtras,
   removeAllExtras
 } from '../../../actions';
+import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
+
 
 const mapStateToProps = ({selectables, peen}) => {
   const extras = selectables.find(({name}) => name === 'extras')
@@ -36,6 +39,6 @@ const mapDispatchToProps = dispatch => {
 const ExtrasPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ExtrasPanel);
+)(withWindowResize(withSlidingPanel(ExtrasPanel)));
 
 export default ExtrasPanelContainer;

@@ -10,3 +10,9 @@
 .Condom--icon {
   width: 64%;
 }
+
+@media all and (max-width: 1200px) {
+  .Condom--icon {
+    width: 50%;
+  }
+}
