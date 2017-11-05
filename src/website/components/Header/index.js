@@ -5,7 +5,7 @@ import './style.css';
 const Header = () => (
   <div className="Header">
     <div className="Title">
-      Mr Peen's Dress Up Game!
+      Dress up Mr Peen!
     </div>
   </div>
 );
