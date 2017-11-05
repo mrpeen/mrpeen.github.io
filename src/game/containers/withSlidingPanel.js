@@ -5,7 +5,7 @@ function withSlidingPanel (WrappedComponent) {
     constructor(props) {
       super(props);
       this.state = {
-        isTablet: props.windowWidth <= 1200,
+        isDesktop: props.windowWidth >= 1200,
         items: props.items,
         currentChunk: 0,
         isClearable: props.isClearable
@@ -14,17 +14,26 @@ function withSlidingPanel (WrappedComponent) {
     }
 
     componentWillMount() {
-      const { isTablet, items, isClearable } = this.state;
-      const numberInRow = isClearable ? 4 : 5;
+      const { isDesktop, items, isClearable } = this.state;
 
-      if (!isTablet) return;
+      if (isDesktop) return;
+
+      const numberInRow = this.getItemsInRow();
+
       this.setState({
         items: items.reduce((acc, value, index) => {
-          if (index % numberInRow === 0 && index !== 0) acc.push([])
+          if (index % (isClearable ? numberInRow -1 : numberInRow) === 0 && index !== 0) acc.push([])
           acc[acc.length - 1].push(value);
           return acc;
         }, [[]])
       });
+    }
+
+    getItemsInRow() {
+      const { windowWidth } = this.props;
+      if (windowWidth < 425) return 3;
+      if (windowWidth  >= 425 && windowWidth < 750) return 4;
+      return 5;
     }
 
     navigate(direction) {
@@ -58,7 +67,7 @@ function withSlidingPanel (WrappedComponent) {
       return <WrappedComponent
         {...this.props}
         {...this.state}
-        isTablet={this.state.isTablet}
+        isDesktop={this.state.isDesktop}
         items={this.state.items} 
         currentChunk={this.state.currentChunk}
         onClickNavArrow={this.navigate} />

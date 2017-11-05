@@ -50,3 +50,19 @@
     border-right: 5px solid #ffc9ef;
   }
 }
+
+@media all and (max-width: 750px) {
+  .Controls {
+    top: -73%;
+  }
+
+  .Control {
+    width: 65px;
+    height: 65px;
+  }
+
+  .Control img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+}

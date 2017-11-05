@@ -17,3 +17,15 @@
     width: 10%;
   }
 }
+
+@media all and (max-width: 750px) {
+  .PanelItem--item {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .PanelItem--item {
+    width: 26%;
+  }
+}

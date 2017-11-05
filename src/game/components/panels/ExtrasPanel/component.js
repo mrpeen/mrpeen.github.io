@@ -13,16 +13,16 @@ const ExtrasPanel = ({
   active,
   onClick,
   onClickClear,
-  isTablet,
+  isDesktop,
   currentChunk,
   onClickNavArrow
 }) => {
 
-  const visibleItems = isTablet ? items[currentChunk] : items;
+  const visibleItems = isDesktop ? items : items[currentChunk];
 
   return (
     <div className="ExtrasPanel">
-    {isTablet &&
+    {!isDesktop &&
       <PanelItem type="arrow">
         <NavigationArrow
           direction="left"
@@ -46,7 +46,7 @@ const ExtrasPanel = ({
             onClick={onClickClear} />
         </PanelItem>
 
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="right"

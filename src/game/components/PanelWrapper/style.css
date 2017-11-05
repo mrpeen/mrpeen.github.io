@@ -9,3 +9,9 @@
     overflow: hidden;
   }
 }
+
+@media all and (max-width: 750px) {
+  .PanelWrapper {
+    height: 100px;
+  }
+}

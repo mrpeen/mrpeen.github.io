@@ -8,16 +8,16 @@ const BackgroundPanel = ({
   items,
   active,
   onClick,
-  isTablet,
+  isDesktop,
   currentChunk,
   onClickNavArrow
 }) => {
 
-  const visibleItems = isTablet ? items[currentChunk] : items;
+  const visibleItems = isDesktop ? items : items[currentChunk];
 
   return (
     <div className="BackgroundPanel">
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="left"
@@ -39,7 +39,7 @@ const BackgroundPanel = ({
           onClick={() => onClick(null)} />
       </PanelItem>
 
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="right"

@@ -9,17 +9,17 @@ const ToysPanel = ({
   onClickClear,
   onClick,
   active,
-  isTablet,
+  isDesktop,
   currentChunk,
   onClickNavArrow,
   items
 }) => {
     
-  const visibleItems = isTablet ? items[currentChunk] : items;
+  const visibleItems = isDesktop ? items : items[currentChunk];
 
   return (
     <div className="ToysPanel">
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="left"
@@ -41,7 +41,7 @@ const ToysPanel = ({
           onClick={onClickClear} />
       </PanelItem>
 
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="right"

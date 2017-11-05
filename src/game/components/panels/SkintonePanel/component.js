@@ -8,16 +8,16 @@ const SkintonePanel = ({
   items,
   active,
   onClick,
-  isTablet,
+  isDesktop,
   currentChunk,
   onClickNavArrow
 }) => {
 
-  const visibleItems = isTablet ? items[currentChunk] : items;
+  const visibleItems = isDesktop ? items : items[currentChunk];
 
   return (
     <div className="SkintonePanel">
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="left"
@@ -32,7 +32,7 @@ const SkintonePanel = ({
             onClick={onClick} />
         </PanelItem>)}
 
-      {isTablet &&
+      {!isDesktop &&
         <PanelItem type="arrow">
           <NavigationArrow
             direction="right"
