@@ -15,8 +15,16 @@
   background-color: white;
   border-radius: 5px;
   border: 5px solid #ffc9ef;
+  min-height: 65px;
+  min-width: 65px;
 }
 
 .UserActions--button:first-of-type {
   margin-right: 5px;
+}
+
+@media all and (max-width: 1200px) {
+  .UserActions {
+    right: 4%;
+  }
 }

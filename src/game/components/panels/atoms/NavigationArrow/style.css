@@ -1,0 +1,27 @@
+.Arrow--left,
+.Arrow--right {
+  cursor: pointer;
+}
+
+.Arrow--right {
+  position: absolute;
+  top: 34%;
+  right: 3.5%;
+}
+
+.Arrow--left:before,
+.Arrow--right:before {
+  content: ' ';
+  border: solid #ffc9ef;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.Arrow--left:before {
+  transform: rotate(135deg);
+}
+
+.Arrow--right:before {
+  transform: rotate(-45deg);
+}

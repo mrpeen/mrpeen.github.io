@@ -1,7 +1,31 @@
-.PanelItem {
+.PanelItem--item,
+.PanelItem--arrow {
   display: inline-block;
   width: 25%;
   padding-top: 2%;
   text-align: center;
   vertical-align: middle;
+}
+
+
+@media all and (max-width: 1200px) {
+  .PanelItem--item {
+    width: 16%;
+  }
+
+  .PanelItem--arrow {
+    width: 10%;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .PanelItem--item {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .PanelItem--item {
+    width: 26%;
+  }
 }

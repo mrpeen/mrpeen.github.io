@@ -2,13 +2,16 @@ import { connect } from 'react-redux';
 
 import BackgroundPanel from './component';
 import { setBackground } from '../../../actions';
+import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
 
 const mapStateToProps = ({selectables, peen}) => {
   const backgrounds = selectables.find(({name}) => name === 'background')
 
   return {
     items: backgrounds.items,
-    active: peen.background
+    active: peen.background,
+    isClearable: true
   }
 }
 
@@ -23,6 +26,6 @@ const mapDispatchToProps = dispatch => {
 const BackgroundPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(BackgroundPanel);
+)(withWindowResize(withSlidingPanel(BackgroundPanel)));
 
 export default BackgroundPanelContainer;

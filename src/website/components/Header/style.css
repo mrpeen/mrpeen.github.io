@@ -9,3 +9,14 @@
   color: #ff81d2;
   font-size: 40px;
 }
+
+@media all and (max-width: 1200px) {
+  .Header {
+    height: 20px;
+    padding: 20px 0 20px;
+  }
+
+  .Title {
+    font-size: 30px;
+  }
+}

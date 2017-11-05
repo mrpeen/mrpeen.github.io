@@ -1,10 +1,6 @@
-.MrPeen--icon {
-  width: 64%;
-}
-
 .MrPeen--portrait {
   width: 44%;
-  margin: 150px 198px;
+  margin: 21% 15%;
 }
 
 .MrPeen--mini {
@@ -13,4 +9,14 @@
   width: 18%;
   left: 56%;
   top: 56%;
+}
+
+.MrPeen--icon {
+  width: 64%;
+}
+
+@media all and (max-width: 1200px) {
+  .MrPeen--icon {
+    width: 50%;
+  }
 }

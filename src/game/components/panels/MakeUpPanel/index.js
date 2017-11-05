@@ -7,6 +7,9 @@ import {
   removeAllMakeUp,
   clearAndAddMakeUp
 } from '../../../actions';
+import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
+
 
 const stickyMakeUp = ['blush'];
 
@@ -15,7 +18,8 @@ const mapStateToProps = ({selectables, peen}) => {
 
   return {
     items: makeUp.items,
-    active: peen.makeUp
+    active: peen.makeUp,
+    isClearable: true
   }
 }
 
@@ -38,6 +42,6 @@ const mapDispatchToProps = dispatch => {
 const MakeUpPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(MakeUpPanel);
+)(withWindowResize(withSlidingPanel(MakeUpPanel)));
 
 export default MakeUpPanelContainer;

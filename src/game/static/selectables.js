@@ -18,6 +18,7 @@ import glassDildo from './icons/glass-dildo.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
 import room from './icons/room.png';
+import room2 from './icons/room2.png';
 import miniPeen from './icons/mini-peen.png';
 import slutPaddle from './icons/slut-paddle.png';
 import peenPaddle from './icons/peen-paddle.png';
@@ -205,6 +206,18 @@ export default [
         clears: []
       },
       {
+        id: 14,
+        name: 'miniPeen',
+        icon: miniPeen,
+        clears: [11, 17, 18, 19]
+      },
+      {
+        id: 15,
+        name: 'slutPaddle',
+        icon: slutPaddle,
+        clears: [16]
+      },
+      {
         id: 4,
         name: 'collar',
         icon: collar,
@@ -241,16 +254,16 @@ export default [
         clears: [4, 5, 8]
       },
       {
-        id: 10,
-        name: 'hishiKarada',
-        icon: hishiKarada,
-        clears: []
-      },
-      {
         id: 11,
         name: 'wand',
         icon: wand,
         clears: [14, 17, 18, 19]
+      },
+      {
+        id: 10,
+        name: 'hishiKarada',
+        icon: hishiKarada,
+        clears: []
       },
       {
         id: 12,
@@ -263,18 +276,6 @@ export default [
         name: 'ropeCuffs',
         icon: ropeCuffs,
         clears: [1]
-      },
-      {
-        id: 14,
-        name: 'miniPeen',
-        icon: miniPeen,
-        clears: [11, 17, 18, 19]
-      },
-      {
-        id: 15,
-        name: 'slutPaddle',
-        icon: slutPaddle,
-        clears: [16]
       },
       {
         id: 16,
@@ -382,7 +383,7 @@ export default [
   {
     id: 5,
     name: 'background',
-    icon: room,
+    icon: room2,
     isSelected: false,
     items: [
       {
@@ -403,46 +404,42 @@ export default [
       },
       {
         id: 5,
-        fill: '#f9f5c0'
-      },
-      {
-        id: 6,
         image: CloudsBg,
         icon: Clouds,
         type: 'cover'
       },
       {
-        id: 9,
+        id: 6,
         image: Galaxy3Bg,
         icon: Galaxy3,
         type: 'cover'
       },
       {
-        id: 10,
+        id: 7,
         image: SharksBg,
         icon: Sharks,
         type: 'cover'
       },
       {
-        id: 11,
+        id: 8,
         image: SparkleBg,
         icon: Sparkle,
         type: 'cover'
       },
       {
-        id: 12,
+        id: 9,
         image: roomBg,
         icon: room,
         type: 'cover'
       },
       {
-        id: 13,
+        id: 10,
         image: heartPatternBg,
         icon: heartPattern,
         type: 'pattern'
       },
       {
-        id: 15,
+        id: 11,
         image: dungeon,
         icon: dungeon,
         type: 'cover'

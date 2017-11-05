@@ -11,3 +11,11 @@
   width: 100%;
   height: 100%;
 }
+
+@media all and (max-width: 1200px) {
+  .Portrait {
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 5px solid #ffc9ef;
+  }
+}

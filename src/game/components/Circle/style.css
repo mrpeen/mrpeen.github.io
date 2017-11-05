@@ -18,3 +18,15 @@
   text-align: center;
   margin-top: 39px;
 }
+
+@media all and (max-width: 1200px) {
+  .Circle {
+    width: 75px;
+    height: 75px;
+  }
+
+  .Circle--label {
+    font-size: 23px;
+    margin-top: 32px;
+  }
+}

@@ -3,3 +3,9 @@ main {
   padding-top: 40px;
   margin: auto;
 }
+
+@media all and (max-width: 1200px) {
+  main {
+    padding-top: 20px;
+  }
+}

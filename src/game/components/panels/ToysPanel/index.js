@@ -1,6 +1,8 @@
 import { connect } from 'react-redux';
 
 import ToysPanel from './component';
+import withWindowResize from '../../../containers/withWindowResize';
+import withSlidingPanel from '../../../containers/withSlidingPanel';
 import {
   addToy,
   removeToy,
@@ -13,7 +15,8 @@ const mapStateToProps = ({selectables, peen}) => {
 
   return {
     items: toys.items,
-    active: peen.toys
+    active: peen.toys,
+    isClearable: true
   }
 }
 
@@ -36,6 +39,6 @@ const mapDispatchToProps = dispatch => {
 const ToysPanelContainer = connect(
   mapStateToProps,
   mapDispatchToProps
-)(ToysPanel);
+)(withWindowResize(withSlidingPanel(ToysPanel)));
 
 export default ToysPanelContainer;

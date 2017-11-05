@@ -1,3 +1,9 @@
 .PanelItemIcon {
   cursor: pointer;
 }
+
+@media all and (max-width: 750px) {
+  .PanelItemIcon img {
+    max-width: 85%;
+  }
+}

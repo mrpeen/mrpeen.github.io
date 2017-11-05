@@ -2,6 +2,7 @@ import React from 'react';
 import domtoimage from 'dom-to-image';
 import FileSaver from 'file-saver';
 
+import withWindowResize from '../../containers/withWindowResize';
 import './style.css';
 
 const onExport = () => {
@@ -11,22 +12,21 @@ const onExport = () => {
     });
 }
 
-const UserActions = ({onClickReset}) => (
+const UserActions = ({onClickReset, windowWidth}) => (
   <div className="UserActions">
     <button
       type="button"
       className="UserActions--button"
-      onClick={onExport}
-      >
-      Export &#8677;
+      onClick={onExport}>
+      {windowWidth >= 750 ? 'Download ⭳' : '⭳'}
     </button>
     <button
       type="button"
       className="UserActions--button"
       onClick={onClickReset}>
-      Reset &#8630;
+      {windowWidth >= 750 ? 'Reset ↶' : '↶'}
     </button>
   </div>
 );
 
-export default UserActions;
+export default withWindowResize(UserActions);
