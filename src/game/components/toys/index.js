@@ -7,6 +7,7 @@ import Dildo from './Dildo';
 import DildoIcon from './DildoIcon';
 import EyeMask from './EyeMask';
 import GlassDildo from './GlassDildo';
+import GlassDildoIcon from './GlassDildoIcon';
 import Handcuffs from './Handcuffs';
 import HeartCollar from './HeartCollar';
 import Karada from './Karada';
@@ -31,6 +32,7 @@ export {
   DildoIcon,
   EyeMask,
   GlassDildo,
+  GlassDildoIcon,
   Handcuffs,
   HeartCollar,
   Karada,

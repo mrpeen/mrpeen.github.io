@@ -15,7 +15,8 @@ import {
   RopeCuffs,
   PeenPaddleIcon,
   DildoIcon,
-  ButtPlugIcon
+  ButtPlugIcon,
+  GlassDildoIcon
 } from '../components/toys';
 
 
@@ -310,12 +311,12 @@ export default [
         component: <ButtPlugIcon />,
         clears: [14, 11, 17, 19]
       },
-      /*{
+      {
         id: 19,
         name: 'glassDildo',
-        icon: glassDildo,
+        component: <GlassDildoIcon />,
         clears: [14, 11, 17, 18]
-      }*/
+      }
     ]
   },
   {
