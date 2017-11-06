@@ -12,6 +12,7 @@ import LatexMask from './LatexMask';
 import MiniPeen from './MiniPeen';
 import MiniPeenIcon from './MiniPeenIcon';
 import PeenPaddle from './PeenPaddle';
+import PeenPaddleIcon from './PeenPaddleIcon';
 import RopeCuffs from './RopeCuffs';
 import SlutPaddle from './SlutPaddle';
 import SlutPaddleIcon from './SlutPaddleIcon';
@@ -33,6 +34,7 @@ export {
   MiniPeen,
   MiniPeenIcon,
   PeenPaddle,
+  PeenPaddleIcon,
   RopeCuffs,
   SlutPaddle,
   SlutPaddleIcon,

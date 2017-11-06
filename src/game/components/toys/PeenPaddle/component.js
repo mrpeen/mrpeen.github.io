@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const PeenPaddle = ({skintone}) => (
-  <svg className="PeenPaddle" viewBox="0 0 377.27 174.58">
+  <svg width="194px" className="PeenPaddle" viewBox="0 0 377.27 174.58">
     <g id="Ebene_2">
       <g id="Peen_Paddle">
         <path d="M349.89,41.8h0a3.19,3.19,0,0,1,1.39-.18c8.44.87,11.44,38.66,6.69,84.38-.74,7.16-1.63,14.09-2.63,20.68h0c-1.47,9.67-3.19,18.62-5.05,26.51" fill="none" stroke="#231f20" strokeWidth="6"/>

@@ -12,7 +12,8 @@ import {
   WandIcon,
   Karada,
   AnkleCuffs,
-  RopeCuffs
+  RopeCuffs,
+  PeenPaddleIcon
 } from '../components/toys';
 
 
@@ -290,13 +291,13 @@ export default [
         component: <RopeCuffs type="icon" />,
         clears: [1]
       },
-      /*{
+      {
         id: 16,
         name: 'peenPaddle',
-        icon: peenPaddle,
+        component: <PeenPaddleIcon />,
         clears: [15]
       },
-      {
+      /*{
         id: 17,
         name: 'dildo',
         icon: dildo,
