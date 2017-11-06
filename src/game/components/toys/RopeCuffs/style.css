@@ -1,7 +1,11 @@
-.RopeCuffs {
+.RopeCuffs--portrait {
   z-index: 2;
   width: 29.5%;
   position: absolute;
   left: 35.4%;
   top: 51.2%;
+}
+
+.RopeCuffs--icon {
+  max-width: 85%;
 }
