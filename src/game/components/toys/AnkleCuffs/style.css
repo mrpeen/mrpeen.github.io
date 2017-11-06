@@ -1,7 +1,11 @@
-.AnkleCuffs {
+.AnkleCuffs--portrait {
   z-index: 3;
   width: 32.8%;
   position: absolute;
   left: 34.8%;
   top: 68.5%;
+}
+
+.AnkleCuffs--icon {
+  width: 85%;
 }

@@ -10,7 +10,8 @@ import {
   LatexMask,
   HeartCollar,
   WandIcon,
-  Karada
+  Karada,
+  AnkleCuffs
 } from '../components/toys';
 
 
@@ -276,13 +277,13 @@ export default [
         component: <Karada type="icon" />,
         clears: []
       },
-      /*{
+      {
         id: 12,
         name: 'ankleCuffs',
-        icon: ankleCuffs,
+        component: <AnkleCuffs type="icon" />,
         clears: []
       },
-      {
+      /*{
         id: 13,
         name: 'ropeCuffs',
         icon: ropeCuffs,
