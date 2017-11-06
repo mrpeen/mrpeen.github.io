@@ -8,7 +8,8 @@ import {
   SlutPaddleIcon,
   Collar,
   LatexMask,
-  HeartCollar
+  HeartCollar,
+  WandIcon
 } from '../components/toys';
 
 
@@ -262,14 +263,13 @@ export default [
           metalStroke="#D4AF37" />,
         clears: [4, 5, 8]
       },
-      /*
       {
         id: 11,
         name: 'wand',
-        icon: wand,
+        component: <WandIcon />,
         clears: [14, 17, 18, 19]
       },
-      {
+      /*{
         id: 10,
         name: 'hishiKarada',
         icon: hishiKarada,

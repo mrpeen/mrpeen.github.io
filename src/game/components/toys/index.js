@@ -16,6 +16,7 @@ import RopeCuffs from './RopeCuffs';
 import SlutPaddle from './SlutPaddle';
 import SlutPaddleIcon from './SlutPaddleIcon';
 import Wand from './Wand';
+import WandIcon from './WandIcon';
 
 export {
   AnkleCuffs,
@@ -35,5 +36,6 @@ export {
   RopeCuffs,
   SlutPaddle,
   SlutPaddleIcon,
-  Wand
+  Wand,
+  WandIcon
 }
