@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const ButtPlug = ({skintone}) => (
-  <svg className="ButtPlug" viewBox="0 0 140.39 223.64">
+  <svg width="110px" className="ButtPlug" viewBox="0 0 140.39 223.64">
     <g id="Ebene_2">
       <g id="Plug">
         <path d="M57.25,67.5A41.35,41.35,0,0,0,98.43,102l6.14,36.28c-8.73,4.81-13.79,16-11.78,28,24.42,79.11,47.26,73.69,45-7.62-2-11.92-10.5-20.85-20.33-22.52l-6.15-36.28a41.35,41.35,0,1,0-54-32.27Zm71.28-12.07A30.94,30.94,0,1,1,92.86,30.09,30.93,30.93,0,0,1,128.53,55.43Z" fill="#c6bddc"/>

@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const Dildo = ({skintone}) => (
-  <svg className="Dildo" viewBox="0 0 253.8 187.33">
+  <svg width="129px" className="Dildo" viewBox="0 0 253.8 187.33">
     <g id="Ebene_2">
       <g id="Realistic_Dildo">
         <path d="M2.74,116.82l9.58,35.47c23.15,60.45,113.59,33.22,65.42-34.16C95.42,105.72,119.39,96.72,145.67,89c37.45-1.21,72.47-12.18,89.44-23.22,27.49-6.07,23.9-42.56-24.6-41.44-9.5,1-19.53-10.46-23,5.05C183,20.87,74.9,51.16,17.65,81.78,1.62,88.43-.38,101.46,2.74,116.82Z" fill="#c0a58d" stroke="#b5917c" strokeWidth="3"/>

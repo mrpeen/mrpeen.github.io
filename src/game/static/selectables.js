@@ -13,7 +13,9 @@ import {
   Karada,
   AnkleCuffs,
   RopeCuffs,
-  PeenPaddleIcon
+  PeenPaddleIcon,
+  DildoIcon,
+  ButtPlugIcon
 } from '../components/toys';
 
 
@@ -39,7 +41,6 @@ import heartPatternBg from './backgrounds/heart-pattern.png';
 import dungeon from './backgrounds/dungeon.png';
 
 
-console.log(MiniPeenIcon);
 export default [
   {
     id: 1,
@@ -297,19 +298,19 @@ export default [
         component: <PeenPaddleIcon />,
         clears: [15]
       },
-      /*{
+      {
         id: 17,
         name: 'dildo',
-        icon: dildo,
+        component: <DildoIcon />,
         clears: [14, 11, 18, 19]
       },
       {
         id: 18,
         name: 'buttPlug',
-        icon: buttPlug,
+        component: <ButtPlugIcon />,
         clears: [14, 11, 17, 19]
       },
-      {
+      /*{
         id: 19,
         name: 'glassDildo',
         icon: glassDildo,
