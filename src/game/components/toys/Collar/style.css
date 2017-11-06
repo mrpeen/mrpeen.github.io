@@ -1,6 +1,10 @@
-.Collar {
+.Collar--portrait {
   width: 31.5%;
   position: absolute;
   left: 34.5%;
   top: 50%;
+}
+
+.Collar--icon {
+  max-width: 85%;
 }

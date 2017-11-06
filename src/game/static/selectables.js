@@ -5,7 +5,8 @@ import {
   Ballgag,
   EyeMask,
   MiniPeenIcon,
-  SlutPaddleIcon
+  SlutPaddleIcon,
+  Collar
 } from '../components/toys';
 
 
@@ -212,19 +213,22 @@ export default [
         component: <SlutPaddleIcon />,
         clears: [16]
       },
-      /*{
+      {
         id: 4,
         name: 'collar',
-        icon: collar,
+        component: <Collar type="icon" />,
         clears: [5, 8, 9]
       },
       {
         id: 5,
         name: 'collarRed',
-        icon: collarRed,
+        component: <Collar
+          type="icon"
+          fill="#e51b04"
+          stroke="#b71603" />,
         clears: [4, 8, 9]
       },
-      {
+      /*{
         id: 6,
         name: 'latexMask',
         icon: latexMask,

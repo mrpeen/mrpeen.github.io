@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const Collar = ({fill = '#333', stroke = '#231F20'}) => (
-  <svg className="Collar" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 451.59 108.06'>
+const Collar = ({fill = '#333', stroke = '#231F20', type = 'portrait'}) => (
+  <svg className={`Collar--${type}`} xmlns='http://www.w3.org/2000/svg' viewBox='0 0 451.59 108.06' width="225px">
     <g id='Ebene_2' dataname='Ebene 2'>
       <g id='Collar' strokeMiterlimit='10'>
         <path d='M449.7,55.21l-127.28,8.9h0l-14.47,1L1.7,86.51,8.16,31.43l427-29.85Q443.09,29,449.7,55.21Z' fill={fill} stroke={stroke} strokeWidth='3' />
