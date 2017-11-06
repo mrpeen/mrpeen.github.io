@@ -10,6 +10,7 @@ import HeartCollar from './HeartCollar';
 import Karada from './Karada';
 import LatexMask from './LatexMask';
 import MiniPeen from './MiniPeen';
+import MiniPeenIcon from './MiniPeenIcon';
 import PeenPaddle from './PeenPaddle';
 import RopeCuffs from './RopeCuffs';
 import SlutPaddle from './SlutPaddle';
@@ -28,6 +29,7 @@ export {
   Karada,
   LatexMask,
   MiniPeen,
+  MiniPeenIcon,
   PeenPaddle,
   RopeCuffs,
   SlutPaddle,

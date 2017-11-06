@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const MiniPeen = ({skintone}) => (
-  <svg className="MiniPeen" viewBox="0 0 239.63 205.78">
+  <svg className="MiniPeen" viewBox="0 0 239.63 205.78" height="100px">
     <g id="Ebene_2">
       <g id="Mini_Peen">
         <g id="Ebene_2-2">

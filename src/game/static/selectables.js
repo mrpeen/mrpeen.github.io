@@ -3,7 +3,8 @@ import React from 'react';
 import {
   Handcuffs,
   Ballgag,
-  EyeMask
+  EyeMask,
+  MiniPeenIcon
 } from '../components/toys';
 
 
@@ -15,7 +16,6 @@ import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
 import room from './icons/room.png';
 import room2 from './icons/room2.png';
-import miniPeen from './icons/mini-peen.png';
 import Clouds from './icons/clouds.png';
 import Galaxy3 from './icons/galaxy3.jpg';
 import Sharks from './icons/sharks.jpg';
@@ -29,6 +29,8 @@ import roomBg from './backgrounds/room.png';
 import heartPatternBg from './backgrounds/heart-pattern.png';
 import dungeon from './backgrounds/dungeon.png';
 
+
+console.log(MiniPeenIcon);
 export default [
   {
     id: 1,
@@ -197,13 +199,13 @@ export default [
         component: <EyeMask type='icon' />,
         clears: []
       },
-      /*{
+      {
         id: 14,
         name: 'miniPeen',
-        icon: miniPeen,
+        component: <MiniPeenIcon />,
         clears: [11, 17, 18, 19]
       },
-      {
+      /*{
         id: 15,
         name: 'slutPaddle',
         icon: slutPaddle,

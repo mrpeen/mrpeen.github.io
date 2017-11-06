@@ -1,7 +1,7 @@
 import React from 'react';
-import domtoimage from 'dom-to-image';
 import FileSaver from 'file-saver';
 import html2canvas from 'html2canvas';
+
 import withWindowResize from '../../containers/withWindowResize';
 import './style.css';
 
