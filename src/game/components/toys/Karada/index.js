@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const Karada = () => (
-<svg className="Karada" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 493.44 380.61'>
+const Karada = ({type = 'portrait'}) => (
+<svg className={`Karada--${type}`} xmlns='http://www.w3.org/2000/svg' width="241px" viewBox='0 0 493.44 380.61'>
     <g id='Ebene_2' dataname='Ebene 2'>
         <g id='Hishi_Karada' dataname='Hishi Karada'>
             <ellipse cx='211.9' cy='193.16' rx='10.97' ry='11.65' fill='#69c2ff' />

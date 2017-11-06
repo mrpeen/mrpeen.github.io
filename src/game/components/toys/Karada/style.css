@@ -1,6 +1,10 @@
-.Karada {
+.Karada--portrait {
   width: 34%;
   position: absolute;
   left: 33.5%;
   top: 49%;
+}
+
+.Karada--icon {
+  max-width: 85%;
 }
