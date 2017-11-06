@@ -1,7 +1,11 @@
-.LatexMask {
+.LatexMask--portrait {
   z-index: 3;
   width: 37%;
   position: absolute;
   left: 31%;
   top: 21.5%;
+}
+
+.LatexMask--icon {
+  max-width: 85%;
 }

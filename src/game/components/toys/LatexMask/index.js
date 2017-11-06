@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const LatexMask = ({fill = '#000', stroke = '#000'}) => (
-  <svg className="LatexMask" id='Ebene_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.3 436.3'>
+const LatexMask = ({fill = '#000', stroke = '#000', type = 'portrait'}) => (
+  <svg className={`LatexMask--${type}`} width="265px" id='Ebene_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 534.3 436.3'>
     <g id='Ebene_2'>
       <g id='Mask'>
         <g id='Ebene_2-2'>

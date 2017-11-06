@@ -6,7 +6,8 @@ import {
   EyeMask,
   MiniPeenIcon,
   SlutPaddleIcon,
-  Collar
+  Collar,
+  LatexMask
 } from '../components/toys';
 
 
@@ -228,19 +229,22 @@ export default [
           stroke="#b71603" />,
         clears: [4, 8, 9]
       },
-      /*{
+      {
         id: 6,
         name: 'latexMask',
-        icon: latexMask,
+        component: <LatexMask type="icon" />,
         clears: [7]
       },
       {
         id: 7,
         name: 'latexMaskPink',
-        icon: latexMaskPink,
+        component: <LatexMask
+          type="icon"
+          fill="#f4abf3"
+          stroke="#ef83ee" />,
         clears: [6]
       },
-      {
+      /*{
         id: 8,
         name: 'heartCollar',
         icon: heartCollar,
