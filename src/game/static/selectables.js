@@ -4,7 +4,8 @@ import {
   Handcuffs,
   Ballgag,
   EyeMask,
-  MiniPeenIcon
+  MiniPeenIcon,
+  SlutPaddleIcon
 } from '../components/toys';
 
 
@@ -205,13 +206,13 @@ export default [
         component: <MiniPeenIcon />,
         clears: [11, 17, 18, 19]
       },
-      /*{
+      {
         id: 15,
         name: 'slutPaddle',
-        icon: slutPaddle,
+        component: <SlutPaddleIcon />,
         clears: [16]
       },
-      {
+      /*{
         id: 4,
         name: 'collar',
         icon: collar,

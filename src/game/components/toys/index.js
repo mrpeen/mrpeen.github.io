@@ -14,6 +14,7 @@ import MiniPeenIcon from './MiniPeenIcon';
 import PeenPaddle from './PeenPaddle';
 import RopeCuffs from './RopeCuffs';
 import SlutPaddle from './SlutPaddle';
+import SlutPaddleIcon from './SlutPaddleIcon';
 import Wand from './Wand';
 
 export {
@@ -33,5 +34,6 @@ export {
   PeenPaddle,
   RopeCuffs,
   SlutPaddle,
+  SlutPaddleIcon,
   Wand
 }

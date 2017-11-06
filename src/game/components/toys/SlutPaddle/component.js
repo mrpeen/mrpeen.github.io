@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const SlutPaddle = ({skintone}) => (
-  <svg className="SlutPaddle" viewBox="0 0 376.41 174.76">
+  <svg className="SlutPaddle" viewBox="0 0 376.41 174.76" width="194px">
     <g id="Ebene_2">
       <g id="Slut_Paddle">
         <path d="M349,42.42h0a3.19,3.19,0,0,1,1.38-.23c8.47.57,12.8,38.23,9.67,84.09-.49,7.18-1.13,14.14-1.9,20.76h0c-1.13,9.72-2.53,18.72-4.11,26.67" fill="none" stroke="#231f20" strokeWidth="6"/>
