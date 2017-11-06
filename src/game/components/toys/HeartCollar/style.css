@@ -1,6 +1,10 @@
-.HeartCollar {
+.HeartCollar--portrait {
   width: 31.5%;
   position: absolute;
   left: 34.5%;
   top: 49.3%;
+}
+
+.HeartCollar--icon {
+  max-width: 85%;
 }

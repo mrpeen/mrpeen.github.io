@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const HeartCollar = ({fill = '#7ACED6', stroke = '#12AEBC', metalFill = '#DBDADA', metalStroke = '#666'}) => (
-  <svg className="HeartCollar" viewBox="0 0 451.59 119.1">
+const HeartCollar = ({type = 'portrait', fill = '#7ACED6', stroke = '#12AEBC', metalFill = '#DBDADA', metalStroke = '#666'}) => (
+  <svg className={`HeartCollar--${type}`} viewBox="0 0 451.59 119.1" width="225px">
     <g id="Ebene_2">
       <g id="Heart_Collar">
         <path d="M265.8,3.14c-13.33-6-30.9,1.09-44.51,16.41-15.88-13-34.35-17.2-46.55-9.11-31,22-18.37,77,2.54,84L229.17,118l47.47-31.52C296.2,76.26,299.88,20,265.8,3.14Zm2.58,80.1-39.87,26.46L184.95,89.93c-17.57-5.84-28.14-52-2.14-70.51,10.24-6.79,25.76-3.23,39.08,7.65,11.43-12.87,26.18-18.85,37.38-13.78C287.89,27.42,284.79,74.68,268.38,83.24Z" fill={metalFill} stroke={metalStroke} strokeWidth="2"/>

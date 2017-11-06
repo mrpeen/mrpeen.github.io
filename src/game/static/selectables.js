@@ -7,7 +7,8 @@ import {
   MiniPeenIcon,
   SlutPaddleIcon,
   Collar,
-  LatexMask
+  LatexMask,
+  HeartCollar
 } from '../components/toys';
 
 
@@ -244,18 +245,24 @@ export default [
           stroke="#ef83ee" />,
         clears: [6]
       },
-      /*{
+      {
         id: 8,
         name: 'heartCollar',
-        icon: heartCollar,
+        component: <HeartCollar type="icon" />,
         clears: [4, 5, 9]
       },
       {
         id: 9,
         name: 'heartCollarPink',
-        icon: heartCollarPink,
+        component: <HeartCollar
+          type="icon"
+          fill="#FFC9EF"
+          stroke="#FFABE6"
+          metalFill="#FFD700"
+          metalStroke="#D4AF37" />,
         clears: [4, 5, 8]
       },
+      /*
       {
         id: 11,
         name: 'wand',
