@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const Peen = ({skintone, type, blush}) => (
-  <svg className={`MrPeen--${type}`} id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 627.5 790.5'>
+  <svg className={`MrPeen--${type}`} id='Layer_1' xmlns='http://www.w3.org/2000/svg' width="261px" viewBox='0 0 627.5 790.5'>
     <g id='Ebene_2'>
       <g id='Mr_Peen' fill={skintone.fill} stroke={skintone.stroke} strokeWidth={type === 'portrait' ? 8 : 15} strokeLinecap='round'
       strokeLinejoin='round' strokeMiterlimit='10'>

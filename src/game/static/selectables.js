@@ -1,29 +1,21 @@
+import React from 'react';
+
+import {
+  Handcuffs,
+  Ballgag,
+  EyeMask
+} from '../components/toys';
+
+
 import peen from './icons/peen.png';
 import blush from './icons/blush.png';
 import condom from './icons/condom.png';
 import handcuffs from './icons/handcuffs.png';
-import ballgag from './icons/ballgag.png';
-import collar from './icons/collar.png';
-import collarRed from './icons/collar-red.png';
-import eyeMask from './icons/eye-mask.png';
-import latexMask from './icons/latex-mask.png';
-import latexMaskPink from './icons/latex-mask-pink.png';
-import heartCollar from './icons/heart-collar.png';
-import heartCollarPink from './icons/heart-collar-pink.png';
-import hishiKarada from './icons/hishi-karada.png';
-import wand from './icons/wand.png';
-import ankleCuffs from './icons/ankle-cuffs.png';
-import ropeCuffs from './icons/rope-cuffs.png';
-import glassDildo from './icons/glass-dildo.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
 import room from './icons/room.png';
 import room2 from './icons/room2.png';
 import miniPeen from './icons/mini-peen.png';
-import slutPaddle from './icons/slut-paddle.png';
-import peenPaddle from './icons/peen-paddle.png';
-import dildo from './icons/dildo.png';
-import buttPlug from './icons/butt-plug.png';
 import Clouds from './icons/clouds.png';
 import Galaxy3 from './icons/galaxy3.jpg';
 import Sharks from './icons/sharks.jpg';
@@ -190,22 +182,22 @@ export default [
       {
         id: 1,
         name: 'handcuffs',
-        icon: handcuffs,
+        component: <Handcuffs type='icon' />,
         clears: [13]
       },
       {
         id: 2,
         name: 'ballgag',
-        icon: ballgag,
+        component: <Ballgag type='icon' />,
         clears: []
       },
       {
         id: 3,
         name: 'eyeMask',
-        icon: eyeMask,
+        component: <EyeMask type='icon' />,
         clears: []
       },
-      {
+      /*{
         id: 14,
         name: 'miniPeen',
         icon: miniPeen,
@@ -300,7 +292,7 @@ export default [
         name: 'glassDildo',
         icon: glassDildo,
         clears: [14, 11, 17, 18]
-      }
+      }*/
     ]
   },
   {

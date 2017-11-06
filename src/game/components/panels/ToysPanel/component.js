@@ -26,13 +26,14 @@ const ToysPanel = ({
             onClick={() => onClickNavArrow('back')} />
         </PanelItem>}
 
-      {visibleItems.map(({id, clears, icon, name}) => 
+      {visibleItems.map(({id, clears, component, name}) => 
         <PanelItem key={id}>
           <PanelItemIcon
             key={id}
             onClick={() => onClick(id, active, clears)}
-            icon={icon}
-            name={name} />
+            name={name}>
+            {component}
+          </PanelItemIcon>
         </PanelItem>)}
 
       <PanelItem>

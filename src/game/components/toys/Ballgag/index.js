@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const Ballgag = () => (
-  <svg className="Ballgag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.03 72.39">
+const Ballgag = ({type = 'portrait'}) => (
+  <svg className={`Ballgag--${type}`} width="250px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 508.03 72.39">
     <title>Element 7</title>
     <g id="Ebene_2" dataname="Ebene 2">
       <g id="Gag">

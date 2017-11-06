@@ -1,7 +1,11 @@
-.Handcuffs {
+.Handcuffs--portrait {
   z-index: 2;
   width: 28.5%;
   position: absolute;
   left: 35.8%;
   top: 51.3%;
+}
+
+.Handcuffs--icon {
+  max-width: 90%;
 }

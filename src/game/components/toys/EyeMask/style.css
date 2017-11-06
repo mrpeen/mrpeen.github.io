@@ -1,6 +1,10 @@
-.EyeMask {
+.EyeMask--portrait {
   width: 30.5%;
   position: absolute;
   left: 33.7%;
   top: 29.3%;
+}
+
+.EyeMask--icon {
+  max-width: 90%;
 }

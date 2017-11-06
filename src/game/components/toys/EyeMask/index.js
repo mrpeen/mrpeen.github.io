@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const EyeMask = () => (
-  <svg className="EyeMask" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 459.81 141.34'>
+const EyeMask = ({type = 'portrait'}) => (
+  <svg className={`EyeMask--${type}`} width="218px" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 459.81 141.34'>
     <g id='Ebene_2' dataname='Ebene 2'>
       <g id='Ebene_5' dataname='Ebene 5' strokeMiterlimit='10' strokeWidth='3'>
         <path d='M457.53,72.68,2.12,98.21Q8.24,79.73,14.86,62.37L440.48,38.5Q449.32,54.86,457.53,72.68Z' fill='#b2488d' stroke='#671f4d' />

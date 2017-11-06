@@ -1,6 +1,10 @@
-.Ballgag {
+.Ballgag--portrait {
   width: 35.2%;
   position: absolute;
   left: 31.6%;
   top: 38%;
+}
+
+.Ballgag--icon {
+  max-width: 90%;
 }

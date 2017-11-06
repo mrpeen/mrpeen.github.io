@@ -1,15 +1,16 @@
 import React from 'react';
 import domtoimage from 'dom-to-image';
 import FileSaver from 'file-saver';
-
+import html2canvas from 'html2canvas';
 import withWindowResize from '../../containers/withWindowResize';
 import './style.css';
 
 const onExport = () => {
-  domtoimage.toBlob(document.getElementById('Photo'))
-    .then(blob => {
-      FileSaver.saveAs(blob, 'mr-peen.png');
-    });
+  html2canvas(document.getElementById('Photo'), {
+    onrendered: (canvas) => {
+      canvas.toBlob(blob => FileSaver.saveAs(blob, 'mr-peen.png'));
+    }
+});
 }
 
 const UserActions = ({onClickReset, windowWidth}) => (
