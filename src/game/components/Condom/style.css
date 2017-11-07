@@ -9,6 +9,13 @@
 
 .Condom--icon {
   width: 64%;
+  max-height: 85px;
+}
+
+.Condom--control {
+  max-height: 85%;
+  max-width: 85%;
+  vertical-align: middle;
 }
 
 @media all and (max-width: 1200px) {

@@ -3,6 +3,10 @@
   cursor: pointer;
 }
 
+.Arrow--left {
+  margin-left: 5px;
+}
+
 .Arrow--right {
   position: absolute;
   top: 34%;

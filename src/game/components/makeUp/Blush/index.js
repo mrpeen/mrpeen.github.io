@@ -2,8 +2,8 @@ import React from 'react';
 
 import './style.css';
 
-const Blush = ({color}) => (
-  <svg className="Blush" viewBox="0 0 388.89 115.69">
+const Blush = ({color, type = "icon"}) => (
+  <svg className={`Blush--${type}`} viewBox="0 0 388.89 115.69">
     <g id="Ebene_2">
       <g id="Layer_1">
         <path d="M134,88.84v1.58c1,13.69,15.07,23.84,31.46,22.68a34,34,0,0,0,15-4.64c7.89-4.71,13-12.45,12.9-20.94,0-.45,0-.9-.06-1.35s-.16-1.06-.16-1.57" fill="none" stroke="#000" strokeLinecap="round" strokeWidth="7"/>

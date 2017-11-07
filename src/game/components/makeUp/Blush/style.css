@@ -1,4 +1,9 @@
-.Blush {
+.Blush--icon {
   height: 50px;
   width: 72%;
+}
+
+.Blush--control {
+  vertical-align: middle;
+  max-width: 90%;
 }

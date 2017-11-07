@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Condom from '../components/Condom';
+import { Blush } from '../components/makeUp';
 import {
   Handcuffs,
   Ballgag,
@@ -19,10 +21,6 @@ import {
   GlassDildoIcon
 } from '../components/toys';
 
-
-import peen from './icons/peen.png';
-import blush from './icons/blush.png';
-import condom from './icons/condom.png';
 import handcuffs from './icons/handcuffs.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
@@ -46,7 +44,7 @@ export default [
   {
     id: 1,
     name: 'skintone',
-    icon: peen,
+    component: <div></div>,
     isSelected: true,
     items: [
       {
@@ -109,7 +107,7 @@ export default [
   {
     id: 2,
     name: 'makeUp',
-    icon: blush,
+    component: <Blush type="control" color="#ff81d2" />,
     isSelected: false,
     items: [
       {
@@ -322,7 +320,7 @@ export default [
   {
     id: 4,
     name: 'extras',
-    icon: condom,
+    component: <Condom color='#f78f25' type="control" />,
     isSelected: false,
     items: [
       {

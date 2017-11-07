@@ -21,10 +21,6 @@
   vertical-align: middle;
 }
 
-.Control img {
-  vertical-align: middle;
-}
-
 .Control:first-of-type {
   border-left: none;
 }
@@ -41,7 +37,7 @@
   .Controls {
     position: absolute;
     background: white;
-    top: -92%;
+    top: -81%;
     left: 0;
     border-top: 5px solid #ffc9ef;
   }
@@ -53,16 +49,11 @@
 
 @media all and (max-width: 750px) {
   .Controls {
-    top: -73%;
+    top: -61%;
   }
 
   .Control {
     width: 65px;
     height: 65px;
-  }
-
-  .Control img {
-    max-width: 85%;
-    max-height: 85%;
   }
 }

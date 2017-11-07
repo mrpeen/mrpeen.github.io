@@ -4,14 +4,12 @@ import './style.css';
 
 const Controls = ({selectables, onClickItem}) => (
   <div className="Controls">
-    {selectables.map(({name, id, isSelected, icon}) => 
+    {selectables.map(({name, id, isSelected, component}) => 
       <span
         key={name}
         onClick={() => onClickItem(id)}
         className={`Control ${isSelected ? 'Control--active' : ''}`}>
-        <img
-          alt={name}
-          src={icon} />
+        {component}
       </span>
     )}
   </div>

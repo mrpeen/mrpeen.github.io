@@ -2,7 +2,7 @@ import React from 'react';
 
 import './style.css';
 
-const Condom = ({color, type}) => (
+const Condom = ({color, type = 'portrait'}) => (
   <svg width="305px" className={`Condom--${type}`} id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 -111.5 627.5 903.5'>
     <g id='Ebene_2' display='none'>
       <g id='Condom' fill='#FFC9EF' stroke='#FFABE6' strokeWidth='8' strokeLinecap='round'

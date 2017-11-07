@@ -13,12 +13,12 @@ import './index.css';
 
 const store = createStore(dressUpApp);
 
-const unsubscribe = store.subscribe(() =>
+/*const unsubscribe = store.subscribe(() =>
   console.log(store.getState())
-);
+);*/
 
 store.dispatch(addSelectables());
-unsubscribe();
+//unsubscribe();
 
 ReactDOM.render(
   <Provider store={store}>

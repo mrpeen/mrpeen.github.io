@@ -7,6 +7,7 @@
     height: 115px;
     padding: 5px;
     overflow: hidden;
+    border-top: 5px solid #ffc9ef;
   }
 }
 
