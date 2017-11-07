@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Condom from '../components/Condom';
+import FacelessPeen from '../components/FacelessPeen';
 import { Blush } from '../components/makeUp';
 import {
   Handcuffs,
@@ -21,7 +22,6 @@ import {
   GlassDildoIcon
 } from '../components/toys';
 
-import handcuffs from './icons/handcuffs.png';
 import thoughtBubble from './icons/thought-bubble.png';
 import lashes from './icons/lashes.png';
 import room from './icons/room.png';
@@ -44,7 +44,7 @@ export default [
   {
     id: 1,
     name: 'skintone',
-    component: <div></div>,
+    component: <FacelessPeen />,
     isSelected: true,
     items: [
       {
@@ -187,7 +187,7 @@ export default [
   {
     id: 3,
     name: 'toys',
-    icon: handcuffs,
+    component: <Handcuffs type="control" />,
     isSelected: false,
     items: [
       {

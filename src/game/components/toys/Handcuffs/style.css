@@ -9,3 +9,9 @@
 .Handcuffs--icon {
   max-width: 90%;
 }
+
+.Handcuffs--control {
+  max-height: 85%;
+  max-width: 85%;
+  vertical-align: middle;
+}

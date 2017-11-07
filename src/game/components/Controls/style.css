@@ -33,6 +33,12 @@
   border-bottom: 5px solid white;
 }
 
+.Control img {
+  max-height: 75%;
+  max-width: 85%;
+  vertical-align: middle;
+}
+
 @media all and (max-width: 1200px) {
   .Controls {
     position: absolute;
