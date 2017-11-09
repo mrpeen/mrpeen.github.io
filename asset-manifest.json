@@ -1,12 +1,17 @@
 {
   "main.css": "static/css/main.e2e6227e.css",
   "main.css.map": "static/css/main.e2e6227e.css.map",
-  "main.js": "static/js/main.bc884c9a.js",
-  "main.js.map": "static/js/main.bc884c9a.js.map",
+  "main.js": "static/js/main.d72c471d.js",
+  "main.js.map": "static/js/main.d72c471d.js.map",
   "static/media/clouds.png": "static/media/clouds.d38e168d.png",
   "static/media/dungeon.png": "static/media/dungeon.1fed9c11.png",
+  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
+  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static/media/galaxy3.jpg": "static/media/galaxy3.355b39cc.jpg",
   "static/media/room.png": "static/media/room.cbf07b7f.png",
   "static/media/sharks.jpg": "static/media/sharks.e661a6d7.jpg",
-  "static/media/sparkle.png": "static/media/sparkle.490243f9.png"
+  "static/media/sparkle.png": "static/media/sparkle.d4eb13d5.png"
 }
