@@ -14,6 +14,7 @@ const ExtrasPanel = ({
   onClick,
   onClickClear,
   isDesktop,
+  windowWidth,
   currentChunk,
   onClickNavArrow
 }) => {
@@ -29,16 +30,20 @@ const ExtrasPanel = ({
           onClick={() => onClickNavArrow('back')} />
       </PanelItem>}
 
-      {visibleItems.map(({id, fill, icon, clears, type, stroke}) => 
-        <PanelItem key={id}>
-          <PanelItemIcon
-            key={id}
-            icon={icon}
-            onClick={() => onClick(id, active, clears)}>
-            {type === 'condom' && <Condom color={fill} type='icon' />}
-            {type === 'peen' && <Peen skintone={{fill: fill, stroke: stroke}} type='icon' blush="#ff81d2" />}
-          </PanelItemIcon>
-        </PanelItem>)}
+      {visibleItems.map(({id, fill, icon, clears, type, stroke}) => {
+        if (windowWidth <= 750 && type === "thoughtBubble") return;
+        return (
+          <PanelItem key={id}>
+            <PanelItemIcon
+              key={id}
+              icon={icon}
+              onClick={() => onClick(id, active, clears)}>
+              {type === 'condom' && <Condom color={fill} type='icon' />}
+              {type === 'peen' && <Peen skintone={{fill: fill, stroke: stroke}} type='icon' blush="#ff81d2" />}
+            </PanelItemIcon>
+          </PanelItem>
+        )
+      })}
 
         <PanelItem>
           <Circle
