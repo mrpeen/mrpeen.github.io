@@ -29,13 +29,15 @@ const UserActions = ({onClickReset, windowWidth}) => (
       type="button"
       className="UserActions--button"
       onClick={onExport}>
-      {windowWidth >= 750 ? 'Download ⭳' : '⭳'}
+      {windowWidth >= 750 && 'Download '}
+      <i class="fa fa-download" aria-hidden="true"></i>
     </button>
     <button
       type="button"
       className="UserActions--button"
       onClick={onClickReset}>
-      {windowWidth >= 750 ? 'Reset ↶' : '↶'}
+      {windowWidth >= 750 && 'Reset '}
+      <i class="fa fa-trash-o" aria-hidden="true"></i>
     </button>
   </div>
 );
