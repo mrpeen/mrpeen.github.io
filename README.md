@@ -10,15 +10,24 @@ This project has been bootstrapped with ![create-react-app](https://github.com/f
 
 You need to have [Yarn](https://yarnpkg.com/en/) installed to run it, but if you really do not want to install it then you should be fine with npm as well.
 
-Run in dev mode:
+## Run
 
 ```
 yarn
 yarn start
 ```
 
-Deploy to github pages:
+## Deploy
 
-```
-yarn deploy
-```
+This part is still annoying since this is a page organisation on github. This means I usually:
+
+- run `yarn build` on this dev branch;
+- copy the content of the newly created `build` directory;
+- switch to the `master` branch;
+- paste in the root directory.
+
+Unfortunately the master needs to be the compiled code because for organisation page github does not allow to chose a branch (it is always master).
+
+
+
+
