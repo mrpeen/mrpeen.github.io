@@ -1,0 +1,12 @@
+.Website--Nav {
+  font-size: 20px;
+}
+
+.Website--NavItem {
+  cursor: pointer;
+}
+
+.Website--NavItem:hover {
+  color: #ff81d2;
+  transition-delay:0.1s;
+}

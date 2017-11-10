@@ -1,7 +1,7 @@
 .Header {
   background-color: #ffc9ef;
   height: 40px;
-  padding: 30px 0 20px;
+  padding: 20px 0 30px;
   color: white;
 }
 
@@ -13,7 +13,7 @@
 @media all and (max-width: 1200px) {
   .Header {
     height: 20px;
-    padding: 20px 0 20px;
+    padding-top: 10px;
   }
 
   .Title {

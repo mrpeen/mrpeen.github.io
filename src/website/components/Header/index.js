@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Nav from '../Nav';
 import './style.css';
 
 const Header = () => (
@@ -7,6 +8,7 @@ const Header = () => (
     <div className="Title">
       Dress up Mr Peen!
     </div>
+    <Nav />
   </div>
 );
 
