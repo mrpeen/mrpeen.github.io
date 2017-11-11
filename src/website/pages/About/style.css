@@ -1,0 +1,77 @@
+.About {
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 850px;
+  text-align: left;
+  margin: auto;
+  font-size: 20px;
+  color: #4b4f56;
+}
+
+.About--text {
+  padding: 0 30px;
+}
+
+.About--text a {
+  color: #ff81d2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.About--text a:hover {
+  text-decoration: underline;
+  transition-delay: 0.1s;
+}
+
+.TeamMember {
+  min-height: 200px;
+}
+
+.TeamMember--pic {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.TeamMember--description {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 68%;
+}
+
+.SocialIcon {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+@media all and (max-width: 860px) {
+  .TeamMember--pic {
+    width: 170px;
+    height: 170px;
+    margin-right: 40px;
+  }
+
+  .TeamMember--description {
+    max-width: 60%;
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .TeamMember--pic {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+
+  .TeamMember--description {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+}

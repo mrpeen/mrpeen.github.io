@@ -6,7 +6,16 @@
   cursor: pointer;
 }
 
-.Website--NavItem:hover {
+.Website--NavItem a {
+  color: white;
+  text-decoration: none;
+}
+
+.Website--NavItem a.active {
+  color: #ff81d2;
+}
+
+.Website--NavItem a:hover {
   color: #ff81d2;
   transition-delay:0.1s;
 }
