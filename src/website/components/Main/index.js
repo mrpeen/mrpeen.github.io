@@ -8,8 +8,8 @@ import './style.css';
 const Main = () => (
   <main>
     <Switch>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/about" component={About} />
+      <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+      <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
     </Switch>
   </main>
 )
