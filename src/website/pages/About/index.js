@@ -2,10 +2,6 @@ import React from 'react';
 
 import Game from '../../../game';
 import Fey from '../../static/fey.jpg';
-import etsy from '../../static/etsy.png';
-import facebook from '../../static/facebook.png';
-import insta from '../../static/insta.png';
-import email from '../../static/email.png';
 import './style.css';
 
 const About = () => (
