@@ -11,11 +11,13 @@
   text-decoration: none;
 }
 
-.Website--NavItem a.active {
-  color: #ff81d2;
+.Website--NavItem a.active,
+.Website--NavItem a.active:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .Website--NavItem a:hover {
   color: #ff81d2;
-  transition-delay:0.1s;
+  transition-delay:0.2s;
 }

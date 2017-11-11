@@ -2,11 +2,46 @@ import React from 'react';
 
 import Game from '../../../game';
 import Fey from '../../static/fey.jpg';
+import etsy from '../../static/etsy.png';
+import facebook from '../../static/facebook.png';
+import insta from '../../static/insta.png';
+import email from '../../static/email.png';
 import './style.css';
 
 const About = () => (
   <div className="About">
     <div className="About--text">
+      <div className="MrPeenSocial">
+        <a 
+          className="MrPeenSocialIcon"
+          target="_blank"
+          href="https://www.etsy.com/shop/MrHumphreyPeen">
+          <i className="fa fa-etsy" aria-hidden="true"></i>
+        </a>
+        <a 
+          target="_blank"
+          className="MrPeenSocialIcon"
+          href="https://www.instagram.com/mrhpeen/">
+          <i className="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a
+          className="MrPeenSocialIcon"
+          target="_blank"
+          href="https://www.facebook.com/MrHPeen">
+          <i className="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a
+          className="MrPeenSocialIcon"
+          target="_blank"
+          href="https://github.com/mrpeen">
+          <i className="fa fa-github" aria-hidden="true" />
+        </a>
+        <a 
+          className="MrPeenSocialIcon"
+          href="mailto:mrhpeen@gmail.com">
+          <i className="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+      </div>
       <div>
         Mr Peen was conceived with lots of luv to spread safe kawaii kinky sex around the world!<br /><br />
 
@@ -41,6 +76,11 @@ const About = () => (
               target="_blank"
               href="https://www.facebook.com/federica.recanatini">
               <i className="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a 
+              className="SocialIcon"
+              href="mailto:federica.recanatini@gmail.com">
+              <i className="fa fa-envelope" aria-hidden="true"></i>
             </a>
           </span>
         </div>

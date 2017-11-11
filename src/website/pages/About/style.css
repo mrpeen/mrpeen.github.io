@@ -19,7 +19,7 @@
 
 .About--text a:hover {
   text-decoration: underline;
-  transition-delay: 0.1s;
+  transition-delay: 0.2s;
 }
 
 .TeamMember {
@@ -48,6 +48,20 @@
   margin-top: 10px;
   margin-right: 10px;
   font-size: 40px;
+}
+
+.MrPeenSocial {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.MrPeenSocialIcon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.MrPeenSocialIcon:last-of-chil {
+  margin-right: 0;
 }
 
 @media all and (max-width: 860px) {
