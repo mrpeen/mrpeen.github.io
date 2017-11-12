@@ -55,7 +55,7 @@ const About = () => (
           <span className="TeamMember--description">
             <b>Mara</b> enjoys creating art, even better when it’s sex positive.
             Her favorite mediums are film, pictures and rope.
-            A tiny squishy toy mad its way into her heart and she had no choice but to give it live - thus Mr Peen was born!<br />
+            A tiny squishy toy made its way into her heart and she had no choice but to give it life - thus Mr Peen was born!<br />
             <a
               className="SocialIcon"
               target="_blank"
