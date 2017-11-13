@@ -19,14 +19,14 @@ yarn start
 
 ## Deploy
 
-This part is still annoying since this is a page organisation on github. This means I usually:
+This part is still annoying since this is an organisation page on github. This means I usually:
 
 - run `yarn build` on this dev branch;
 - copy the content of the newly created `build` directory;
 - switch to the `master` branch;
 - paste in the root directory.
 
-Unfortunately the master needs to be the compiled code because for organisation page github does not allow to chose a branch (it is always master).
+Unfortunately the master needs to host the compiled code because for organisation page github does not allow to choose a branch (it is always master).
 
 
 
