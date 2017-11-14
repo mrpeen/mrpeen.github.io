@@ -38,7 +38,9 @@ import SparkleBg from './backgrounds/sparkle.png';
 import roomBg from './backgrounds/room.png';
 import heartPatternBg from './backgrounds/heart-pattern.png';
 import dungeon from './backgrounds/dungeon.png';
-
+import plaid from './backgrounds/plaid.jpg';
+import plaidAlt from './backgrounds/plaid-variant.jpg';
+import condomsBg from './backgrounds/condoms-bg.png';
 
 export default [
   {
@@ -457,6 +459,24 @@ export default [
         image: dungeon,
         icon: dungeon,
         type: 'cover'
+      },
+      {
+        id: 12,
+        image: plaid,
+        icon: plaid,
+        type: 'pattern'
+      },
+      {
+        id: 13,
+        image: plaidAlt,
+        icon: plaidAlt,
+        type: 'pattern'
+      },
+      {
+        id: 14,
+        image: condomsBg,
+        icon: condomsBg,
+        type: 'pattern'
       }
     ]
   }
