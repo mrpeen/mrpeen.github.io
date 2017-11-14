@@ -42,6 +42,8 @@ import plaid from './backgrounds/plaid.jpg';
 import plaidAlt from './backgrounds/plaid-variant.jpg';
 import condomsBg from './backgrounds/condoms-bg.png';
 import yumyumsBg from './backgrounds/yumyums.png';
+import gamingBg from './backgrounds/gaming.png';
+import condomsBgIcon from './icons/condoms.png';
 
 export default [
   {
@@ -476,13 +478,19 @@ export default [
       {
         id: 14,
         image: condomsBg,
-        icon: condomsBg,
+        icon: condomsBgIcon,
         type: 'pattern'
       },
       {
         id: 15,
         image: yumyumsBg,
         icon: yumyumsBg,
+        type: 'pattern'
+      },
+      {
+        id: 16,
+        image: gamingBg,
+        icon: gamingBg,
         type: 'pattern'
       }
     ]
