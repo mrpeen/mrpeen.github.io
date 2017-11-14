@@ -41,6 +41,7 @@ import dungeon from './backgrounds/dungeon.png';
 import plaid from './backgrounds/plaid.jpg';
 import plaidAlt from './backgrounds/plaid-variant.jpg';
 import condomsBg from './backgrounds/condoms-bg.png';
+import yumyumsBg from './backgrounds/yumyums.png';
 
 export default [
   {
@@ -476,6 +477,12 @@ export default [
         id: 14,
         image: condomsBg,
         icon: condomsBg,
+        type: 'pattern'
+      },
+      {
+        id: 15,
+        image: yumyumsBg,
+        icon: yumyumsBg,
         type: 'pattern'
       }
     ]
