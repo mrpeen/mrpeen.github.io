@@ -26,7 +26,8 @@ import {
   PeenPaddle,
   RopeCuffs,
   SlutPaddle,
-  Wand
+  Wand,
+  CandyCane
 } from '../toys';
 import './style.css';
 
@@ -127,6 +128,8 @@ const Portrait = ({
       {toys.glassDildo && <GlassDildo />}
 
       {toys.buttPlug && <ButtPlug />}
+
+      {toys.candyCane && <CandyCane />}
 
       {babyPeen &&
         <MrPeen type="mini"

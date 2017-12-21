@@ -21,6 +21,8 @@ import SlutPaddle from './SlutPaddle';
 import SlutPaddleIcon from './SlutPaddleIcon';
 import Wand from './Wand';
 import WandIcon from './WandIcon';
+import CandyCaneIcon from './CandyCaneIcon';
+import CandyCane from './CandyCane';
 
 export {
   AnkleCuffs,
@@ -45,5 +47,7 @@ export {
   SlutPaddle,
   SlutPaddleIcon,
   Wand,
-  WandIcon
+  WandIcon,
+  CandyCaneIcon,
+  CandyCane
 }

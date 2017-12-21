@@ -19,7 +19,8 @@ import {
   PeenPaddleIcon,
   DildoIcon,
   ButtPlugIcon,
-  GlassDildoIcon
+  GlassDildoIcon,
+  CandyCaneIcon
 } from '../components/toys';
 
 import thoughtBubble from './icons/thought-bubble.png';
@@ -214,16 +215,16 @@ export default [
         clears: []
       },
       {
-        id: 14,
-        name: 'miniPeen',
-        component: <MiniPeenIcon />,
-        clears: [11, 17, 18, 19]
-      },
-      {
         id: 15,
         name: 'slutPaddle',
         component: <SlutPaddleIcon />,
         clears: [16]
+      },
+      {
+        id: 14,
+        name: 'miniPeen',
+        component: <MiniPeenIcon />,
+        clears: [11, 17, 18, 19, 20]
       },
       {
         id: 4,
@@ -276,7 +277,7 @@ export default [
         id: 11,
         name: 'wand',
         component: <WandIcon />,
-        clears: [14, 17, 18, 19]
+        clears: [14, 17, 18, 19, 20]
       },
       {
         id: 10,
@@ -306,19 +307,25 @@ export default [
         id: 17,
         name: 'dildo',
         component: <DildoIcon />,
-        clears: [14, 11, 18, 19]
+        clears: [14, 11, 18, 19, 20]
       },
       {
         id: 18,
         name: 'buttPlug',
         component: <ButtPlugIcon />,
-        clears: [14, 11, 17, 19]
+        clears: [14, 11, 17, 19, 20]
       },
       {
         id: 19,
         name: 'glassDildo',
         component: <GlassDildoIcon />,
-        clears: [14, 11, 17, 18]
+        clears: [14, 11, 17, 18, 20]
+      },
+      {
+        id: 20,
+        name: 'candyCane',
+        component: <CandyCaneIcon />,
+        clears: [11, 17, 18, 19, 14]
       }
     ]
   },
