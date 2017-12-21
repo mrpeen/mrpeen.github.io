@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Condom from '../components/Condom';
+import { Condom } from '../components/extras';
 import FacelessPeen from '../components/FacelessPeen';
 import { Blush } from '../components/makeUp';
 import {

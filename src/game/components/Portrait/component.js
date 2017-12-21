@@ -1,8 +1,10 @@
 import React from 'react';
 
 import MrPeen from '../Peen';
-import Condom from '../Condom';
-import Bubble from '../Bubble';
+import {
+  Condom,
+  Bubble
+} from '../extras';
 import {
   Lashes,
   EyeShadow

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Peen from '../../Peen';
-import Condom from '../../Condom';
+import { Condom } from '../../extras';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
