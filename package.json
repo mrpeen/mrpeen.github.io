@@ -14,6 +14,7 @@
     "less": "^2.7.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-draggable": "^3.0.4",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",

@@ -5,7 +5,8 @@ import {
   Condom,
   Antlers,
   ChristmasHat,
-  MiniChristmasHat
+  MiniChristmasHat,
+  ChristmasTree
 } from '../../extras';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
@@ -43,6 +44,7 @@ const ExtrasPanel = ({
               key={id}
               icon={icon}
               onClick={() => onClick(id, active, clears)}>
+              {type === 'christmasTree' && <ChristmasTree type="icon" />}
               {type === 'miniChristmasHat' && <MiniChristmasHat type="icon" />}
               {type === 'christmasHat' && <ChristmasHat type="icon" />}
               {type === 'antlers' && <Antlers type='icon' />}

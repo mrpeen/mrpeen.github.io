@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Game from '../../../game';
 import Fey from '../../static/fey.jpg';
 import Mara from '../../static/mara.jpg';
 import './style.css';

@@ -6,7 +6,8 @@ import {
   Bubble,
   Antlers,
   ChristmasHat,
-  MiniChristmasHat
+  MiniChristmasHat,
+  ChristmasTree
 } from '../extras';
 import {
   Lashes,
@@ -31,6 +32,7 @@ import {
   Wand,
   CandyCane
 } from '../toys';
+
 import './style.css';
 
 const getStyle = (background) => {
@@ -56,6 +58,7 @@ const Portrait = ({
   background,
   thoughtBubble,
   christmasHat,
+  christmasTree,
   miniChristmasHat,
   skintone,
   blush,
@@ -87,6 +90,8 @@ const Portrait = ({
       {christmasHat && <ChristmasHat />}
 
       {miniChristmasHat && <MiniChristmasHat />}
+
+      {christmasTree && <ChristmasTree />}
 
       {toys.handcuffs && <Handcuffs />}
 

@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const MiniChristmasHat = ({type = 'portrait'}) => (
-  <svg className={`MiniChristmasHat--${type}`} viewBox="0 0 175.78 269.53">
+  <svg className={`MiniChristmasHat--${type}`} viewBox="0 0 175.78 269.53" width="80px">
     <g id="Ebene_2">
       <g id="Hat">
         <path d="M128.61,16.61a24,24,0,0,0,7.11,26.16,23.6,23.6,0,0,0,7.66,4.4l1.05.33.08,0,1,.26,1.18.27c.37.06.74.14,1.09.18h.08c.54.08,1.08.14,1.61.18l.48,0c.63,0,1.28,0,1.91,0a24,24,0,1,0-23.22-31.88Z" fill="#fff" stroke="#000"/>

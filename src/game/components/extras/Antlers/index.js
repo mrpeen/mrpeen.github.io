@@ -3,7 +3,7 @@ import React from 'react';
 import './style.css';
 
 const Antlers = ({type = 'portrait'}) => (
-<svg viewBox="0 0 791.74 359.21" className={`Antlers--${type}`}>
+<svg viewBox="0 0 791.74 359.21" className={`Antlers--${type}`} width="392px">
   <g id="Ebene_2">
     <g id="Antlers">
       <path d="M594.05,318.77a9.61,9.61,0,0,1-15.36,7.51q-1.66-2.31-3.34-4.56c-60.7-81.84-134.06-117.83-198.26-92.65-68.54.22-117.12,46.81-154.21,120.15-.38.75-.76,1.5-1.13,2.25A9.62,9.62,0,0,1,205,350.09l-.7-5.8q-.5-5.21-.49-10.51c0-81.37,87.58-147.34,195.61-147.34,99.83,0,182.19,56.33,194.11,129.1C593.74,316.61,593.9,317.69,594.05,318.77Z" fill="#9e6327" stroke="#643606" strokeLinecap="round" strokeWidth="7"/>

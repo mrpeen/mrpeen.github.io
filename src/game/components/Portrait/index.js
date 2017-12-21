@@ -25,6 +25,7 @@ const mapStateToProps = (state) => {
     christmasHat: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'christmasHat'),
     miniChristmasHat: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'miniChristmasHat'),
     thoughtBubble: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'thoughtBubble'),
+    christmasTree: objSelectables.extras.find(({id, type}) => extras.indexOf(id) > -1 && type === 'christmasTree'),
     toys: selectedToys.reduce((acc, item, index) => {
       acc[item.name] = item;
       return acc;

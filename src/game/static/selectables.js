@@ -420,6 +420,11 @@ export default [
         id: 14,
         type: 'miniChristmasHat',
         clears: [12, 13]
+      },
+      {
+        id: 15,
+        type: 'christmasTree',
+        clears: []
       }
     ]
   },
