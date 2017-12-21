@@ -3,7 +3,8 @@ import React from 'react';
 import Peen from '../../Peen';
 import {
   Condom,
-  Antlers
+  Antlers,
+  ChristmasHat
 } from '../../extras';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
@@ -41,6 +42,7 @@ const ExtrasPanel = ({
               key={id}
               icon={icon}
               onClick={() => onClick(id, active, clears)}>
+              {type === 'christmasHat' && <ChristmasHat type="icon" />}
               {type === 'antlers' && <Antlers type='icon' />}
               {type === 'condom' && <Condom color={fill} type='icon' />}
               {type === 'peen' && <Peen skintone={{fill: fill, stroke: stroke}} type='icon' blush="#ff81d2" />}

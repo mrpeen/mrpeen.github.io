@@ -4,7 +4,8 @@ import MrPeen from '../Peen';
 import {
   Condom,
   Bubble,
-  Antlers
+  Antlers,
+  ChristmasHat
 } from '../extras';
 import {
   Lashes,
@@ -53,6 +54,7 @@ const Portrait = ({
   antlers,
   background,
   thoughtBubble,
+  christmasHat,
   skintone,
   blush,
   lashes,
@@ -79,6 +81,8 @@ const Portrait = ({
         <Condom color={condom.fill} />}
 
       {antlers && <Antlers />}
+
+      {christmasHat && <ChristmasHat />}
 
       {toys.handcuffs && <Handcuffs />}
 
