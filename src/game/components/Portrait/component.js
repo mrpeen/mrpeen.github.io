@@ -3,7 +3,8 @@ import React from 'react';
 import MrPeen from '../Peen';
 import {
   Condom,
-  Bubble
+  Bubble,
+  Antlers
 } from '../extras';
 import {
   Lashes,
@@ -48,6 +49,7 @@ const getStyle = (background) => {
 const Portrait = ({
   condom,
   toys,
+  antlers,
   background,
   thoughtBubble,
   skintone,
@@ -73,9 +75,9 @@ const Portrait = ({
       {thoughtBubble && <Bubble />}
 
       {condom && 
-        <Condom
-          color={condom.fill}
-          type="portrait" />}
+        <Condom color={condom.fill} />}
+
+      {antlers && <Antlers />}
 
       {toys.handcuffs && <Handcuffs />}
 

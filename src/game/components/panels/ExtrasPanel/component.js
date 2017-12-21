@@ -1,7 +1,10 @@
 import React from 'react';
 
 import Peen from '../../Peen';
-import { Condom } from '../../extras';
+import {
+  Condom,
+  Antlers
+} from '../../extras';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
 import PanelItemIcon from '../atoms/PanelItemIcon';
@@ -38,6 +41,7 @@ const ExtrasPanel = ({
               key={id}
               icon={icon}
               onClick={() => onClick(id, active, clears)}>
+              {type === 'antlers' && <Antlers type='icon' />}
               {type === 'condom' && <Condom color={fill} type='icon' />}
               {type === 'peen' && <Peen skintone={{fill: fill, stroke: stroke}} type='icon' blush="#ff81d2" />}
             </PanelItemIcon>

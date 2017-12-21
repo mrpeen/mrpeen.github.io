@@ -396,6 +396,11 @@ export default [
         type: 'thoughtBubble',
         icon: thoughtBubble,
         clears: []
+      },
+      {
+        id: 12,
+        type: 'antlers',
+        clears: []
       }
     ]
   },
