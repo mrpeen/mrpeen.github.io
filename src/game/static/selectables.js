@@ -44,7 +44,9 @@ import plaidAlt from './backgrounds/plaid-variant.jpg';
 import condomsBg from './backgrounds/condoms-bg.png';
 import yumyumsBg from './backgrounds/yumyums.png';
 import gamingBg from './backgrounds/gaming.png';
+import christmasRoom from './backgrounds/christmas-room.png';
 import condomsBgIcon from './icons/condoms.png';
+import christmasRoomIcon from './icons/christmas-room.png';
 
 export default [
   {
@@ -504,6 +506,12 @@ export default [
         image: gamingBg,
         icon: gamingBg,
         type: 'pattern'
+      },
+      {
+        id: 17,
+        image: christmasRoom,
+        icon: christmasRoomIcon,
+        type: 'cover'
       }
     ]
   }
