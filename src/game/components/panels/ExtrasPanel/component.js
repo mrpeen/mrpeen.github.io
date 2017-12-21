@@ -4,7 +4,8 @@ import Peen from '../../Peen';
 import {
   Condom,
   Antlers,
-  ChristmasHat
+  ChristmasHat,
+  MiniChristmasHat
 } from '../../extras';
 import Circle from '../../Circle';
 import PanelItem from '../atoms/PanelItem';
@@ -35,13 +36,14 @@ const ExtrasPanel = ({
       </PanelItem>}
 
       {visibleItems.map(({id, fill, icon, clears, type, stroke}) => {
-        if (windowWidth <= 750 && type === "thoughtBubble") return;
+        if (windowWidth <= 750 && type === "thoughtBubble") return '';
         return (
           <PanelItem key={id}>
             <PanelItemIcon
               key={id}
               icon={icon}
               onClick={() => onClick(id, active, clears)}>
+              {type === 'miniChristmasHat' && <MiniChristmasHat type="icon" />}
               {type === 'christmasHat' && <ChristmasHat type="icon" />}
               {type === 'antlers' && <Antlers type='icon' />}
               {type === 'condom' && <Condom color={fill} type='icon' />}

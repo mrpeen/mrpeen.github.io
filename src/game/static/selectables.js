@@ -409,12 +409,17 @@ export default [
       {
         id: 12,
         type: 'antlers',
-        clears: [13]
+        clears: [13, 14]
       },
       {
         id: 13,
         type: 'christmasHat',
-        clears: [12]
+        clears: [12, 14]
+      },
+      {
+        id: 14,
+        type: 'miniChristmasHat',
+        clears: [12, 13]
       }
     ]
   },

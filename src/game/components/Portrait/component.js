@@ -5,7 +5,8 @@ import {
   Condom,
   Bubble,
   Antlers,
-  ChristmasHat
+  ChristmasHat,
+  MiniChristmasHat
 } from '../extras';
 import {
   Lashes,
@@ -55,6 +56,7 @@ const Portrait = ({
   background,
   thoughtBubble,
   christmasHat,
+  miniChristmasHat,
   skintone,
   blush,
   lashes,
@@ -83,6 +85,8 @@ const Portrait = ({
       {antlers && <Antlers />}
 
       {christmasHat && <ChristmasHat />}
+
+      {miniChristmasHat && <MiniChristmasHat />}
 
       {toys.handcuffs && <Handcuffs />}
 

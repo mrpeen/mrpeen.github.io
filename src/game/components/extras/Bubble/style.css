@@ -9,6 +9,7 @@
   border: 2px solid black;
   background-color: white;
   cursor: pointer;
+  z-index: 10;
 }
 
 .Bubble:before {

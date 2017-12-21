@@ -1,0 +1,10 @@
+.MiniChristmasHat--icon {
+  max-height: 80px;
+}
+
+.MiniChristmasHat--portrait {
+  width: 12%;
+  position: absolute;
+  top: 8%;
+  left: 47.5%;
+}
