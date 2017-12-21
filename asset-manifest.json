@@ -1,8 +1,10 @@
 {
-  "main.css": "static/css/main.ff16c861.css",
-  "main.css.map": "static/css/main.ff16c861.css.map",
-  "main.js": "static/js/main.c906c6a9.js",
-  "main.js.map": "static/js/main.c906c6a9.js.map",
+  "main.css": "static/css/main.3354481d.css",
+  "main.css.map": "static/css/main.3354481d.css.map",
+  "main.js": "static/js/main.8852b08c.js",
+  "main.js.map": "static/js/main.8852b08c.js.map",
+  "static/media/christmas-room.png": "static/media/christmas-room.c19ca471.png",
+  "static/media/christmas-tree.png": "static/media/christmas-tree.c92d30b6.png",
   "static/media/clouds.png": "static/media/clouds.ddc23917.png",
   "static/media/condoms.png": "static/media/condoms.1d0a17d4.png",
   "static/media/dungeon.png": "static/media/dungeon.1fed9c11.png",
@@ -16,8 +18,8 @@
   "static/media/mara.jpg": "static/media/mara.ec836864.jpg",
   "static/media/plaid-variant.jpg": "static/media/plaid-variant.e1bf05cf.jpg",
   "static/media/plaid.jpg": "static/media/plaid.83c23114.jpg",
-  "static/media/room.png": "static/media/room.cbf07b7f.png",
+  "static/media/room.png": "static/media/room.acb6320a.png",
   "static/media/sharks.jpg": "static/media/sharks.e661a6d7.jpg",
-  "static/media/sparkle.png": "static/media/sparkle.490243f9.png",
+  "static/media/sparkle.png": "static/media/sparkle.d4eb13d5.png",
   "static/media/yumyums.png": "static/media/yumyums.1b02b3fa.png"
 }
