@@ -75,7 +75,7 @@ const About = () => (
             className="TeamMember--pic" />
           <span className="TeamMember--description">
             <b>Fey</b> likes to code funny things but dislikes most food. She wears anything that's weird enough and has always wanted to make a dress up game.
-            She created a fictional clothing style called oyasumi-kei. She is very happy she crossed paths with Mr Peen!<br />
+            She likes to wear PJs outside. She is very happy she crossed paths with Mr Peen!<br />
             <a 
               className="SocialIcon"
               target="_blank"

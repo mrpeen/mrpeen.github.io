@@ -1,9 +1,7 @@
 import { combineReducers } from 'redux';
 
-import mrPeenDefault from './static/mrpeendefault';
 import selectableItems from './static/selectables';
 import {
-  ADD_SELECTABLES,
   SELECT_SKINTONE,
   SELECT_CONTROL,
   ADD_TOY,
@@ -21,6 +19,14 @@ import {
   SET_BACKGROUND,
   RESET
 } from './actions';
+
+const mrPeenDefault = {
+  skintone: 1,
+  makeUp: [1],
+  extras: [],
+  toys: [],
+  background: null
+};
 
 const addItem = (state, id, type) => ({
   ...state,
