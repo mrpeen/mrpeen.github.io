@@ -19,8 +19,7 @@ import {
   PeenPaddleIcon,
   DildoIcon,
   ButtPlugIcon,
-  GlassDildoIcon,
-  CandyCaneIcon
+  GlassDildoIcon
 } from '../components/toys';
 
 import thoughtBubble from './icons/thought-bubble.png';
@@ -44,9 +43,7 @@ import plaidAlt from './backgrounds/plaid-variant.jpg';
 import condomsBg from './backgrounds/condoms-bg.png';
 import yumyumsBg from './backgrounds/yumyums.png';
 import gamingBg from './backgrounds/gaming.png';
-import christmasRoom from './backgrounds/christmas-room.png';
 import condomsBgIcon from './icons/condoms.png';
-import christmasRoomIcon from './icons/christmas-room.png';
 
 export default [
   {
@@ -226,7 +223,7 @@ export default [
         id: 14,
         name: 'miniPeen',
         component: <MiniPeenIcon />,
-        clears: [11, 17, 18, 19, 20]
+        clears: [11, 17, 18, 19]
       },
       {
         id: 4,
@@ -279,7 +276,7 @@ export default [
         id: 11,
         name: 'wand',
         component: <WandIcon />,
-        clears: [14, 17, 18, 19, 20]
+        clears: [14, 17, 18, 19]
       },
       {
         id: 10,
@@ -309,25 +306,19 @@ export default [
         id: 17,
         name: 'dildo',
         component: <DildoIcon />,
-        clears: [14, 11, 18, 19, 20]
+        clears: [14, 11, 18, 19]
       },
       {
         id: 18,
         name: 'buttPlug',
         component: <ButtPlugIcon />,
-        clears: [14, 11, 17, 19, 20]
+        clears: [14, 11, 17, 19]
       },
       {
         id: 19,
         name: 'glassDildo',
         component: <GlassDildoIcon />,
-        clears: [14, 11, 17, 18, 20]
-      },
-      {
-        id: 20,
-        name: 'candyCane',
-        component: <CandyCaneIcon />,
-        clears: [11, 17, 18, 19, 14]
+        clears: [14, 11, 17, 18]
       }
     ]
   },
@@ -404,26 +395,6 @@ export default [
         id: 11,
         type: 'thoughtBubble',
         icon: thoughtBubble,
-        clears: []
-      },
-      {
-        id: 12,
-        type: 'antlers',
-        clears: [13, 14]
-      },
-      {
-        id: 13,
-        type: 'christmasHat',
-        clears: [12, 14]
-      },
-      {
-        id: 14,
-        type: 'miniChristmasHat',
-        clears: [12, 13]
-      },
-      {
-        id: 15,
-        type: 'christmasTree',
         clears: []
       }
     ]
@@ -521,12 +492,6 @@ export default [
         image: gamingBg,
         icon: gamingBg,
         type: 'pattern'
-      },
-      {
-        id: 17,
-        image: christmasRoom,
-        icon: christmasRoomIcon,
-        type: 'cover'
       }
     ]
   }

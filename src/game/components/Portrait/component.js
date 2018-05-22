@@ -3,11 +3,7 @@ import React from 'react';
 import MrPeen from '../Peen';
 import {
   Condom,
-  Bubble,
-  Antlers,
-  ChristmasHat,
-  MiniChristmasHat,
-  ChristmasTree
+  Bubble
 } from '../extras';
 import {
   Lashes,
@@ -29,8 +25,7 @@ import {
   PeenPaddle,
   RopeCuffs,
   SlutPaddle,
-  Wand,
-  CandyCane
+  Wand
 } from '../toys';
 
 import './style.css';
@@ -54,7 +49,6 @@ const getStyle = (background) => {
 const Portrait = ({
   condom,
   toys,
-  antlers,
   background,
   thoughtBubble,
   christmasHat,
@@ -84,14 +78,6 @@ const Portrait = ({
 
       {condom && 
         <Condom color={condom.fill} />}
-
-      {antlers && <Antlers />}
-
-      {christmasHat && <ChristmasHat />}
-
-      {miniChristmasHat && <MiniChristmasHat />}
-
-      {christmasTree && <ChristmasTree />}
 
       {toys.handcuffs && <Handcuffs />}
 
@@ -141,8 +127,6 @@ const Portrait = ({
       {toys.glassDildo && <GlassDildo />}
 
       {toys.buttPlug && <ButtPlug />}
-
-      {toys.candyCane && <CandyCane />}
 
       {babyPeen &&
         <MrPeen type="mini"
