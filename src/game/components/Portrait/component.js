@@ -94,7 +94,7 @@ const Portrait = ({
           fill="#e51b04"
           stroke="#b71603" />}
 
-      {toys.wand && <Wand />}
+      {toys.wand && <Wand skintone={skintone} />}
 
       {toys.latexMask && <LatexMask />}
 
@@ -116,17 +116,17 @@ const Portrait = ({
 
       {toys.ankleCuffs && <AnkleCuffs />}
 
-      {toys.miniPeen && <MiniPeen />}
+      {toys.miniPeen && <MiniPeen skintone={skintone} />}
 
-      {toys.slutPaddle && <SlutPaddle />}
+      {toys.slutPaddle && <SlutPaddle skintone={skintone} />}
 
-      {toys.peenPaddle && <PeenPaddle />}
+      {toys.peenPaddle && <PeenPaddle skintone={skintone} />}
 
-      {toys.dildo && <Dildo />}
+      {toys.dildo && <Dildo skintone={skintone} />}
 
-      {toys.glassDildo && <GlassDildo />}
+      {toys.glassDildo && <GlassDildo skintone={skintone} />}
 
-      {toys.buttPlug && <ButtPlug />}
+      {toys.buttPlug && <ButtPlug skintone={skintone} />}
 
       {babyPeen &&
         <MrPeen type="mini"
