@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux';
 
 import mrPeenDefault from './static/mrpeendefault';
+import selectableItems from './static/selectables';
 import {
   ADD_SELECTABLES,
   SELECT_SKINTONE,
@@ -47,13 +48,8 @@ const removeAllItems = (state, type, initial) => ({
   [type]: initial
 });
 
-function selectables(state = [], action) {
+function selectables(state = selectableItems, action) {
   switch(action.type) {
-    case ADD_SELECTABLES:
-      return [
-        ...state,
-        ...action.selectables
-      ]
     case SELECT_CONTROL:
       return state.map(item => {
         item.isSelected = false;

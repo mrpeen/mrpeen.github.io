@@ -1,6 +1,3 @@
-import selectables from './static/selectables';
-
-export const ADD_SELECTABLES = 'ADD_SELECTABLES';
 export const SELECT_SKINTONE = 'SELECT_SKINTONE';
 export const SELECT_CONTROL = 'SELECT_CONTROL';
 export const ADD_TOY = 'ADD_TOY';
@@ -17,13 +14,6 @@ export const REMOVE_ALL_MAKE_UP = 'REMOVE_ALL_MAKE_UP';
 export const CLEAR_AND_ADD_MAKE_UP = 'CLEAR_AND_ADD_MAKE_UP';
 export const SET_BACKGROUND = 'SET_BACKGROUND';
 export const RESET = 'RESET';
-
-export function addSelectables() {
-  return {
-    type: ADD_SELECTABLES,
-    selectables
-  }
-}
 
 export function selectControl(control) {
   return {

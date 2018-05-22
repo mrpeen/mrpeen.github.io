@@ -9,7 +9,6 @@ import { Provider } from 'react-redux'
 import Header from './website/components/Header';
 import Main from './website/components/Main';
 import dressUpApp from './game/reducers';
-import { addSelectables } from './game/actions';
 
 import './index.css';
 
@@ -19,7 +18,6 @@ const store = createStore(dressUpApp);
   console.log(store.getState())
 );*/
 
-store.dispatch(addSelectables());
 //unsubscribe();
 
 ReactDOM.render(
