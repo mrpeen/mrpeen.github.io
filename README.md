@@ -8,7 +8,7 @@ If you want to add a new skintone or toy or whatever floats your boat, don't be 
 
 This project has been bootstrapped with [create-react-app](https://github.com/facebookincubator/create-react-app).
 
-You need to have [Yarn](https://yarnpkg.com/en/) installed to run it, but if you really do not want to install it then you should be fine with npm as well.
+You need to have [Yarn](https://yarnpkg.com/en/) installed to run it, but if you really do not want to install it then you should be fine with npm as well. Please note that in the master branch there are just compiled files for reasons mentioned below, so if you want to run in dev mode you will have to checkout the `dev` branch.
 
 ## Run
 
