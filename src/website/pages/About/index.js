@@ -76,23 +76,11 @@ const About = () => (
           <span className="TeamMember--description">
             <b>Fey</b> likes to code funny things but dislikes most food. She wears anything that's weird enough and has always wanted to make a dress up game.
             She likes to wear PJs outside. She is very happy she crossed paths with Mr Peen!<br />
-            <a 
-              className="SocialIcon"
-              target="_blank"
-              href="https://feychou.github.io">
-              <i className="fa fa-globe" aria-hidden="true"></i>
-            </a>
             <a
               className="SocialIcon"
               target="_blank"
               href="https://github.com/feychou">
               <i className="fa fa-github" aria-hidden="true" />
-            </a>
-            <a
-              className="SocialIcon"
-              target="_blank"
-              href="https://www.facebook.com/federica.recanatini">
-              <i className="fa fa-facebook-square" aria-hidden="true"></i>
             </a>
             <a 
               className="SocialIcon"
